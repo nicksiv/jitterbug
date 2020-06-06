@@ -1,0 +1,89 @@
+// sass-lint:disable no-css-comments, no-color-hex, no-color-literals
+
+// Site custom styles
+// Colors used in the main content area.
+$brand:                  #c0c;
+$brand-alt:              $grey;
+$brand-dark:             $grey-dark;
+
+
+.cards{
+    margin-bottom:14px;
+    margin-top:4px;
+    padding-bottom:10px;
+    padding-top:10px;
+    padding-left:20px;
+    padding-right:20px;
+    line-height:20px;
+    width:80%;
+    background-color:#e5cce5;
+    font-size:0.9em;
+    font-family:courier;
+    position:block;
+    border:1px dotted $grey;
+}
+
+html {
+    font-family: Arial, Charter, "Garamond Premier Pro", "Times New Roman", serif;
+}
+
+h1, .header__site-name {
+    font-size: 2.50rem;
+    font-weight: bold;
+    line-height: 2.81818182rem;
+}
+
+.header {
+    background-color: $brand;
+}
+
+.main-menu a:active, .main-menu a.active {
+     background-color: $brand;
+
+}
+
+.main-menu a, .main-menu a {
+  //  background-color: $brand-dark;
+
+}
+
+.header__logo-image {
+    margin-top: -10px;
+}
+
+// Navigation
+
+.folder-menu {
+  @include margin-top(1);
+  outline: 0;
+
+  li {
+    @include margin-right(.5);
+    @include margin-bottom(.5);
+    padding: 0;
+  }
+
+  a {
+    display: block;
+    background-color: $brand;
+    color: $text-bg;
+    padding: 6px 18px;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      background-color: $brand-dark;
+    }
+
+    &:active,
+    &.active {
+      background-color: $brand;
+      text-decoration: underline;
+    }
+  }
+}
+
+.menu a.active {
+  text-decoration: none;
+}
+

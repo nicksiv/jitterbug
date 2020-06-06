@@ -1,0 +1,49 @@
+---
+title: "jitterbug"
+baseURL: "/"
+theme: "zen"
+languageCode: "en-GB"
+defaultContentLanguage: "en"
+pluralizelisttitles: false
+removePathAccents: true
+paginate: 20
+paginatePath: "page"
+rssLimit: 20
+author:
+  name: "jitterbug"
+  url: "https://example.org/somepage"
+  avatar: "path/to/some-image.jpg"
+
+
+
+outputFormats:
+  SearchIndex:
+    mediaType: "application/json"
+    baseName: "searchindex"
+    isPlainText: true
+    notAlternative: true
+    
+outputs:
+  home: ["HTML","RSS", "JSON", "SearchIndex"]
+  section: ["HTML","RSS", "JSON"]
+
+params:
+  contact: "nicksiv@disroot.org"
+  copyright: "<!--Creative Commons License-->This site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).<!--/Creative Commons License-->"
+  description: "jitterbug blog"
+  dateformat: "2 January, 2006"
+  favicon: "apple-touch-icon.png"
+  feedlinks: true
+  footer: "(c) 2020 by Nikos Sivridis - Powered by [Hugo](https://gohugo.io/)."
+  icon: "apple-touch-icon.png"
+  image: "apple-touch-icon.png"
+  imageMaxWidth: 400
+  mainSections: notes
+  mobileMenu: false
+  poweredby: false
+  
+  submitted: true
+  
+  jquery: true
+  sidebar: false
+  
