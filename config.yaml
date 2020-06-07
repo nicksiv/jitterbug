@@ -11,7 +11,7 @@ paginatePath: "page"
 rssLimit: 20
 author:
   name: "jitterbug"
-  url: "https://example.org/somepage"
+  url: "https://jitterbug.netlify.app"
   avatar: "path/to/some-image.jpg"
 
 
