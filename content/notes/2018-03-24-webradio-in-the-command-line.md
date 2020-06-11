@@ -3,7 +3,6 @@ title: "Webradio in the command line"
 date: "2018-03-24"
 ---
 
-![Screenshot from 2018-05-18 18-50-58](images/screenshot-from-2018-05-18-18-50-58-e1526658810408.png)
 
 Since I discovered and learn to use emacs, I'm constantly looking for ways to work faster with my computer. One of the things that bothered me was the preparations I had to do when I switched-on my computer for writing. It is an old computer and hibernation under Linux doesn't work, so once a day I have to wait for my Ubuntu system to boot up, turn on some radio music and fire up emacs.
 

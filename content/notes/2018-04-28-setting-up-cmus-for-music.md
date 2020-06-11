@@ -19,7 +19,7 @@ sudo apt-get install cmus
 
 Next you go to a new terminal screen and type **cmus**
 
-![cmus](images/cmus.png)
+![cmus](/images/cmus.png)
 
 ## Quick tutorial
 

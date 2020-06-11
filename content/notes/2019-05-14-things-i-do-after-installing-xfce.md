@@ -15,13 +15,9 @@ I always remove the bottom panel with those large icons that is created from the
 
 Settings: Appearance: Fonts. You have to select Hinting: Full and Order: RGB. Now the Fonts look much clearer. Depending on your monitor you may need to try another combination for better results.
 
-### ![fonts](images/fonts.png)
-
 #### **3\. Declutter desktop**
 
 Settings: Desktop: Icons. Select icontype: none for a clean desktop. This way there will not be no mounted volumes or home folders cluttering your workspace. If you are the type of person who saves everything on the desktop, leave this unchanged.
-
-### ![desktop.png](images/desktop.png)
 
 #### **4\. Window manager optimizations**
 
@@ -39,13 +35,9 @@ Super+E   : thunar (file manager)
 Ctrl+Alt+T: xfce4-terminal
 Super+D   : dmenu\_run (needs the package suckless-tools)
 
-### ![keybrd.png](images/keybrd.png)
-
 #### **6\. Add useful plugins to the top panel**
 
 Right click on the top panel, select panel: add new items. I always add the keyboard layouts, the pulseAudio plugin, battery monitor (or Power manager plugin).
-
-![panel.png](images/panel.png)
 
 #### **7\. Suspend the computer when closing the lid**
 

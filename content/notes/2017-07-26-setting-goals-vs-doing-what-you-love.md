@@ -3,7 +3,6 @@ title: "Setting goals VS doing what you love"
 date: "2017-07-26"
 ---
 
-\[caption width="150" align="aligncenter"\][![](images/201707261607091000.jpg "Success")](https://nicksiv.files.wordpress.com/2017/07/201707261607091000.jpg)Successful beast\[/caption\]
 
 I don't set goals. I never liked them. It is like racing against some unbeatable opponent. They are always subjected to further adjustments and keep reminding you of your own inadequacy.
 

@@ -7,7 +7,7 @@ date: "2018-06-05"
 
 I like to use Emacs for as much as I can. Because I love it. It's fast, open source and gives your fingers real superpowers. So anything I write, posts, prose or whatever I use Emacs and I got installed a package just for it. It's called **Writeroom mode** and I it's available to me at the push of a shortcut.
 
-![wroom](images/wroom.png)
+![wroom](/images/wroom.png)
 
 I will show you how to set it up along with some general instructions:
 

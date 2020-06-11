@@ -3,7 +3,7 @@ title: "The day I ditched software for a paper planner"
 date: "2017-03-08"
 ---
 
-### ![](images/ny6-gti-3.jpg)Organizing a life
+### Organizing a life
 
 I have been trying to organize my life for many years. It was so exciting at first. Then GTD came and a million applications emerged to fill its tool-agnostic void. It was then when I fell into oblivion.
 

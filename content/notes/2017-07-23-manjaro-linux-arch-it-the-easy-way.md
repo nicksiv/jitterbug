@@ -3,7 +3,6 @@ title: "Manjaro Linux: Arch-it the easy way"
 date: "2017-07-23"
 ---
 
-![manjaro](images/manjaro-e1501266937917.png)
 
 I'm a Debian user for almost two years. I own an old Toshiba laptop with AMD graphics. This makes things a bit special when it comes to Linux distributions I can use. Debian was one of the few distributions which could successfully hibernate my laptop and it is only one of the reasons why I love it.
 

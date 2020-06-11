@@ -6,6 +6,8 @@ greek: yes
 description: "Απόπειρα μικρής ιστορίας"
 ---
 
+{{< figure src="/images/work1.jpg" width=430 >}}
+
 <figure>
 <img src='/images/work1.jpg' width='400px'>
 <figcaption>Bubbles #1 by Me</figcaption>
