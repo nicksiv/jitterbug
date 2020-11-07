@@ -55,3 +55,4 @@ I use the following:
 ### Some video resources I enjoyed
 * [Talks with Jeremy Ruston, the creator](https://www.youtube.com/c/JeremyRuston/videos)
 * [Anne Laure (Ness Labs) tips](https://www.youtube.com/watch?v=vuU3MrxdKcU)
+* [An opinionated approach to TiddlyWiki](https://lesser.occult.institute/an-opinionated-approach-to-tiddlywiki)
