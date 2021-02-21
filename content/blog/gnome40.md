@@ -1,7 +1,6 @@
 +++
 title = "Gnome40"
 date = "2021-02-04T12:59:47+02:00"
-
 tags = "linux"
 +++
 
