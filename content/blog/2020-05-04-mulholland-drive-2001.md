@@ -1,6 +1,7 @@
 ---
 title: "Mulholland Drive (2001)"
 date: "2020-05-04"
+tags: [films]
 ---
 
 {{< youtube jbZJ487oJlY >}}
@@ -8,7 +9,7 @@ date: "2020-05-04"
 
 It's been more than 24 hours I've finished this film and it still haunts me. Lynch's dreamtopia comments the show business and makes it relatable to everyone. I still don't know why it took me almost 20 years to watch it and stopped at Lost highway. A really mythical symbolic and riddle-filled movie. There are still many theories about it's true meaning, but some things will be always remain unexplained.
 
-Exactly like Lynch wanted it…
+Exactly like Lynch wanted to…
 
 > \- It's been a very strange day.
 > 

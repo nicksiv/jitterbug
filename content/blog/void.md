@@ -1,6 +1,6 @@
 ---
-title : "the new void"
-date : 2021-02-21T13:09:27+02:00
+title : "The new void"
+date : 2021-02-12T13:09:27+02:00
 
 ---
 
