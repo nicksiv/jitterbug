@@ -2,7 +2,7 @@
 title: "Thoughts on a Public Wiki"
 date: 2021-02-03T12:40:31+02:00
 draft: false
-tags [tiddlywiki]
+tags: [tiddlywiki]
 ---
 
 
