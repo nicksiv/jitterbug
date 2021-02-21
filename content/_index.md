@@ -1,13 +1,17 @@
 
 ## Welcome 
 
+
+
 Hello, I'm **Nicolas**.
-I'm Writing and tinkering, working on a 💻Thinkpad T420 with Ubuntu linux
+I'm Writing and tinkering on a 💻Thinkpad T420 with Ubuntu linux. This is my [blog](/blog)
 
-If you want to say hello, you can contact me via
+{{< figure src="/images/bitmoji.png" class="center" height="64">}} 
 
-- ✉️ Email: nicksiv (@) disroot (.) org
-- My [Mastodon](https://octodon.social/@nicksiv) profile
+If you want to say 👋 hello, you can contact me via
+
+- [Email](mailto:nicksiv@disroot.org)
+- [Mastodon](https://octodon.social/@nicksiv) profile
 - My last project on github: [Jello Dashboard](https://github.com/nicksiv/jello-dashboard) 
 
 ---
