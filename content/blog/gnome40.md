@@ -2,7 +2,7 @@
 title = "Gnome40"
 date = "2021-02-04T12:59:47+02:00"
 
-tags : [linux]
+tags = "linux"
 +++
 
 So, I've heard the new Fedora with Gnome 40 will be out on April. It is fair to guess that I will be switching OS on May, that is 3 months from now.
