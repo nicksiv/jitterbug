@@ -2,7 +2,7 @@
 title: "The Lighthouse [Ο φάρος] 2019"
 date: 2020-02-15T10:15:06+02:00
 draft: false
-tags: [films, GR]
+tags: [films]
 ---
 
 {{< figure src="/images/lighthouse.png" width=260 >}}

@@ -2,7 +2,7 @@
 title: "Στοιχεία για την αγορά χαλκού"
 date: 2020-01-12T08:53:43+02:00
 draft: false
-tags: [books, GR]
+tags: [books]
 ---
 
 <font size="7">🎺</font>
