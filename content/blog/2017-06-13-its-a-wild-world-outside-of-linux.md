@@ -1,6 +1,7 @@
 ---
 title: "It's a wild world outside of Linux"
 date: "2017-06-13"
+tags: [linux]
 ---
 
 I'm a happy Linux user. For two years now, Linux is my primary Operating System. I'm learning, trying things and sometimes changing distributions, like most users do. And I'm having a blast every time.

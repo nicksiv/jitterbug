@@ -1,6 +1,7 @@
 ---
 title: "Set default user on Debian's logon screen (LightDM)"
 date: "2019-05-18"
+tags: [linux]
 ---
 
 After setting up Debian, and for a week, I needed to enter my user name and my password to log on to my system. This is the default behavior of LightDM (the login manager of Debian) for maximum security.

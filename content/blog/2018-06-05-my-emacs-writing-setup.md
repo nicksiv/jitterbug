@@ -1,6 +1,7 @@
 ---
 title: "My Emacs writing setup"
 date: "2018-06-05"
+tags: [linux]
 ---
 
 ## My writing setup

@@ -1,6 +1,7 @@
 ---
 title: "My first night into the Minecraft world"
 date: "2016-10-01"
+tags: [gaming]
 ---
 
 

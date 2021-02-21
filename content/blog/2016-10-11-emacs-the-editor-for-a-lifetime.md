@@ -1,6 +1,7 @@
 ---
 title: "Emacs: The editor for a lifetime"
 date: "2016-10-11"
+tags: [linux]
 ---
 
 I've always loved text files. When I started building my personal productivity system I stumbled upon many solutions and tried lots of them. The one thing that always worked for me, except for pen and paper was plain text. It was liberating to just write what you wanted and being able to access it on any device. It was the closest thing to paper you could work on, away from proprietary formats that desktop or web application used. Then I discovered the todo.txt format along with my first serious experiences with Linux. I worked like that for a couple of years, but soon I felt the need for something better. My life wasn't just about tasks. There was more to think about, more to handle.

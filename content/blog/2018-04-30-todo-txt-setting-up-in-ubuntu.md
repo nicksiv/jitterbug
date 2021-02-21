@@ -1,6 +1,7 @@
 ---
 title: "Todo-txt: Setting up in Ubuntu"
 date: "2018-04-30"
+tags: [linux]
 ---
 
  

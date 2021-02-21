@@ -1,6 +1,7 @@
 ---
 title: "The day I ditched software for a paper planner"
 date: "2017-03-08"
+tags: [paper]
 ---
 
 ### Organizing a life

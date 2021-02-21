@@ -1,6 +1,7 @@
 ---
 title: "Setting up Cmus* for music"
 date: "2018-04-28"
+tags: [linux]
 ---
 
  

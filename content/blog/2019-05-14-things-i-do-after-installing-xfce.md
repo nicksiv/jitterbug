@@ -1,6 +1,7 @@
 ---
 title: "Things I do after installing XFCE"
 date: "2019-05-14"
+tags: [linux]
 ---
 
 Over the years that I'm using Linux as my daily driver, I've tried many desktop managers and I always come back to XFCE. It's combination of speed, simplicity and completeness, makes it ideal for older machines like the one I'm currently using.

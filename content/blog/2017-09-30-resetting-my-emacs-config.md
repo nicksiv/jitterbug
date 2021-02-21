@@ -1,6 +1,7 @@
 ---
 title: "Resetting my emacs config"
 date: "2017-09-30"
+tags: [linux]
 ---
 
  

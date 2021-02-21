@@ -1,6 +1,7 @@
 ---
 title: "Emacs: Gnus setup for Gmail"
 date: "2017-07-31"
+tags: [linux]
 ---
 
 If you live inside emacs, having a simple way to check your email can be a life savior. Sometimes when I don't have my browser open and working inside a buffer, it is so simple to fire up gnus, which I have bound to a shortcut for quick access. Making gnus to work under Gmail is pretty simple. I followed a tutorial from emacswiki and worked like a charm. Please note that I work under Fedora Linux but in general you could use this code in Windows as well.

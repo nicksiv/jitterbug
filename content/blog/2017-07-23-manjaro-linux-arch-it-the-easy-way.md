@@ -1,6 +1,7 @@
 ---
 title: "Manjaro Linux: Arch-it the easy way"
 date: "2017-07-23"
+tags: [linux]
 ---
 
 

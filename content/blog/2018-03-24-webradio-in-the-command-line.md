@@ -1,6 +1,7 @@
 ---
 title: "Webradio in the command line"
 date: "2018-03-24"
+tags: [linux]
 ---
 
 
