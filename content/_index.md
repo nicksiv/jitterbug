@@ -6,7 +6,9 @@
 Hello, I'm **Nicolas**.
 I'm Writing and tinkering on a 💻Thinkpad T420 with Ubuntu linux. This is my [blog](/blog)
 
-{{< figure src="/images/bitmoji.png" class="center" height="64">}} 
+{{< figure src="/images/bitmoji.png" class="circle"  height="64">}} 
+
+<p><img class="circle" src="/images/bitmoji.png" /></p>
 
 If you want to say 👋 hello, you can contact me via
 
