@@ -8,7 +8,6 @@ I'm Writing and tinkering on a 💻Thinkpad T420 with Ubuntu linux. This is my [
 
 {{< figure src="/images/bitmoji.png" class="circle"  height="64">}} 
 
-<p><img class="circle" src="/images/bitmoji.png" /></p>
 
 If you want to say 👋 hello, you can contact me via
 
