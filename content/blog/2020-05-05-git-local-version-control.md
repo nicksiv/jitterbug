@@ -1,5 +1,5 @@
 ---
-title: "Git: local version control 💕"
+title: "Git: local version control"
 date: "2020-05-05"
 ---
 
