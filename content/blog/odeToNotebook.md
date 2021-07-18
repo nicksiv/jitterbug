@@ -1,7 +1,8 @@
 ---
 title: "An ode to notebooks"
 date: 2021-07-18T23:10:51+03:00
-draft: true
+draft: false
+tags: [productivity]
 ---
 
 I love my notebook. It's been always there for me, even if I ignore it from time to time when I'm trying shiny apps or exotic workflows. It was there everytime I needed a place to write or just make a list. It's been with me for years and I have many scribbled pages stored to remind me. Most of those notes are useless now, and I despise the egotistic notion that my writings are so special that they should be kept, but the ephemeral use of the pages are the notebook's most useful feature.                                              
