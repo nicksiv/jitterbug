@@ -4,7 +4,7 @@
 
 
 Hello, I'm **Nicolas**.
-I'm Writing and tinkering on a 💻Thinkpad T420 with Ubuntu linux. This is my [blog](/blog)
+I'm Writing and tinkering on a 💻Thinkpad T420 with Ubuntu linux. This is my [blog](/blog) and [RSS feed](https://jitterbug.cc/index.xml).
 
 {{< figure src="/images/bitmoji.png" class="circle"  height="64">}} 
 
