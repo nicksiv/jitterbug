@@ -2,7 +2,7 @@
 title: "381 days in Linux"
 date: 2016-09-17T22:04:24+03:00
 draft: false
-tags: [linux,setup]
+tags: [linux]
 description : "I was waiting to complete a year exclusively in Linux to say that: I did it! After many years and too many installations I said goodbye to Windows forever."
 ---
 

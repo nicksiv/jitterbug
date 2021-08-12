@@ -1,8 +1,8 @@
 ---
-title: "Ρόμα [Roma] 2018"
+title: "GR: Ρόμα [Roma] 2018"
 date: 2018-12-27T22:22:54+02:00
 draft: false
-tags: [films]
+tags: [films, greek]
 description: "Το Roma είναι από τις  ταινίες που απαιτούν πολλά από τον θεατή. Χρειάζεται να είσαι εκεί. Συνειδητά."
 ---
 
