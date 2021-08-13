@@ -8,7 +8,6 @@ description : "I was waiting to complete a year exclusively in Linux to say that
 
 <font size=7>🐧</font>
 
-
 I was waiting to complete a year exclusively in Linux to say that: I did it!
 After many years and too many installations I said goodbye to Windows forever. 
 
