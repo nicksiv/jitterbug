@@ -8,16 +8,37 @@ If you live inside emacs, having a simple way to check your email can be a life 
 
 The configuration is split in two parts. The first part goes into the emacs config (~/.emacs or init.el).
 
-`(setq gnus-select-method '(nnimap "gmail"` `(nnimap-address "imap.gmail.com")` `; it could also be imap.googlemail.com if that's your server.` `(nnimap-server-port 993)` `(nnimap-stream ssl)))` `(setq message-send-mail-function 'smtpmail-send-it` `smtpmail-starttls-credentials '(("smtp.gmail.com" 587 nil nil))` `smtpmail-auth-credentials '(("smtp.gmail.com" 587 "your_email@gmail.com" nil))` `smtpmail-default-smtp-server "smtp.gmail.com"` `smtpmail-smtp-server "smtp.gmail.com"` `smtpmail-smtp-service 587` `smtpmail-local-domain "yourdomain")` `(global-set-key [f8] 'gnus)`
+```lisp
+(setq gnus-select-method
+'(nnimap "gmail" (nnimap-address "imap.gmail.com")
+; it could also be imap.googlemail.com if that's your server.
+(nnimap-server-port 993) (nnimap-stream ssl)))
+
+(setq message-send-mail-function 'smtpmail-send-it smtpmail-starttls-credentials
+'(("smtp.gmail.com" 587 nil nil))
+smtpmail-auth-credentials
+'(("smtp.gmail.com" 587 "your_email@gmail.com" nil))
+smtpmail-default-smtp-server "smtp.gmail.com"
+smtpmail-smtp-server "smtp.gmail.com"
+smtpmail-smtp-service 587
+smtpmail-local-domain "yourdomain")
+
+(global-set-key [f8] 'gnus)
+```
 
 The last command is my personal keybinding for running gnus.
 
 Secondly, a new file should be created, the ~/.authinfo, which will contain sensitive login info. That's why I thought it is better to have this encrypted, so I saved it as ~/.authinfo.gpg. Below is the file's contents:
 
-`machine imap.gmail.com login youremail password secret port 993`
+machine imap.gmail.com login youremail password secret port 993
 
 Just edit the youremail and secret with your email and password. Now everytime you get to open gnus you will be prompted for the encryption key which you can save into your keyring.
 
 ### **Some basic gnus keybindings:**
 
-\- g : Refresh list of mapi folders - RET : Open a folder or a message - c : Catch up with a folder (all items marked read) - B-DEL : Delete a message - l : Show only subscribed folders - L : Show all folders
+- g : Refresh list of mapi folders
+- RET : Open a folder or a message
+- c : Catch up with a folder (all items marked read)
+- B-DEL : Delete a message
+- l : Show only subscribed folders
+- L : Show all folders
