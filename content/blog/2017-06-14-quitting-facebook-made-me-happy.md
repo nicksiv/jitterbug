@@ -1,6 +1,8 @@
 ---
 title: "Quitting Facebook made me happy"
 date: "2017-06-14"
+tags: ["blah", "bigtech"]
+icon: "🌈"
 ---
 
 I gave a lot thought on the consequences of leaving Facebook. Way more than I should. I have been thinking about it for a couple of years. And then, one day I was on my way to become the weirdo who's not on Facebook. And I did it. I deleted my ten year account and never looked back.

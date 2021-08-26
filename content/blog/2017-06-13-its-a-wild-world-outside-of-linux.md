@@ -1,7 +1,7 @@
 ---
 title: "It's a wild world outside of Linux"
 date: "2017-06-13"
-tags: [linux]
+tags: ["linux", "blah"]
 updated: "2021-08-26"
 icon: "🤬"
 ---
