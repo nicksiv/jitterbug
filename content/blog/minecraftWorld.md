@@ -1,7 +1,9 @@
 ---
 title: "My first night into the Minecraft world"
 date: "2016-10-01"
-tags: [gaming]
+tags: ["gaming", "howto"]
+icon: "🕹️"
+updated: "2021-08-26"
 ---
 
 
@@ -15,7 +17,7 @@ You begin knowing that each game-day lasts about 10 minutes and make your best t
 
 As a beginner, you need to think and act fast. It will help to have prior knowledge of some basic recipes and a plan. That's the reason why there are so many guides. The world of Minecraft is enormous, and seems real even if its randomly generated. Fortunately, the new versions of Minecraft introduced a recipe toolbox so you can learn crafting easily.
 
-**For the first night you need to :**
+### Todo list for surviving the first night
 
 1. Find a tree and Gather some wood by hand (around 25 blocks)
 2. Find a hillside and start removing dirt to quickly make a shelter
