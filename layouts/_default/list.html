@@ -21,7 +21,7 @@
           </time>
         </i>
       </span>
-      <a href="{{ .Permalink }}">{{ .Title }}</a>
+      {{ .Params.icon }}&nbsp;<a href="{{ .Permalink }}">{{ .Title }}</a>
     </li>
     {{ else }}
     <li>

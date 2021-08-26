@@ -10,6 +10,7 @@
 </p>
 {{ end }}{{ end }}
 <content>
+  <div style="font-size:100px;text-align: left;">{{ .Params.icon }}</div>
   {{ .Content }}
 </content>
 <p>
@@ -17,4 +18,13 @@
   <a href="{{ .Permalink }}">#{{ .LinkTitle }}</a>
   {{ end }}
 </p>
+
+<p>
+  <i>
+    <time datetime='{{ .Date.Format "2006-01-02" }}' .Params.updated>
+      Last updated: {{ .Params.updated }}
+    </time>
+  </i>
+</p>
+
 {{ end }}
