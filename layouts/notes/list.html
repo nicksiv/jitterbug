@@ -1,0 +1,36 @@
+{{ define "main" }}
+<content>
+  {{ if .Data.Singular }}
+  <h3 style="margin-bottom:0">Filtering for "{{ .Title }}"</h3>
+  <small>
+    <a href="{{ "/blog" | relURL }}">Remove filter</a>
+  </small>
+  {{ end }}
+
+
+
+<h3>Notes</h3>
+
+<img src="/images/im-links.png">
+<p>You could call this section a wiki if I could have backlinks between pages...</P>
+  <ul class="blog-posts">
+
+
+    {{ range .Pages }}
+
+    <li>
+      {{ .Params.icon }}&nbsp;<a href="{{ .Permalink }}">{{ .Title }}</a>
+    </li>
+    {{ else }}
+    <li>
+      No notes yet
+    </li>
+    {{ end }}
+  </ul>
+  {{ if .Data.Singular }}
+  {{else}}
+    {{ end }}
+
+    <br>
+</content>
+{{ end }}
