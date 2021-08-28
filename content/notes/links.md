@@ -1,7 +1,6 @@
 ---
 title: "Links & people of interest"
 date: "2021-08-28"
-tags: ["linux", "blah"]
 updated: "2021-08-28"
 icon: "🧒"
 ---
