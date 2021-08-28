@@ -5,7 +5,7 @@ baseURL = "https://jitterbug.cc"
 theme = 'hugo-bearblog'
 
 # Basic metadata configuration for your blog.
-title = "jitterbug"
+title = "indictvs"
 author = "nick"
 copyright = "Copyright © 2021, N.Sivridis"
 languageCode = "en-US"
