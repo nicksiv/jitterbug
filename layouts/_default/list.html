@@ -15,11 +15,9 @@
     {{ $.Scratch.Add "acount" 1 }}
     <li>
       <span>
-        <i>
-          <time datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
-            {{ .Date.Format "02 Jan, 2006" }}
+          <time>
+            {{ .Date.Format "2006.01.02" }}
           </time>
-        </i>
       </span>
       {{ .Params.icon }}&nbsp;<a href="{{ .Permalink }}">{{ .Title }}</a>
     </li>

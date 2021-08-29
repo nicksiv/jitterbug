@@ -1,0 +1,23 @@
+{{ define "main" }}
+{{ if eq .Type "notes" }}{{ if not .Params.menu }}
+<h1>{{ .Title }} notes</h1>
+{{ end }}{{ end }}
+<content>
+
+  {{ .Content }}
+</content>
+<p>
+  {{ range (.GetTerms "tags") }}
+  <a href="{{ .Permalink }}">#{{ .LinkTitle }}</a>
+  {{ end }}
+</p>
+
+<p>
+  <i>
+    <time datetime='{{ .Date.Format "2006-01-02" }}' .Params.updated>
+      Last updated: {{ .Params.updated }}
+    </time>
+  </i>
+</p>
+
+{{ end }}

@@ -2,6 +2,8 @@
 title: "My Noguchi filing system"
 date: "2017-03-12"
 tags: [paper]
+icon: "🗄️"
+updated: "2017-03-12"
 ---
 
 Everyone needs a good filing system. It is essential to keep important documents and retrieve them easily when needed. Some people have managed to go totally paperless and scan every document in electronic form. Hats off to them because they solved a big problem. A problem I have been struggling with for a long time.
