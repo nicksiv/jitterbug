@@ -29,3 +29,9 @@ My top 5 albums of each year, gathered from my last.fm profile data.
 4. Jeopardy	(The Sound)
 5. Closer (Joy Division)
 
+## 2018
+1. Giant Steps (John Coltrane)
+2. Abbey Road (The Beatles)
+3. The Essential Elvis Presley (Elvis Presley)
+4. Country Life (Roxy Music)
+5. Little Girl Blue	(Nina Simone)
