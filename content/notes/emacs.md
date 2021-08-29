@@ -1,10 +1,10 @@
 ---
 title: "Emacs"
 date: "2021-08-29"
-tags: [linux]
 icon: "✏️"
+lastmod: "2021-08-29"
 ---
-updated: "2021-08-29"
+
 
 ## 1. Emacs basic configuration
 Open a file with the magic shortcut (Cx-Cf) and enter ~/.emacs to create a new configuration:

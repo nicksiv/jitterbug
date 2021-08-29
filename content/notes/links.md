@@ -1,7 +1,7 @@
 ---
 title: "Links & POI"
 date: "2021-08-28"
-updated: "2021-08-28"
+lastmod: "2021-08-28"
 icon: "🧒"
 ---
 

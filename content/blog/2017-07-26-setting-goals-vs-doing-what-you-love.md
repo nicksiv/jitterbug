@@ -3,7 +3,7 @@ title: "Setting goals VS doing what you love"
 date: "2017-07-26"
 icon: "🎯"
 tags: ["blah", "productivity"]
-updated: "2021-08-26"
+lastmod: "2021-08-26"
 ---
 
 

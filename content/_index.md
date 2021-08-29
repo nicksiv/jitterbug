@@ -12,6 +12,7 @@ You can view my [blog](/blog) and [notes](/notes).
 {{< figure src="/images/bitmoji.png" class="circle"  height="64">}}
 
 
+
 If you want to say 👋 hello, you can contact me via
 
 - [Email](mailto:nicksiv@disroot.org)

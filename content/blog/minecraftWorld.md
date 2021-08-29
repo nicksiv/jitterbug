@@ -3,7 +3,7 @@ title: "My first night into the Minecraft world"
 date: "2016-10-01"
 tags: ["gaming", "howto"]
 icon: "🕹️"
-updated: "2021-08-26"
+lastmod: "2021-08-26"
 ---
 
 

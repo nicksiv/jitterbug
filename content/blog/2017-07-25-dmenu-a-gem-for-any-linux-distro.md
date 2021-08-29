@@ -3,7 +3,7 @@ title: "dmenu: A gem for any Linux distro"
 date: "2017-07-25"
 tags: ["linux", "software"]
 icon: "🤖"
-updated: "2021-08-26"
+lastmod: "2021-08-26"
 ---
 
 When I discovered the great i3 window manager, I was also stunned with one of it's hidden gems: The **dmenu**.

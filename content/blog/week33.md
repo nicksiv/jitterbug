@@ -2,7 +2,7 @@
 title: "Week #33 notes"
 date: "2021-08-26"
 tags: ["linux", "blah"]
-updated: "2021-08-26"
+lastmod: "2021-08-26"
 icon: "🍥"
 draft: true
 ---

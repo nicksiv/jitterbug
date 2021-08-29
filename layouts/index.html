@@ -1,4 +1,14 @@
 {{ define "main" }}
 {{ .Content }}
 
+<h3>Recent posts</h3>
+<div>
+       {{ range first 6 (where .Site.Pages "Section" "blog")}}
+       {{ if not .IsNode  }}
+           <li><a href="{{ .Permalink }}">{{ .Title }} {{ .IsNode }}</a>
+             {{ end }}
+             </li>
+       {{ end }}
+     </div>
+
 {{ end }}

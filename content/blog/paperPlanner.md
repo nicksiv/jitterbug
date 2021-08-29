@@ -3,7 +3,7 @@ title: "The day I ditched software for a paper planner"
 date: "2017-03-08"
 tags: [paper]
 icon: "📓"
-updated: "2017-03-08"
+lastmod: "2017-03-08"
 ---
 
 ### Organizing a life
