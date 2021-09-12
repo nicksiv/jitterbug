@@ -1,9 +1,11 @@
 ---
 title: "My Thinkpad"
 date: "2019-10-14"
----
+tags: ["blah", "hardware"]
+icon: "💻"
+lastmod: "2019-10-14"
 
-💻
+---
 
 Remember when I intently limited myself by using an old laptop?  
 You don't? I do, because that period lasted for over a year (as I mentioned in my previous post). The screen of this old Toshiba laptop died. And the it came back and then it died again. Probably some of the thin wires which connects the screen have wore off. I mean, who knows how many thousand times that lid opened and closed over the years?

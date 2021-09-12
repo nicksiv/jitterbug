@@ -1,9 +1,11 @@
 ---
 title: "Deggoglifying 101: Disroot"
 date: "2020-01-10"
----
+tags: ["productivity"]
+icon: "🔐"
+lastmod: "2020-01-10"
 
-🔐
+---
 
 One of the first steps you need to take in order to get free from the Google ecosystem is to get yourself a new email account.  
 You will think there are lots of options, but it's a tough choice. Most of the free email services belong to the big tech in order to mine your personal data. Good and private email services cost money and they should. There are some free options like basic protonmail which got pretty famous in the last year, but I've decided I needed IMAP support for my email.

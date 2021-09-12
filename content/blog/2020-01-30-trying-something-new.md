@@ -1,9 +1,10 @@
 ---
 title: "Trying something new"
 date: "2020-01-30"
+tags: ["music"]
+icon: "🆕"
+lastmod: "2020-01-30"
 ---
-
-# 🆕
 
 It's always nice to try something new. I don't usually get such opportunities but you never know when you will get one strange idea to try out.
 

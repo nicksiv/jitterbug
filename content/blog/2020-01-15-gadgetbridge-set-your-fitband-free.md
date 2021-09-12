@@ -1,11 +1,13 @@
 ---
-title: "Gadgetbridge: Set your fitband free!"
+title: "Gadgetbridge: Set your wrist band free!"
 date: "2020-01-15"
+tags: ["productivity", "android"]
+icon: "🕚"
+lastmod: "2020-01-15"
 ---
 
-🏃‍♂️️🏃‍♀️
 
-Gadgetbridge is an open source project to connect your fit band to your mobile phone and manage it without sending data to the manufacturer through the official and heavy apps.
+Gadgetbridge is an android open source project to connect your wrist band to your mobile phone and manage it without sending data to the manufacturer through the official and heavy apps.
 
 It's been a while since I don't use my fitband to record daily activity or sleep. I really don't care gathering all that data \[\*\]. What I do, is use it as a watch and an alarm clock, which is in fact a very good idea. I love its vibrational only alarm that buzzes on your wrist, discrete and silent. And that's where all the good stuff ends.
 

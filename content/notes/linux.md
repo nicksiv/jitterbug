@@ -190,6 +190,18 @@ Type this command to install this application.
 
 `sudo apt-get install iptables-persistent`
 
+## Lightdm set default user
+
+Edit this file
+
+`/usr/share/lightdm/lightdm.conf.d/01\_debian.conf`
+
+Then change the command greeter-hide-users from false to true and save
+
+`greeter-hide-users=true`
+
+
+
 ## Spell check for Greek
 ### Libre Office
 

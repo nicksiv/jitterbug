@@ -1,9 +1,10 @@
 ---
 title: "Orgmode caldav export at last!"
 date: "2020-04-18"
+tags: ["linux", "emacs"]
+icon: "📆"
+lastmod: "2020-04-18"
 ---
-
-📆
 
 Today's revelation: I learned that I can export all my dated entries from my org-mode agenda files into an ics file.  
 I saved this file to my NextCloud folder (by setting the `org-icalendar-combined-agenda-file` variable) to import the file into my android phone which is tricky. The events are going into the default calendar of the device and there is no standard way to erase it and update your events. For this to work, I'm using another app, the simple calendar, which imports locally the file and later, everything can be erased to import an update.  

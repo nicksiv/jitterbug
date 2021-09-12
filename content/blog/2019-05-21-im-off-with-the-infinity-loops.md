@@ -1,6 +1,9 @@
 ---
 title: "I'm off with the infinity loops"
 date: "2019-05-21"
+tags: ["blah"]
+icon: "🎡"
+lastmod: "2019-05-21"
 ---
 
 
@@ -8,7 +11,7 @@ Now that I have more free time and I can totally write new posts on this blog I 
 
 By infinity loops I'm referring to the endless feeds of information we are facing everyday in our mobile devices.
 
-The time I was spending on my mobile in various apps was way more than I have imagined. And I'm not referring to Facebook (it's been 2 years [since I've delete my profile](../2017-06-14-quitting-facebook-made-me-happy/)). It was all the rest. Twitter, Reddit, YouTube and recently Netflix. Oh, mobile Netflix. What a way to waste huge amounts of time.
+The time I was spending on my mobile in various apps was way more than I have imagined. And I'm not referring to Facebook (it's been 2 years [since I've delete my profile](quitting-facebook-made-me-happy/)). It was all the rest. Twitter, Reddit, YouTube and recently Netflix. Oh, mobile Netflix. What a way to waste huge amounts of time.
 
 That was until I realized those apps did not offer me any value and I uninstalled all of them. But this isn't so easy as you may think. It is an addiction and like all the other addictions and you are in it **for life**. I didn't make it from the first try. There were times that I was bored or slightly unhappy and cracked. I had quickly installed one of those apps to get a fix.
 

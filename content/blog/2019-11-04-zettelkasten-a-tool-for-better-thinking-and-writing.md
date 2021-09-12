@@ -1,9 +1,10 @@
 ---
 title: "Zettelkasten: a tool for better thinking and writing"
 date: "2019-11-04"
+tags: ["productivity"]
+icon: "📂"
+lastmod: "2019-11-04"
 ---
-
-📂
 
 ### What is a Zettelkasten?
 
