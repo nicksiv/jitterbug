@@ -5,6 +5,8 @@ icon: "✏️"
 lastmod: "2021-08-29"
 ---
 
+## Bash
+  - [cheatsheet](https://devhints.io/bash)
 
 ## Misc
   - Command substitution  `vi $(find /home | grep bash)`
