@@ -2,6 +2,8 @@
 title: "Mulholland Drive (2001)"
 date: "2020-05-04"
 tags: [films]
+icon: "📺"
+lastmod: "2020-05-04"
 ---
 
 {{< youtube jbZJ487oJlY >}}

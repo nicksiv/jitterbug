@@ -82,9 +82,15 @@ Just edit the *youremail* and *secret* with your email and password.
 - l : Show only subscribed folders
 - L : Show all folders
 
+## Quick opening emacs on command-line
+
+Add this alias into .bashrc to open emacs in terminal mode without loading the configuration
+`alias em="emacs -nw -q -l"`
+
 
 ## Links
 - [Absolute beginners guide to emacs](http://www.jesshamrick.com/2012/09/10/absolute-beginners-guide-to-emacs/) by Jessica Hamrick
 
 ## Backlinks
 - [My first encounter with emacs](/emacs-the-first-encounter/)
+

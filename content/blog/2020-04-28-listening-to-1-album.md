@@ -1,6 +1,9 @@
 ---
 title: "Listening to 1 album"
 date: "2020-04-28"
+tags: ["music"]
+icon: "💿"
+lastmod: "2020-04-28"
 ---
 
 The fear of missing out (FOMO) is a dangerous thing. Especially in music. So I've designed my revolution:  
@@ -12,4 +15,3 @@ What's the next album will be?
 **Currently** : [Philip Glass Ensemble: Glassworks](https://open.spotify.com/album/1My9AZY0XBwVwwy1DDVSQS)  
 **Previously**: [The Incredible Jazz Guitar of Wes Montgomery](https://open.spotify.com/album/79403QOWKAE6yeARM4Hjzw)
 
-2/100

@@ -1,6 +1,9 @@
 ---
 title: "Tiddlywiki"
 date: "2020-11-07"
+tags: ["software", "productivity"]
+icon: "📒"
+lastmod: "2020-11-07"
 ---
 
 When I first started testing Tiddlywiki in summer, I found out a lot about the new version which I could use to have a better experience.

@@ -200,6 +200,13 @@ Then change the command greeter-hide-users from false to true and save
 
 `greeter-hide-users=true`
 
+## Wake linux from a usb keyboard
+
+How to: [https://askubuntu.com/a/1213465](https://askubuntu.com/a/1213465)
+
+The script I chose to use enables all the USB ports. 
+  
+Also map this command to a key to suspend  `systemctl suspend` 
 
 
 ## Spell check for Greek

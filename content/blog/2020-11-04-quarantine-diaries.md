@@ -1,6 +1,9 @@
 ---
 title: "Quarantine diaries"
 date: "2020-11-04"
+tags: ["blah"]
+icon: "☣️"
+lastmod: "2020-11-04"
 ---
 
 Okay, keeping a blog alive is hard. I never managed to do that more than some months.

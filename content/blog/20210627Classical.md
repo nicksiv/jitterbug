@@ -3,9 +3,9 @@ title: "Classical Music"
 date: 2021-06-27T12:44:04+03:00
 draft: false
 tags: [music]
-
+icon: "🎻"
+lastmod: "2021-06-27"
 ---
-
 
 After being obsessed with classical music for more than a year and I hardly listen to anything else, I found a great course to learn more about it.
 

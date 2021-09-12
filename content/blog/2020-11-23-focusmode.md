@@ -1,6 +1,9 @@
 ---
 title: "Getting out of the pit"
 date: "2020-11-23"
+tags: ["blah"]
+icon: "🛗"
+lastmod: "2020-11-23"
 ---
 
 Yesterday, I realized that I fell into the pit again. 

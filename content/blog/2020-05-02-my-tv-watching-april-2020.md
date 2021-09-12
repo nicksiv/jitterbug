@@ -1,6 +1,9 @@
 ---
 title: "My TV watching April 2020"
 date: "2020-05-02"
+tags: ["lists", "films"]
+icon: "📺"
+lastmod: "2020-05-02"
 ---
 
 The month of April wasn't so rich of movies. That usually happens when I discover a big series. This month's show award, as well as the quarantine's covid19 award goes to the **Community** which gained so many extra fans coming to Netflix (myself included).
