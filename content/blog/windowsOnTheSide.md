@@ -2,8 +2,8 @@
 title: "Installing Windows 10 on the side"
 date: 2021-05-23T18:32:50+03:00
 draft: false
-tags: [windows]
-
+tags: ["windows"]
+icon: "📀"
 ---
 
 I needed to install MS Windows for work. I haven't dual-booting Windows since 2015, but our communication software which is Microsoft Teams, is well known for missing important features in Linux. In my work@home environment I need mainly the camera background blur option and the ability to screen share just one window and not my entire system. The downside of this, is the Alt-tab window switching behavior which is customizable in Linux (but not in Windows) and I could use it without problems into my remote system. 

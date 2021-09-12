@@ -2,7 +2,8 @@
 title: "July Music Obsessions"
 date: 2021-08-01T11:08:08+03:00
 draft: false
-tags: [music]
+tags: ["music"]
+icon: "🥁"
 ---
 
 I haven't been writing to my blog as much as I wanted, so I gathered a bunch of music I've discovered, loved and maybe obsessed over.

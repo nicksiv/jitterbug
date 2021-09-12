@@ -2,7 +2,8 @@
 title: "What I'm up to these days..."
 date: 2021-06-04T12:41:49+02:00
 draft: false
-tags: [computers]
+tags: ["blah"]
+icon: "🟣"
 ---
 
 Things are constantly changing and that’s a good thing, isn’t it?

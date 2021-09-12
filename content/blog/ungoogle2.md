@@ -2,12 +2,11 @@
 title: "Living without Google: A list of apps"
 date: 2020-02-01T20:44:31+02:00
 draft: false
-tags: [android, privacy, projects]
+tags: ["android", "privacy", "projects"]
+icon: "📲"
 ---
 
-# 📲
-
-I've talked before about my new [phone setup](..\\huaweirom),  which now doesn't contain no Google apps or services at all. I've been using a custom ROM for my phone but I could do the same just by disabling all Google services and apps.
+My new phone's doesn't contain no Google apps or services at all. I've been using a custom ROM for my phone but I could do the same just by disabling all Google services and apps.
 
 My device has better battery life and I'm using only essential apps.
 This is a major step towards full degooglification and helps with mindful use of the phone, something I'm trying for some years now.

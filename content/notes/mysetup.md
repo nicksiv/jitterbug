@@ -3,6 +3,7 @@ title: "My Setup"
 date: 2019-10-20T09:09:21+03:00
 draft: false
 description : "This is how I work"
+icon: "💻"
 ---
 
 ## Computer
