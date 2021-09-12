@@ -2,8 +2,8 @@
 title: "What if photography dies?"
 date: "2018-08-22"
 tags: ["blah"]
-icon: "🌄  "
-lastmod: "2018-08-22
+icon: "🌄"
+lastmod: "2018-08-22"
 
 ---
 
