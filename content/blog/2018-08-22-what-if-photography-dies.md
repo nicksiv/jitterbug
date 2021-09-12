@@ -1,6 +1,10 @@
 ---
 title: "What if photography dies?"
 date: "2018-08-22"
+tags: ["blah"]
+icon: "🌄  "
+lastmod: "2018-08-22
+
 ---
 
 I don't remember when I shot the last photo with my phone. I'm sure it's been months.

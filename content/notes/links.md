@@ -34,6 +34,9 @@ icon: "🧒"
 * [The near-sighted monkey](https://thenearsightedmonkey.tumblr.com/)
 * [Julien Desrosiers](https://www.juliendesrosiers.com/blog.php)
 * [Chris Aldrich](https://boffosocko.com/)
+* [Nicholas Bate](http://nicholasbate.typepad.com/nicholas_bate/)
+** the master list, personal compass
+
 
 ## Webrings
 * [LOW TECH WEBRING DIRECTORY](https://emreed.net/LowTech_Directory.html)

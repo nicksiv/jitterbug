@@ -133,10 +133,10 @@ mpg123 -z ~/Music/\*/\*/\*
 
 ![cmus](/images/cmus.png)
 
-1. Load up your library: Pressing '5' will go to the Directory browser. Locate your music directory and press 'a'. 
-2. Pressing '1' will go to the Library view. You can navigate by artist/album on the left-hand side and see the tracks on the right. Press the TAB key to switch between them and ENTER to start playing the selected track. You can also use the Sorted library view by pressing '2'.
-3. Toggle Shuffle and continuous play: While listening to your first track, press 'C' (uppercase) once to toggle continuous play. I think this should be on by default. If you don't toggle this on, the music will stop after the end of the current track. If you want to shuffle tracks press 's' (lowercase).
-4. Searching: If you want to find a specific artist, album or track just type '/', the name you're looking for and ENTER (eg. /Hey joe). The cursor will be on the first result. Press 'n' to look for the next result and 'N' for the previous.
+1. **Load up your library**: Pressing '5' will go to the Directory browser. Locate your music directory and press 'a'. 
+2. **Go to library view** pressing '1'. You can navigate by artist/album on the left-hand side and see the tracks on the right. Press the TAB key to switch between them and ENTER to start playing the selected track. You can also use the Sorted library view by pressing '2'.
+3. **Toggle Shuffle and continuous play**: While listening to your first track, press 'C' (uppercase) once to toggle continuous play. I think this should be on by default. If you don't toggle this on, the music will stop after the end of the current track. If you want to shuffle tracks press 's' (lowercase).
+4. **Searching**: If you want to find a specific artist, album or track just type '/', the name you're looking for and ENTER (eg. /Hey joe). The cursor will be on the first result. Press 'n' to look for the next result and 'N' for the previous.
 
 
 ## Copy m3u playlist files in a folder
