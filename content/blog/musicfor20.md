@@ -3,9 +3,9 @@ title: "Exiting the music feedback loop: Ted Gioia"
 date: 2020-01-07T19:23:32+02:00
 draft: false
 tags: ["music"]
+icon: "🎧"
+lastmod: "2020-01-07"
 ---
-
-# 🎧
 
 Ted Gioia is one of my recently favourite music writers. Among others, he's a musician, a critic, and a historian. He knows jazz and he listens to music of all kinds. His list of the 100 best recordings of 2019 is beautiful, but overwhelming and exhausting for a common mortal like me.
 

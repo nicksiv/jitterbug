@@ -2,10 +2,12 @@
 title: "Debian: A great choice for 32bit systems"
 date: 2019-09-01T22:54:59+03:00
 draft: false
-tags: ["linux",setup]
+tags: ["linux", "setup"]
 description : "I've been using Debian on and off for some years now. I sometimes test other distributions and sometimes stick to them for a while. I know that most of the non-professional Linux lovers usually do it."
+icon: "🐧"
+lastmod: "2019-09-01"
 ---
-<font size="7">🐧</font>
+
 
 # The distro hoping
 

@@ -4,9 +4,9 @@ date: 2019-11-14T18:29:28+02:00
 draft: false
 tags: [minimalism, thoughts]
 description : "I'm feeling a bit stressed lately. When I feel like that, I know I got anxiety about finding new projects to make something out of myself."
+icon: "👾"
+lastmod: "2019-11-14"
 ---
-
-<font size="7">👾</font>
 
 I'm feeling a bit stressed lately. When I feel like that, I know I got anxiety about finding new projects to make something out of myself. I don't like this feeling and I usually drop everything.
 

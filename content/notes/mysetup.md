@@ -2,16 +2,13 @@
 title: "My Setup"
 date: 2019-10-20T09:09:21+03:00
 draft: false
-tags: [productivity,setup]
 description : "This is how I work"
 ---
-
-<font size="7">👓</font>
 
 ## Computer
 I use an Thinkpad T420 with 8GB of RAM.
 
-I use Linux Fedora 32 exclusively on this computer. I'm a steady user of Linux for the last 5 years and for the last year I totally removed Windows from my machine. For desktop manager I was using XFCE4 and openbox for fiddling around, but since my machine supports Gnome now, I'm sticking to it without trying to be original.
+I use **Ubuntu Linux 20.04LTS** exclusively on this computer. I'm a steady user of Linux for the last 5 years and for the last year I totally removed Windows from my machine. For desktop manager I was using XFCE4 and openbox for fiddling around, but since my machine supports Gnome now, I'm sticking to it without trying to be original.
 
 
 ## Software

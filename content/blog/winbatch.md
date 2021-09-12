@@ -2,11 +2,10 @@
 title: "Using a batch file for a handy Windows command line launcher"
 date: 2019-11-08T17:34:38+02:00
 draft: false
-tags: [productivity,windows,dev]
+tags: ["productivity", "windows", "dev"]
 description : "For a Linux guy, working on a locked down Windows PC can be a pain sometimes. It would be nice to have my Linux terminal to run stuff but instead, I don't even have access to a DOS prompt."
+icon: "⌨"
 ---
-
-<font size="7">⌨</font>
 
 For a Linux guy, working on a locked down Windows PC can be a pain sometimes. It would be nice to have my Linux terminal to run stuff but instead, I don't even have access to a DOS prompt.
 
