@@ -41,3 +41,4 @@ icon: "🧒"
 ## Webrings
 * [LOW TECH WEBRING DIRECTORY](https://emreed.net/LowTech_Directory.html)
 * [XXIIVV webring](https://webring.xxiivv.com/)
+* [The 512KB Club](https://512kb.club/)
