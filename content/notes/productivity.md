@@ -1,8 +1,8 @@
 ---
 title: "Productivity"
-date: "2022-01-22"
+date: "2022-01-21"
 icon: "🎨"
-lastmod: "2022-01-22"
+lastmod: "2022-01-21"
 draft: false
 ---
 
