@@ -5,7 +5,6 @@ icon: "✏️"
 lastmod: "2021-08-29"
 ---
 
-
 ## 1. Emacs basic configuration
 Open a file with the magic shortcut (Cx-Cf) and enter ~/.emacs to create a new configuration:
 
@@ -87,9 +86,26 @@ Just edit the *youremail* and *secret* with your email and password.
 Add this alias into .bashrc to open emacs in terminal mode without loading the configuration
 `alias em="emacs -nw -q -l"`
 
+## Errors and solutions
+### Cannot install package
+🐛I got an error installing doom-modeline (file-error "https://melpa.org/packages/doom-modeline-20200513.1103.tar" "Not found")
+
+Apparently you have to run: `package-refresh-contents`
+
+from: https://github.com/flycheck/flycheck/issues/744
+
+### Refile subtree raises error
+🐛Debugger entered–Lisp error: (invalid-function org-preserve-local-variables)
+
+`cd ~/.emacs.d/elpa find org*/*.elc -print0 | xargs -0 rm`
+
+from: https://github.com/syl20bnr/spacemacs/issues/11801
 
 ## Links
 - [Absolute beginners guide to emacs](http://www.jesshamrick.com/2012/09/10/absolute-beginners-guide-to-emacs/) by Jessica Hamrick
+- https://www.mtsolitary.com/20210309194647-my-org-mode-setup/
+- https://leanpub.com/markdown-mode
+- [J.Wiegley emacs configs](https://github.com/jwiegley/dot-emacs)
 
 ## Backlinks
 - [My first encounter with emacs](/emacs-the-first-encounter/)

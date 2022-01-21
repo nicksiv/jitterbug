@@ -5,7 +5,7 @@ icon: "✏️"
 lastmod: "2021-08-29"
 draft: false
 ---
-My top 5 albums of each year, gathered from my last.fm profile data.
+My top 5 albums of each year, gathered from my (last.fm profile)[https://www.last.fm/user/nicksiv] data.
 
 
 ## 2021
