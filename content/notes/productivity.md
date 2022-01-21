@@ -3,6 +3,7 @@ title: "Productivity"
 date: "2022-01-22"
 icon: "🎨"
 lastmod: "2022-01-22"
+draft: false
 ---
 
 ## Big picture
