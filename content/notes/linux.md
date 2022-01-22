@@ -224,3 +224,20 @@ https://www.addictivetips.com/ubuntu-linux-tips/play-among-us-linux/
 
 ## Install Quake 3 on Linux
 https://www.videogames.ai/How-to-Install-Quake3-on-Linux
+
+## VLC
+
+- [VLSub plugin](https://addons.videolan.org/p/1154045/)
+- LVSub unable to save subtitles on Linux
+  - It appears the cache subfolder is missing. For Ubuntu Linux just open terminal and run `mkdir ~/.cache/vlc`
+
+# Servers and Hosting
+
+- [Self Hosting: YunoHost](https://yunohost.org/en/install/hardware:regular)
+    > Specific distro based on Debian for creating a server out of small or old computers
+- [homebrewserver.club](https://homebrewserver.club/choosing-a-homebrew-server.html?utm_source=pocket_mylist)
+- [Followed this tutorial to learn the basics of running a server](
+https://github.com/snori74/linuxupskillchallenge)
+
+## Read also:
+  * [ALTERNATIVES TO BLOATWARE](https://github.com/mayfrost/guides/blob/master/ALTERNATIVES.md)

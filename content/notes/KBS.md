@@ -16,6 +16,13 @@ lastmod: 2022-01-21
     - http://evantravers.com/articles/2021/09/28/simple-markdown-zettelkasten-1-5/
 - Baseline software reviews
     - https://zettelkasten.de/posts/baseline-zettelkasten-software-reviews/
+- Sublime Zettelkasten
+    - [Instructions](https://www.sublimetext.com/docs/3/linux_repositories.html#dnf)
+    - [Install Zettelkasten plugin](https://github.com/renerocksai/sublime_zk#installation)
+
+    - Other packages needed to install (standard linux installation):
+        - the_silver_searcher
+        - pandoc
 
 
 ## Reading

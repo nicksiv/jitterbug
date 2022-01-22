@@ -5,8 +5,10 @@ icon: "✏️"
 lastmod: "2021-08-29"
 draft: false
 ---
-My top 5 albums of each year, gathered from my (last.fm profile)[https://www.last.fm/user/nicksiv] data.
 
+
+# Top Albums
+My top 5 albums of each year, gathered from my (last.fm profile)[https://www.last.fm/user/nicksiv] data.
 
 ## 2021
 1. Great Mass in C Minor (Wolfgang Amadeus Mozart)
@@ -35,3 +37,20 @@ My top 5 albums of each year, gathered from my (last.fm profile)[https://www.las
 3. The Essential Elvis Presley (Elvis Presley)
 4. Country Life (Roxy Music)
 5. Little Girl Blue	(Nina Simone)
+
+---
+
+# Favorite Web Radio Stations
+
+## International
+- [SomaFM 80s](http://ice2.somafm.com/u80s-128-mp3)
+- [Audiophile Rock & Blues](http://94.23.201.38:2199/tunein/rock.pls)
+- [Audiophile Jazz](http://94.23.201.38:2199/tunein/jazz.pls)
+- [Audiophile Classical](http://94.23.201.38:2199/tunein/classical.pls)
+- [Virgin Rock 80s](http://icy.unitedradio.it/VirginRock80.mp3)
+
+## Greek
+- [1055 Rock](http://radio.1055rock.gr:30000/1055)
+- [Kosmos](http://radiostreaming.ert.gr/ert-kosmos)
+- [Sto Kokkino](http://stream.radiojar.com/kokkino-ath.mp3)
+- [ERT Deftero](http://radiostreaming.ert.gr/ert-deftero)
