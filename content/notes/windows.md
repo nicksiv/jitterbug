@@ -41,5 +41,13 @@ https://bugs.mojang.com/browse/MC-44055
 >
 To work around the issue, you can manually reload sounds (and all other resources) with `F3+T` (at the same time).
 
+## MS Teams release media play button
 
+Windows 10: This fixes the annoying bug which occurs when you press the media play key and instead of your music player you hear the Teams notification.
+
+Create a new shortcut with the following line and run Teams from there:
+
+`C:\Users\nick\AppData\Local\Microsoft\Teams\Update.exe --processStart "Teams.exe" --process-start-args "-disable-features=HardwareMediaKeyHandling --system-initiated"`
+
+> source: https://techcommunity.microsoft.com/t5/microsoft-teams/media-keys-and-teams-notifications/m-p/1949714
 

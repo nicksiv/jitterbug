@@ -67,6 +67,9 @@ My top 5 albums of each year, gathered from my (last.fm profile)[https://www.las
 - [Smetana: Vltava (The Moldau) ](https://www.youtube.com/watch?v=l6kqu2mk-Kw )
 - [Orquesta Filarmonica Requena - Pavane, Opus 50 Gabriel Fauré ](https://www.youtube.com/watch?v=ZuM6tFwYaoI )
 - [Antonin Dvorák - Slavonic Dance op 72, Nr. 2, Berliner Philharmoniker, Silvesterkonzert 2018 ](https://www.youtube.com/watch?v=e4kTHnGfhvE )
+* [Antonín Dvořák - 8 Slavonic Dances, Op.72, B.147: No.2 In E Minor (Allegretto grazioso)](https://open.spotify.com/album/41I9BVIsMxe0x0g4p4c8Jh?highlight=spotify:track:6Lq2vC2hucVWLfwM3pekFk)
+* [Antonín Dvořák - 8 Slavonic Dances, Op.46, B.83: No.2 In E Minor (Allegretto scherzando](https://open.spotify.com/album/41I9BVIsMxe0x0g4p4c8Jh?highlight=spotify:track:6Lq2vC2hucVWLfwM3pekFk)
+* Symphony No. 9, 'From The New World': Largo
 - [Chopin: Nocturne No.2 In E Flat, Op.9 No.2 ](https://www.youtube.com/watch?v=S8YhDR2fOUg )
 - [Anna Netrebko & Elīna Garanča – Offenbach: Les Contes d'Hoffmann: Barcarolle -  ](https://www.youtube.com/watch?v=0u0M4CMq7uI )
 - [Bach - Concerto for two violins in D minor BWV 1043 - Sato and Deans - Netherlands Bach Society -  ](https://www.youtube.com/watch?v=ILKJcsET-NM )

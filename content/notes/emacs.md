@@ -101,6 +101,35 @@ from: https://github.com/flycheck/flycheck/issues/744
 
 from: https://github.com/syl20bnr/spacemacs/issues/11801
 
+## Doom emacs
+
+https://github.com/hlissner/doom-emacs#prerequisites
+
+Run the following commands on your home dir after you rename your `~/.emacs.d `and `~/.emacs`
+
+```
+git clone --depth 1 https://github.com/hlissner/doom-emacs ~/.emacs.d
+~/.emacs.d/bin/doom install
+```
+
+Read the getting started guide: https://github.com/hlissner/doom-emacs/blob/develop/docs/getting_started.org
+
+* Configuration: ~/.doom.d/config.el (private configuration)
+* Configuration: ~/.doom.d/packages.el (package management)
+
+### Windows installation 
+* Tutorial: https://earvingad.github.io/posts/doom_emacs_windows/
+* ripgrep and fd installed by chocolatey and kept into `C:\ProgramData\chocolatey\lib`
+* https://chocolatey.org/
+* Manually install ttf fonts of all-the-icons. They are in `C:\Users\nick\.emacs.d\.local\straight\repos\all-the-icons.el\fonts`
+* Dictionary installation is tricky. Did not make it: https://nb.balaji.blog/posts/emacs-tools-integration-spellcheck/
+
+### Other
+* https://zzamboni.org/post/my-doom-emacs-configuration-with-commentary/
+* https://tecosaur.github.io/emacs-config/config.html
+* [niyumard/Doom-Emacs-Cheat-Sheet](https://github.com/niyumard/Doom-Emacs-Cheat-Sheet)
+
+
 ## Links
 - [Absolute beginners guide to emacs by Jessica Hamrick](http://www.jesshamrick.com/2012/09/10/absolute-beginners-guide-to-emacs/)
 - https://www.mtsolitary.com/20210309194647-my-org-mode-setup/

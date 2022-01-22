@@ -9,16 +9,16 @@ lastmod: "2021-08-29"
   - [cheatsheet](https://devhints.io/bash)
 
 ## Misc
-  - Command substitution  `vi $(find /home | grep bash)`
+  - Command substitution  `vi $(find /home ]( grep bash)`
   - Arithmetic expressions `echo "I am $[2020-1973] years old"`
   - Find files `find / -name xxx (-iname: not case sensitive)`
   - Find files with size `find /etc -size +10M`
 
 ## File permissions
-  - read-r=4 | write-w=2 | execute-x=1
+  - read-r=4 ]( write-w=2 ]( execute-x=1
   - ex: 600 is rw for user and nothing for group or others
   - ex: 700 is rwx for use only
-  - 9+1 bits x (type) | xxx (owner) | xxx (group) | xxx(others)
+  - 9+1 bits x (type) ]( xxx (owner) ]( xxx (group) ]( xxx(others)
   - example -rw-rw----
   - First bit is type: - (file), d(directory), 1(symlink), d(device), p(pipe)
   - Set permissions : chmod (-R recursive) u+x (user add write permission)
@@ -56,7 +56,7 @@ lastmod: "2021-08-29"
 
 
 ## Networking
-  - Find your ip address : `ip addr | grep inet` 
+  - Find your ip address : `ip addr ]( grep inet` 
   - Find devices connected : `sudo nmap -sP 192.168.1.0/24`
   - Get OS info and service execution : `sudo nmap -A -T4 192.168.1.3`
  
@@ -143,7 +143,7 @@ mpg123 -z ~/Music/\*/\*/\*
 Run this script where the m3u playlist is stored
 
 ```bash
-sed "s/#.*//g" < starFM.m3u | sed "/^$/d" | while read line; do (( COUNTER++ )); filename="{line##*/}"; cp "${line}" "/home/nick/export/starFM/$COUNTER - $filename"; done
+sed "s/#.*//g" < starFM.m3u ]( sed "/^$/d" ]( while read line; do (( COUNTER++ )); filename="{line##*/}"; cp "${line}" "/home/nick/export/starFM/$COUNTER - $filename"; done
 ```
 
 ## Deactivate and activate the build in camera
@@ -157,14 +157,14 @@ sed "s/#.*//g" < starFM.m3u | sed "/^$/d" | while read line; do (( COUNTER++ ));
 # Install tools
 sudo apt-get install cuetools shntool flac
 # Make the split
-cuebreakpoints file.cue | shnsplit -o flac file.flac
+cuebreakpoints file.cue ]( shnsplit -o flac file.flac
 ```
 Real example
 
 ```bash
 # Step 1
 
-cuebreakpoints Album.cue | shnsplit -o flac Album.flac  -f Album.cue -t "%n. %t" Album.flac < Album.cue 
+cuebreakpoints Album.cue ]( shnsplit -o flac Album.flac  -f Album.cue -t "%n. %t" Album.flac < Album.cue 
 
 # Step 2
 # fill the tags (make sure the original flac is in another dir)
@@ -250,7 +250,7 @@ The standard downloaded file installation from their website fails on Linux, and
 ### Install in Ubuntu
 
 ```
-curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+curl https://packages.microsoft.com/keys/microsoft.asc ]( sudo apt-key add -
 
 sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/ms-teams stable main" > /etc/apt/sources.list.d/teams.list'
 
@@ -274,6 +274,18 @@ sudo apt install teams
   * https://gemlog.blue/
 * [How to Take Back the Internet by Choosing the Internet Less Traveled](https://cheapskatesguide.org/articles/take-back-the-internet.html/)
 * [Capsules](https://transjovian.org:1965/phoebe/page/Capsules)
+
+# CLI Desktop
+* https://pspodcasting.net/dan/blog/2018/console_desktop.html#linux
+* https://opensource.com/article/20/6/productivity-tools-linux-terminal
+* https://mamyn0va.github.io/2019/02/05/building-a-custom-ide-with-tmux
+* https://thevaluable.dev/mouseless-development-environment/
+* https://iturbe.info/2017/10/the-command-line-productivity-triad-vimwiki-taskwarrior-timewarrior/
+* https://pspodcasting.net/dan/blog/2018/console_desktop.html
+* [A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.](https://github.com/trimstray/the-book-of-secret-knowledge)
+* [Color Scheme for Gnome Terminal, Pantheon Terminal, Tilix, and XFCE4 Terminal](https://mayccoll.github.io/Gogh/)
+* [My Terminal-First Blogging Workflow](https://atthis.link/blog/2021/terminalwriting.html)
+* [Read The Tao of tmux - Leanpub](https://leanpub.com/the-tao-of-tmux/read)
 
 
 ## Read also:

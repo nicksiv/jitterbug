@@ -23,6 +23,9 @@ draft: false
 * [🛋 SOFA (start often fuck achievements)](https://tilde.town/~dozens/sofa/)
 * [Subset Park: Digital Minimalism for the Working Hacker](https://blog.zdsmith.com/posts/digital-minimalism-for-the-working-hacker.html)
 * [Mark Forster systems](http://markforster.squarespace.com/)
+* [Cultivating a Creative Practice](https://ctrl-c.club/~lettuce/creative-practice.html)
+* [Consume less, create more - TJCX](https://blog.tjcx.me/p/consume-less-create-more)
+
 
 ## Software
 * https://solarlune.itch.io/masterplan

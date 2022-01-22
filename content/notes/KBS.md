@@ -28,13 +28,16 @@ lastmod: 2022-01-21
 - A very good mind-garden/wiki: https://tomcritchlow.com/wiki/
 - Another nice one: https://wiki.nikitavoloboev.xyz/
 - An index of everything digital gardens: https://github.com/MaggieAppleton/digital-gardeners
+* https://maggieappleton.com/garden-history
 - And her own garden: https://maggieappleton.com/garden/
 - [The Garden and the Stream: An IndieWeb Pop-up Session](https://indieweb.org/2020/Pop-ups/GardenAndStream) also [video](https://archive.org/details/gardens-and-streams-wikis-blogs-and-ui-popup-indie-web-camp-session-2020/GardensAndStreamsWikisBlogsAndUI-GalleryView-PopupIndieWebCampSession-2020.mp4)
 - [Data Gardens Class](https://everestpipkin.github.io/datagardens/)
 
     > 
     studio class in creative code and software practices, with an emphasis on data as medium
-
+* [Obsidian gardens](https://forum.obsidian.md/the-all-obsidian-publish-s-collection-by-leo-latest-update-20210324/7248)
+* https://doubleloop.net/
+* [TiddlyWiki: Getting Started with digital gardens, networked thinking and non-linear research — Babycastles](https://www.babycastles.com/babycastles-academy/tiddlywiki)
 
 
 ## Reading
