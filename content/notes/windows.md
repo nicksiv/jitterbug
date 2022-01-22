@@ -34,3 +34,12 @@ Fixing the issue where you put your Windows PC to sleep and after some hours it 
 
 * https://itectec.com/superuser/windows-10-desktop-wakes-from-sleep-to-hibernate-even-when-disabled/
 
+## Minecraft: Game fails to switch the audio output from one device to another after the game has started
+
+https://bugs.mojang.com/browse/MC-44055
+
+>
+To work around the issue, you can manually reload sounds (and all other resources) with `F3+T` (at the same time).
+
+
+

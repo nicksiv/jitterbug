@@ -1,5 +1,5 @@
 ---
-title: VIM
+title: Vim
 date: 2022-01-21
 icon: ✏️
 lastmod: 2022-01-21
@@ -157,4 +157,4 @@ General
 
 
 # Read also
-- * [TextEditors Wiki: HomePage](https://texteditors.org/cgi-bin/wiki.pl)
+- [TextEditors Wiki: HomePage](https://texteditors.org/cgi-bin/wiki.pl)

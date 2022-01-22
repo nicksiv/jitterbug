@@ -54,3 +54,30 @@ My top 5 albums of each year, gathered from my (last.fm profile)[https://www.las
 - [Kosmos](http://radiostreaming.ert.gr/ert-kosmos)
 - [Sto Kokkino](http://stream.radiojar.com/kokkino-ath.mp3)
 - [ERT Deftero](http://radiostreaming.ert.gr/ert-deftero)
+
+
+# Music production
+*[Massive List of 65+ Open Source Music Production Tools](https://midination.com/free-music-production-software/)
+
+# Classical Video Playlist 
+- [Requiem Mass in D Minor, K. 626: III. Lacrimosa ](https://www.youtube.com/watch?v=BzsrqaLgdpk )
+- [Air on the G String (Suite No. 3, BWV 1068) J. S. Bach ](https://www.youtube.com/watch?v=pzlw6fUux4o )
+- [Pachelbel, Cannon and Gigue in D, Berlin Philharmonic, Herbert von Karajan -  ](https://www.youtube.com/watch?v=-eAGt2RVAXI )
+- [Sibelius - Finlandia op. 26 (Opening of the new Helsinki music hall) -  ](https://www.youtube.com/watch?v=qOSaT6U4e-8 )
+- [Smetana: Vltava (The Moldau) ](https://www.youtube.com/watch?v=l6kqu2mk-Kw )
+- [Orquesta Filarmonica Requena - Pavane, Opus 50 Gabriel Fauré ](https://www.youtube.com/watch?v=ZuM6tFwYaoI )
+- [Antonin Dvorák - Slavonic Dance op 72, Nr. 2, Berliner Philharmoniker, Silvesterkonzert 2018 ](https://www.youtube.com/watch?v=e4kTHnGfhvE )
+- [Chopin: Nocturne No.2 In E Flat, Op.9 No.2 ](https://www.youtube.com/watch?v=S8YhDR2fOUg )
+- [Anna Netrebko & Elīna Garanča – Offenbach: Les Contes d'Hoffmann: Barcarolle -  ](https://www.youtube.com/watch?v=0u0M4CMq7uI )
+- [Bach - Concerto for two violins in D minor BWV 1043 - Sato and Deans - Netherlands Bach Society -  ](https://www.youtube.com/watch?v=ILKJcsET-NM )
+- [Magic Flute overture- Mozart - Muti - Wiener philharmoniker  ](https://www.youtube.com/watch?v=s2Gedb05J5M )
+- [Bach: Brandenburg Concerto No. 3 in G major, BWV 1048 (Freiburger Barockorchester)  ](https://www.youtube.com/watch?v=QLj_gMBqHX8 )
+- [Beethoven: "Egmont" Overture / Ozawa Saito Kinen Orchestra (1996 Movie Live)  ](https://www.youtube.com/watch?v=2HhbZmgvaKs )
+- [W. A. Mozart: Symphony nº 40 - Dima Slobodeniouk - Sinfónica de Galicia ](https://www.youtube.com/watch?v=jzUJWDU_1Rg )
+- [Albinoni: Adagio For Strings And Organ In G Minor ](https://www.youtube.com/watch?v=o6Q8Y9rhLQc )
+- [G.F.HANDEL - SARABANDE - LUCCA PHILHARMONIC - ANDREA COLOMBINI  ](https://www.youtube.com/watch?v=8RahYPd-i8k ) [*]
+- [Avi Avital - Vivaldi: Mandolin Concerto In C Major ](https://www.youtube.com/watch?v=aXBWrNN64z8 )
+-  [J. S. Bach "Minuet and Badinerie" / Artstudio "TroyAnna" ](https://www.youtube.com/watch?v=2zcTKhohtJg )
+-  [Grieg: Klavierkonzert ∙ hr-Sinfonieorchester ∙ Alice Sara Ott ∙ Andrés Orozco-Estrada - YouTube ](https://www.youtube.com/watch?v=odbrQEWCoOI )
+-  [Rachmaninoff: Rhapsody on a Theme of Paganini - Anna Fedorova - Live Classical Music HD - YouTube ](https://www.youtube.com/watch?v=ppJ5uITLECE )
+-  [Tchaikovsky: Piano Concerto No. 1, Op. 23 - Anna Fedorova - Live Concert HD - YouTube ](https://www.youtube.com/watch?v=hNfpMRSCFPE )

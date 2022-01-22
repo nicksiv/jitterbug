@@ -231,7 +231,7 @@ https://www.videogames.ai/How-to-Install-Quake3-on-Linux
 - LVSub unable to save subtitles on Linux
   - It appears the cache subfolder is missing. For Ubuntu Linux just open terminal and run `mkdir ~/.cache/vlc`
 
-# Servers and Hosting
+## Servers and Hosting
 
 - [Self Hosting: YunoHost](https://yunohost.org/en/install/hardware:regular)
     > Specific distro based on Debian for creating a server out of small or old computers
@@ -239,5 +239,30 @@ https://www.videogames.ai/How-to-Install-Quake3-on-Linux
 - [Followed this tutorial to learn the basics of running a server](
 https://github.com/snori74/linuxupskillchallenge)
 
+## Coolest Wallpapers
+- [Nordic wallpapers repo](https://github.com/linuxdotexe/nordic-wallpapers)
+
+## Microsoft Teams
+
+Working at home made us using lots or proprietary software like this. 💩
+The standard downloaded file installation from their website fails on Linux, and it's better done like this:
+
+### Install in Ubuntu
+
+```
+curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+
+sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/ms-teams stable main" > /etc/apt/sources.list.d/teams.list'
+
+sudo apt update
+
+sudo apt install teams
+```
+
+### Install in Fedora
+- https://www.osradar.com/how-to-install-microsoft-teams-on-fedora-ubuntu-debian-linux/
+
 ## Read also:
   * [ALTERNATIVES TO BLOATWARE](https://github.com/mayfrost/guides/blob/master/ALTERNATIVES.md)
+  * [Python cheatsheet](https://github.com/gto76/python-cheatsheet/)
+  * [Mutt-Why local email](https://stevelosh.com/blog/2012/10/the-homely-mutt/#s5-why-local-email)

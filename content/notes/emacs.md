@@ -102,10 +102,17 @@ from: https://github.com/flycheck/flycheck/issues/744
 from: https://github.com/syl20bnr/spacemacs/issues/11801
 
 ## Links
-- [Absolute beginners guide to emacs](http://www.jesshamrick.com/2012/09/10/absolute-beginners-guide-to-emacs/) by Jessica Hamrick
+- [Absolute beginners guide to emacs by Jessica Hamrick](http://www.jesshamrick.com/2012/09/10/absolute-beginners-guide-to-emacs/)
 - https://www.mtsolitary.com/20210309194647-my-org-mode-setup/
 - https://leanpub.com/markdown-mode
 - [J.Wiegley emacs configs](https://github.com/jwiegley/dot-emacs)
+- [Guide for installing org-roam into doom-emacs](https://ianjones.us/own-your-second-brain)
+- [Install doom-emacs on Windows](https://earvingad.github.io/posts/doom_emacs_windows/)
+- [Emacs on Windows](https://caiorss.github.io/Emacs-Elisp-Programming/Emacs_On_Windows.html)
+- [Getting Started with Org Roam - Build a Second Brain in Emacs - Invidious](https://yewtu.be/watch?v=AyhPmypHDEw)
+- [A How to on taking notes in org-mode](https://blog.jethro.dev/posts/how_to_take_smart_notes_org/)
+
+
 
 ## Backlinks
 - [My first encounter with emacs](/emacs-the-first-encounter/)
