@@ -57,7 +57,7 @@ My top 5 albums of each year, gathered from my (last.fm profile)[https://www.las
 
 
 # Music production
-*[Massive List of 65+ Open Source Music Production Tools](https://midination.com/free-music-production-software/)
+* [Massive List of 65+ Open Source Music Production Tools](https://midination.com/free-music-production-software/)
 
 # Classical Video Playlist 
 - [Requiem Mass in D Minor, K. 626: III. Lacrimosa ](https://www.youtube.com/watch?v=BzsrqaLgdpk )
@@ -81,3 +81,25 @@ My top 5 albums of each year, gathered from my (last.fm profile)[https://www.las
 -  [Grieg: Klavierkonzert ∙ hr-Sinfonieorchester ∙ Alice Sara Ott ∙ Andrés Orozco-Estrada - YouTube ](https://www.youtube.com/watch?v=odbrQEWCoOI )
 -  [Rachmaninoff: Rhapsody on a Theme of Paganini - Anna Fedorova - Live Classical Music HD - YouTube ](https://www.youtube.com/watch?v=ppJ5uITLECE )
 -  [Tchaikovsky: Piano Concerto No. 1, Op. 23 - Anna Fedorova - Live Concert HD - YouTube ](https://www.youtube.com/watch?v=hNfpMRSCFPE )
+* [Tchaikovsky - Piano concerto No.1 in B flat minor Op.23](https://open.spotify.com/track/1Xy6MHSaX3IUGGqst6RzYM?si=4721b367a42442d8)
+* [Ravel - Bolero](https://open.spotify.com/track/7przZlRlf7E21yxPg1eAgm?si=6ca0ee78d3bf4a25)
+* [Satie - Gymnopedie No.1](https://open.spotify.com/track/5eXFSawsN5wQOUDJ8Uvn3D?si=0a32edafd9d54b83)
+* [Robert Schumann - Kinderszenen (Scenes of Childhood), Op. 15: VII. Traumerei (Dreaming) · Jenő Jandó](https://open.spotify.com/album/0N39wjh7OgVUikPJtpez9O)
+* Prokofiev - Piano concerto No.3 in C, Op.26
+* [Camille Saint-Saëns - Carnival of the Animals, R. 125: The Swan](https://open.spotify.com/album/1oPhXu7xxOHkR6GahZs2To)
+* [Bydlo - Pictures at an Exhibition: Modest Mussorgsky, George Szell, Cleveland Orchestra](https://open.spotify.com/playlist/6sPZCTmf5razbg3CfCXsuF)
+* [Haydn - Trumpet Concerto In E Flat, Hob.VIIe:1: III. Allegro](https://open.spotify.com/album/2vU8bQN7A0kZPbaUwd3m1F)
+* [Erlkonig (Schubert)  - Jessye Norman - A Portrait  - YouTube](https://www.youtube.com/watch?v=8noeFpdfWcQ&list=PLQY0zQBqYyrXqfNXeekDQyZOjI5_E9Ew4&index=5)
+* [Sergei Rachmaninoff - Piano Concerto No. 2 in C Minor, Op. 18: I. Moderato · Khatia Buniatishvili, Paavo Järvi](https://open.spotify.com/)
+* Massenet - Thais, acte deuz, Meditation
+* Vivaldi - Flute Concerto in G Minor "La Notte" VI
+* Brahms - Waltz In A-Flat
+* Pachelbel - Canon
+* Handel - Arrival of the Queen of Sheba (from Solomon)
+* Di Lasso - Iubilate Deo
+* Bizet - L'arlesienne Suite No. 1: Prelude
+* Wagner - Lohengrin, WWV 75 - Act 3 - Prelude to Act III
+* Wagner - Ride Of The Valkyries
+* Verdi - Chorus Of The Hebrew Slaves
+* Mendelssohn - Symphony No. 4 in A, 1st Movement
+* Debussy - Clair de lune

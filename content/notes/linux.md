@@ -262,6 +262,20 @@ sudo apt install teams
 ### Install in Fedora
 - https://www.osradar.com/how-to-install-microsoft-teams-on-fedora-ubuntu-debian-linux/
 
+# Gemini network protocol
+
+* Gemini browser appimage (Lagrange)
+  * https://git.skyjake.fi/skyjake/lagrange/releases/tag/v1.3.0
+* Gemini project website
+  * https://gemini.circumlunar.space/x/gus.guru/
+* Ariane Android app
+  * https://oppen.digital/software/ariane/
+* Gemlog http service for adding posts to gemini
+  * https://gemlog.blue/
+* [How to Take Back the Internet by Choosing the Internet Less Traveled](https://cheapskatesguide.org/articles/take-back-the-internet.html/)
+* [Capsules](https://transjovian.org:1965/phoebe/page/Capsules)
+
+
 ## Read also:
   * [ALTERNATIVES TO BLOATWARE](https://github.com/mayfrost/guides/blob/master/ALTERNATIVES.md)
   * [Python cheatsheet](https://github.com/gto76/python-cheatsheet/)

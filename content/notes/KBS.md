@@ -48,6 +48,8 @@ lastmod: 2022-01-21
 * [Building a Note-taking System with Vanilla Vim](https://www.edwinwenink.xyz/posts/42-vim_notetaking/)
 * [Tools for thinking](https://www.juliendesrosiers.com/2021/08/21/tools-for-thinking.php)
 * [nb: a command line and local KBS](https://xwmx.github.io/nb/)
+* [How to Make a Complete Map of Every Thought you Think](http://users.speakeasy.net/~lion/nb/)
+    * [Lion Kimbro Interview](https://gilest.org/lion-kimbro.html)
 
 ## Backlinks
 * [Zettelkasten: a tool for better thinking and writing](https://jitterbug.cc/zettelkasten-a-tool-for-better-thinking-and-writing/)

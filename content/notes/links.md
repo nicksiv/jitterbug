@@ -20,6 +20,12 @@ icon: "🧒"
 * [rosano garden/](https://rosano.hmm.garden/)
 * [Szymon Kaliski](https://szymonkaliski.com/notes/)
   * [And the memex dreams post I loved reading](https://szymonkaliski.com/writing/2020-04-19-memex-dreams)
+* [WebSeitz/wiki](http://webseitz.fluxent.com/wiki/)
+* https://fondoftea.com/
+* https://pbat.ch/wiki/
+* [Tour Bus map of wikis](http://meatballwiki.org/wiki/TourBusMap)
+* [Meatball Wiki: MeatballWiki](http://meatballwiki.org/wiki/MeatballWiki)
+
 
 ## Blogs
 * [Solene](https://dataswamp.org/~solene/)
@@ -35,7 +41,7 @@ icon: "🧒"
 * [Julien Desrosiers](https://www.juliendesrosiers.com/blog.php)
 * [Chris Aldrich](https://boffosocko.com/)
 * [Nicholas Bate](http://nicholasbate.typepad.com/nicholas_bate/)
-** the master list, personal compass
+  * the master list, personal compass
 
 
 ## Webrings

@@ -22,6 +22,7 @@ draft: false
 * [Weekly-Log from Cal Newport](https://www.calnewport.com/blog/2014/08/08/deep-habits-plan-your-week-in-advance/)
 * [🛋 SOFA (start often fuck achievements)](https://tilde.town/~dozens/sofa/)
 * [Subset Park: Digital Minimalism for the Working Hacker](https://blog.zdsmith.com/posts/digital-minimalism-for-the-working-hacker.html)
+* [Mark Forster systems](http://markforster.squarespace.com/)
 
 ## Software
 * https://solarlune.itch.io/masterplan
