@@ -95,7 +95,6 @@ type: %s"
 
 ;;DIRED specific
 (global-set-key (kbd "C-<f5>") (lambda () (interactive) (dired twiki)   ))
-(global-set-key (kbd "C-<f12>") (lambda () (interactive) (dired arcwiki)   ))
 
 (setq dired-listing-switches "-lAG --ignore=.* --ignore=\\#* --ignore=*~ --ignore=\\$*")
 
