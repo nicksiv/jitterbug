@@ -1,5 +1,5 @@
 
-baseURL = "https://jitterbug.cc"
+baseURL = "/"
 
 # The name of this wonderful theme ;-).
 theme = 'hugo-bearblog'
