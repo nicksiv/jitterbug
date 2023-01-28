@@ -1,4 +1,5 @@
 <style>
+
   body {
     font-family: Helvetica, sans-serif;
     font-size: medium;
@@ -119,9 +120,10 @@
   }
 
   @media (prefers-color-scheme: dark) {
+    /* https://github.com/dracula/dracula-theme */
     body {
-      background-color: #333;
-      color: #ddd;
+      background-color: #282a36;
+      color: #f8f8f2;
     }
 
     h1,
@@ -132,15 +134,20 @@
     h6,
     strong,
     b {
-      color: #eee;
+      color: #f1fa8c;
     }
 
     a {
-      color: #8cc2dd;
+      color: #ff79c6;
+      text-decoration: none;
+    }
+
+    a:visited { 
+      color: #ee79c6
     }
 
     code {
-      background-color: #777;
+      background-color: #44475a;
     }
 
     pre code {
@@ -153,16 +160,16 @@
 
     textarea,
     input {
-      background-color: #252525;
+      background-color: #44475a;
       color: #ddd;
     }
 
     .helptext {
-      color: #aaa;
+      color: #50fa7b;
     }
 
     circle {
-	style="border-radius: 50%;"
+	border-radius: 50%;
   }
 
 </style>

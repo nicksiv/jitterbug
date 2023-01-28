@@ -1,6 +1,7 @@
 {
     "recommendations": [
         "rusnasonov.vscode-hugo",
-        "fivethree.vscode-hugo-snippets"
+        "fivethree.vscode-hugo-snippets",
+        "tamasfe.even-better-toml"
     ]
 }

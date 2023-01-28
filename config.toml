@@ -7,7 +7,7 @@ theme = 'hugo-bearblog'
 # Basic metadata configuration for your blog.
 title = "indictvs"
 author = "nick"
-copyright = "Copyright © 2021, N.Sivridis"
+copyright = "Copyright © 2022, N.Sivridis"
 languageCode = "en-US"
 
 # Generate a nice robots.txt for SEO
