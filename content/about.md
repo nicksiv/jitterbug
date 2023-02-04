@@ -17,5 +17,5 @@ If you want to say 👋 hello, you can contact me via the following:
 - [Mastodon](https://octodon.social/@nicksiv) profile
 - [last.fm](https://www.last.fm/user/nicksiv)
 - [letteboxd](https://letterboxd.com/nykosi/)
-- This is my [RSS feed](https://jitterbug.cc/index.xml)
+- This is my [RSS feed](https://indict.us/index.xml)
 - My last project on github: [Jello Dashboard](https://github.com/nicksiv/jello-dashboard)
