@@ -9,7 +9,7 @@ I'm anti war, wealth, corporations and patriarchy and I mostly write about techn
 
 
 ### Projects & works
-Some music tracks, incomplete drawings, photos and [[jello dashboard|https://github.com/nicksiv/jello-dashboard]]
+Some music tracks, incomplete drawings, photos and [Jello Dashboard](https://github.com/nicksiv/jello-dashboard)
 
 If you want to say 👋 hello, you can contact me via the following:
 
@@ -18,4 +18,4 @@ If you want to say 👋 hello, you can contact me via the following:
 - [last.fm](https://www.last.fm/user/nicksiv)
 - [letteboxd](https://letterboxd.com/nykosi/)
 - This is my [RSS feed](https://indict.us/index.xml)
-- My last project on github: [Jello Dashboard](https://github.com/nicksiv/jello-dashboard)
+- [github](https://github.com/nicksiv/)
