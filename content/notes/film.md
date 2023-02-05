@@ -15,7 +15,12 @@ lastmod: 2022-01-22
 - The people upstairs - 2020
 - The handmaiden - 2016 ⭐
 - Modern times - 1934
-- [Dune - 2021](https://www.imdb.com/title/tt1160419) ⭐
+- [Dune](https://www.imdb.com/title/tt1160419) - 2021⭐
+- [Suntan](https://www.imdb.com/title/tt3954660/) - 2016
+- [Η μπαλάντα της τρύπιας καρδιάς](https://www.imdb.com/title/tt11851430/) - 2020
+- [Im Westen nichts Neues](https://www.imdb.com/title/tt1016150/) - 2022
+- [Paris, Texas](https://www.imdb.com/title/tt0087884/) - 1984  ⭐
+- [Cinco lobitos](https://www.imdb.com/title/tt14755038)- 2022
 
 # Films of 2021
 - Juno

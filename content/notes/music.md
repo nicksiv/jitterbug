@@ -10,6 +10,13 @@ draft: false
 # Top Albums
 My top 5 albums of each year, gathered from my (last.fm profile)[https://www.last.fm/user/nicksiv] data.
 
+## 2022
+1. La Traviata (Giuseppe Verdi)
+2. Don Giovanni (Wolfgang Amadeus Mozart)
+3. Messiah (Handel)
+4. J.S.Bach: Violin Concertos (Hilary Hahn)
+5. Symphonies KV111a-130-132-183 (Wolfgang Amadeus Mozart)
+
 ## 2021
 1. Great Mass in C Minor (Wolfgang Amadeus Mozart)
 2. Beethoven: 9 Symphonies (Berliner Philharmoniker & Herbert von Karajan)
