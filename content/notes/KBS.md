@@ -53,6 +53,8 @@ lastmod: 2022-01-21
 * [nb: a command line and local KBS](https://xwmx.github.io/nb/)
 * [How to Make a Complete Map of Every Thought you Think](http://users.speakeasy.net/~lion/nb/)
     * [Lion Kimbro Interview](https://gilest.org/lion-kimbro.html)
+* [What is a Zettelkasten](https://www.zettlr.com/post/what-is-a-zettelkasten)
+* [Zettelcasten improves thinking and writing](https://zettelkasten.de/posts/zettelkasten-improves-thinking-writing/)
+* [The building blocks](https://zettelkasten.de/posts/zettelkasten-building-blocks/)
+* [Writing cooperative](https://writingcooperative.com/zettelkasten-its-like-gtd-for-writing-and-here-s-why-you-should-consider-it-7dddf02be394)
 
-## Backlinks
-* [Zettelkasten: a tool for better thinking and writing](https://jitterbug.cc/zettelkasten-a-tool-for-better-thinking-and-writing/)

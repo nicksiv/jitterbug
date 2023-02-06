@@ -10,8 +10,7 @@ description : "I was waiting to complete a year exclusively in Linux to say that
 I was waiting to complete a year exclusively in Linux to say that: I did it!
 After many years and too many installations I said goodbye to Windows forever.
 
-But how did I make it?
-I didn't learn much more terminal commands from the time of my previous installation and I didn't find the perfect distribution which magically solved all of my problems.
+I can't help but wondering, how did I make it? I didn't learn much more terminal commands from the time of my previous installation and I didn't find the perfect distribution which magically solved all of my problems.
 
 I could say I've had a change of mindset. Something not so simple when you've been using Windows for all of your life. But looking back, that was the only thing I did.
 
@@ -20,6 +19,3 @@ I found out that my failed attempts had to do with a misconception. I was expect
 And then I've had an epiphany: What if I could completely redesign my work-flow and choose my tools again?
 That was a bit time consuming, but I'm just a home user, not a business. I made the conscious effort. And eventually it worked. Not because Linux came to me, but because I went to it. I shifted my world for it. Open source software worth it.
 
-So to all of you out there who face the same problem, this is my advice: Don't expect to work with exactly the same way. Think a little different, invest a bit and the change will be inevitable.
-
-And of course take regular backups of your installations because if you break it you will feel lost and head back to Windows...

@@ -8,7 +8,7 @@ lastmod: "2019-05-14"
 
 Over the years that I'm using Linux as my daily driver, I've tried many desktop managers and I always come back to XFCE. It's combination of speed, simplicity and completeness, makes it ideal for older machines like the one I'm currently using.
 
-There are some tweaks I always do upon XFCE at first installation. I prefer a minimal environment, focused more on the keyboard than the mouse:
+There are some tweaks I always do upon XFCE at first installation so I won't forget...
 
 #### **1\. Remove the bottom panel**
 

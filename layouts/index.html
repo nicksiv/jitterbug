@@ -1,7 +1,7 @@
 {{ define "main" }}
 {{ .Content }}
 
-<h3>Recent posts</h3>
+<h3>Recent entries</h3>
 <div>
        {{ range first 6 (where .Site.Pages "Section" "blog")}}
        {{ if not .IsNode  }}
