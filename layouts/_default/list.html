@@ -35,10 +35,18 @@
         <a href="{{ .Page.Permalink }}">#{{ .Page.Title }}</a>&nbsp;
         {{ end }}
 
-      <br>  ⭐ {{ $.Scratch.Get "acount" }} notes<br>
+      <br><br>  ⭐ {{ $.Scratch.Get "acount" }} items in here<br>
 
       </div>
     </small>
     {{ end }}
+
+    
+
 </content>
+{{ if eq .Type "blog" }}
+<p>
+🗃️ You can also view the <a href="{{ "/archived" | relURL }}">archived</a> entries.
+</p>
+{{end}}
 {{ end }}
