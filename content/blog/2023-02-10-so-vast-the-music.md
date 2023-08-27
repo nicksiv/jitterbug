@@ -1,7 +1,7 @@
 ---
 title: "So vast the music..."
 date: "2023-02-10"
-tags: ["blah"]
+tags: ["music"]
 icon: "🎧"
 lastmod: "2023-02-10"
 ---
