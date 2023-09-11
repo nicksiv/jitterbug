@@ -1,8 +1,11 @@
 ---
-title: "Emacs"
+title: "Emacs editor"
 date: "2021-08-29"
-icon: "✏️"
-lastmod: "2021-08-29"
+cdate: 2020-08-05
+tags: #software #public
+icon: "✏"
+blogfolder: notes
+lastmod: "2023-09-11"
 ---
 
 ## 1. Emacs basic configuration
@@ -130,7 +133,7 @@ Read the getting started guide: https://github.com/hlissner/doom-emacs/blob/deve
 * [niyumard/Doom-Emacs-Cheat-Sheet](https://github.com/niyumard/Doom-Emacs-Cheat-Sheet)
 
 
-## Links
+## Articles & Links
 - [Absolute beginners guide to emacs by Jessica Hamrick](http://www.jesshamrick.com/2012/09/10/absolute-beginners-guide-to-emacs/)
 - https://www.mtsolitary.com/20210309194647-my-org-mode-setup/
 - https://leanpub.com/markdown-mode
@@ -140,9 +143,30 @@ Read the getting started guide: https://github.com/hlissner/doom-emacs/blob/deve
 - [Emacs on Windows](https://caiorss.github.io/Emacs-Elisp-Programming/Emacs_On_Windows.html)
 - [Getting Started with Org Roam - Build a Second Brain in Emacs - Invidious](https://yewtu.be/watch?v=AyhPmypHDEw)
 - [A How to on taking notes in org-mode](https://blog.jethro.dev/posts/how_to_take_smart_notes_org/)
+- [EMFY-emacs for you configuration](https://github.com/susam/emfy)
+    - I'm already using some of those cool config options
+- [https://www.mtsolitary.com/20210309194647-my-org-mode-setup/](https://www.mtsolitary.com/20210309194647-my-org-mode-setup/)
+- [https://leanpub.com/markdown-mode](https://leanpub.com/markdown-mode)
+- [https://config.daviwil.com/emacs](https://config.daviwil.com/emacs)
+- [Alex Schroeder's Emacs configuration](https://alexschroeder.ch/cgit/emacs-setup/tree/)
+- [https://www.mtsolitary.com/20210309194647-my-org-mode-setup/](https://www.mtsolitary.com/20210309194647-my-org-mode-setup/)
+- [https://leanpub.com/markdown-mode](https://leanpub.com/markdown-mode)
+- [http://www.jesshamrick.com/2012/09/10/absolute-beginners-guide-to-emacs/](http://www.jesshamrick.com/2012/09/10/absolute-beginners-guide-to-emacs/)
+- [https://alexschroeder.ch/wiki/2020-07-16_Emacs_everything](https://alexschroeder.ch/wiki/2020-07-16_Emacs_everything)
+- [https://alexschroeder.ch/wiki/Emacs](https://alexschroeder.ch/wiki/Emacs)
+- Theme: [https://git.madhouse-project.org/algernon/brutalist-theme.el](https://git.madhouse-project.org/algernon/brutalist-theme.el)
+- Publishing to HTML info: [https://qorg11.net/tech_posts/org_mode_as_ssg.xhtml](https://qorg11.net/tech_posts/org_mode_as_ssg.xhtml)
+- [Ramin Honary: Emacs as a shell](http://tilde.town/~ramin_hal9001/emacs-for-professionals/emacs-as-your-shell.html)
+- [Book logging in Emacs](https://getpocket.com/read/3608010494)
+    - A technique to build a kind of books database using tables. Original article gone. Available only on pocket
+- [TiddlyWiki and Emacs - blog.dornea.nu](https://blog.dornea.nu/2022/07/12/tiddlywiki-and-emacs/)
+- [Zettelkasten, Emacs, and Creative Thinking](https://www.alexkehayias.com/essays/zettelkasten-setup/)
 
-
-
-## Backlinks
-- [My first encounter with emacs](/emacs-the-first-encounter/)
+## Packages
+- Installing Org-roam on doom: [https://ianjones.us/own-your-second-brain](https://ianjones.us/own-your-second-brain)
+- Installing doom on Windows: [https://earvingad.github.io/posts/doom_emacs_windows/](https://earvingad.github.io/posts/doom_emacs_windows/)
+- Getting Started with Org Roam :[https://yewtu.be/watch?v=AyhPmypHDEw](https://yewtu.be/watch?v=AyhPmypHDEw)
+- All packages project: [https://github.com/emacs-tw/awesome-emacs](https://github.com/emacs-tw/awesome-emacs)
+- Emacs On Windows: [https://caiorss.github.io/Emacs-Elisp-Programming/Emacs_On_Windows.html](https://caiorss.github.io/Emacs-Elisp-Programming/Emacs_On_Windows.html)
+- [Viper mode (Vi, included mode)](https://www.gnu.org/software/emacs/manual/html_mono/viper.html)
 
