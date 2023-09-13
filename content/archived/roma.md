@@ -1,5 +1,5 @@
 ---
-title: "GR: Ρόμα [Roma] 2018"
+title: "Ρόμα [Roma] 2018"
 date: 2018-12-27T22:22:54+02:00
 draft: false
 tags: [films, greek]

@@ -8,22 +8,27 @@ lastmod: "2023-02-09"
 
 {{< figure src="/images/bitmoji.png" class="circle"  height="64">}}
 
-Hello, this is **nyko**. I've been programming since I was a kid. 
-Now I'm a recreational programmer and I spend a lot of time tinkering with my computers.
+Hello 👋, this is nyko. Glad to meet you!
+                                                                                                        
+I've been trying to talk to computers since I was a kid. Mostly failing to do so.
+Now after my workday, I'm a recreational programmer and I spend a lot of time tinkering with my computers, mostly learning.
+                                                                                                        
+I support online freedom, privacy rights and free software. I'm anti war, wealth, corporations and patriarchy.
+I like sustainable and analog technologies, classical, jazz and 80s music and arthouse films. 
 
-I support online freedom, privacy rights and free software. I like sustainable and analog technologies, exploring art via music, films, writing and books.
-
-I'm anti war, wealth, corporations and patriarchy and I mostly read and write about technology and computers. Here's a list of my [favorite blogs](../notes/blogroll)
+I mostly read and write about technology and computers. Here's a list of my [favorite blogs](../notes/blogroll)
 
 ### Projects & works
-Some music tracks, [drawings](/notes/gallery), photos, [my archived blog (gr)](https://panoplia.wordpress.com/) and [Jello Dashboard](https://github.com/nicksiv/jello-dashboard)
+* [panoplia](https://panoplia.wordpress.com), an art project of the blogs era, now archived
+* [jello dashboard](https://github.com/nicksiv/jello-dashboard), an Outlook GTD homepage
+* [my drawings](/notes/gallery)
+* Some music tracks  and photos
 
 If you want to say 👋 hello, you can contact me via the following:
 
 - [Email](mailto:nicksiv@disroot.org)
 - [Mastodon](https://octodon.social/@nicksiv) profile
 - [last.fm](https://www.last.fm/user/nicksiv)
-- This is my [RSS feed](https://indict.us/index.xml)
 - [github](https://github.com/nicksiv/)
-
+- [RSS feed](https://indict.us/index.xml)
 

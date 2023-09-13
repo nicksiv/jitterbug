@@ -3,6 +3,10 @@
 <a href="{{ .URL }}">{{ .Name }}</a>
 {{ end }}
 
+{{ with .Site.GetPage "/about" }}
+<a href="{{ "/about" | relURL }}">About</a>
+{{ end }}
+
 {{ with .Site.GetPage "/notes" }}
 <a href="{{ "/notes" | relURL }}">Notes</a>
 {{ end }}

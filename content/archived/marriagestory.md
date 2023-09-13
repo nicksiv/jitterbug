@@ -1,5 +1,5 @@
 ---
-title: "GR: Ιστορία Γάμου [Marriage story] 2019"
+title: "Ιστορία Γάμου [Marriage story] 2019"
 date: 2019-12-16T18:51:14+02:00
 draft: false
 description: "Τίτλος ειρωνικός; Ίσως divorce story, εφ'όσον σ' αυτήν την αξιοπρόσεκτη ταινία του Noah Baumbach, περνάμε μαζί με τους πρωταγωνιστές όλα τα στάδια ενός διαζυγίου."

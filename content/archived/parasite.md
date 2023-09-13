@@ -1,5 +1,5 @@
 ---
-title: "GR: Παράσιτο [Parasite] 2019"
+title: "Παράσιτο [Parasite] 2019"
 date: 2019-10-16T19:07:29+03:00
 draft: false
 tags: [films, greek]

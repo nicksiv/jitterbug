@@ -1,5 +1,5 @@
 ---
-title: "GR: Portrait of a lady on fire"
+title: "Portrait of a lady on fire"
 date: "2021-01-24"
 tags: [films, greek]
 ---
