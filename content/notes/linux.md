@@ -1,5 +1,5 @@
 ---
-title: "Linux"
+title: "Linux notes"
 date: "2021-08-29"
 icon: "✏️"
 lastmod: "2021-08-29"

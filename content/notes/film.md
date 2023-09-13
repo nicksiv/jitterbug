@@ -13,7 +13,6 @@ lastmod: 2022-01-22
 
 
 ## Films of 2022
-
 - Don't Look up - 2021 
 - The French Dispatch - 2021 
 - Shang-Chi and the Legend of the Ten Rings 
@@ -41,7 +40,6 @@ lastmod: 2022-01-22
 - Amadeus - 1984
 
 ## Films of 2020
-
 - Call me by your name (2017)
 - Citizen Kane (1941)
 - Joker (2019)

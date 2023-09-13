@@ -1,5 +1,5 @@
 ---
-title: Vim
+title: Vim editor
 date: 2022-01-21
 icon: ✏️
 lastmod: 2022-01-21

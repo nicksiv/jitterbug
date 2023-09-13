@@ -1,9 +1,11 @@
 ---
-title: BSD
+title: BSD systems notes
 date: 2022-01-22
 icon: ✏️
 lastmod: 2022-01-22
 ---
+
+These are notes I've kept after trying to evaluate some BSD systems. I did not stick to them, but you never know!
 
 # OpenBSD
 OpenBSD is a dream of me (I don't know why yet) but it is hard to get to dualboot. The first post solves it via UEFI boot and the second with a pre-created partition
@@ -63,7 +65,7 @@ mount /dev/sd2i /mnt/usb
 
 # FreeBSD
 
- * Dual booting with Ubuntu, using this guide: https://distrowatch.com/weekly-mobile.php?issue=20181001#qa
+* Dual booting with Ubuntu, using this guide: https://distrowatch.com/weekly-mobile.php?issue=20181001#qa
 * Resized Ubuntu partition using GParted iso image (also resized its parent partition because it was a logical partition)
 * The goal was to have unassigned space as a primary partition (not as logical)
 * FreeBSD cannot be installed on logical partitions, so I chose manually setup partition and created a new primary on the unassigned space
