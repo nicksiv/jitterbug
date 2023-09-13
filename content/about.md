@@ -26,3 +26,4 @@ If you want to say 👋 hello, you can contact me via the following:
 - This is my [RSS feed](https://indict.us/index.xml)
 - [github](https://github.com/nicksiv/)
 
+
