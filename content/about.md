@@ -16,7 +16,7 @@ I support online freedom, privacy rights and free software. I like sustainable a
 I'm anti war, wealth, corporations and patriarchy and I mostly read and write about technology and computers. Here's a list of my [favorite blogs](../notes/blogroll)
 
 ### Projects & works
-Some music tracks, incomplete drawings, photos and [Jello Dashboard](https://github.com/nicksiv/jello-dashboard)
+Some music tracks, [drawings](/notes/gallery), photos, [my archived blog (gr)](https://panoplia.wordpress.com/) and [Jello Dashboard](https://github.com/nicksiv/jello-dashboard)
 
 If you want to say 👋 hello, you can contact me via the following:
 

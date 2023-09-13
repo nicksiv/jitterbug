@@ -1,5 +1,5 @@
 ---
-title: "GR: Ακαπνίζων"
+title: "Ακαπνίζων"
 date: 2019-06-18T13:01:55+02:00
 draft: false
 tags: [greek]
