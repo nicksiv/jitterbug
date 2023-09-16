@@ -3,7 +3,7 @@
 
 
 
-Welcome to indictvs, a dull/default and uninspired web space.
+Welcome to indictvs, another dull and uninspired web space.
 
 I'm [nyko](about). You can view my [notes](/notes) and [journal](/blog).
 
