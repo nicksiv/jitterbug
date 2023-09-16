@@ -219,10 +219,7 @@ Also map this command to a key to suspend  `systemctl suspend`
 `sudo apt-get install aspell-el` then change dictionary with `ispell-change-dictionary`
 
 
-## Play among us on Linux
-https://www.addictivetips.com/ubuntu-linux-tips/play-among-us-linux/
-
-## Install Quake 3 on Linux
+## ## Install Quake 3 on Linux
 https://www.videogames.ai/How-to-Install-Quake3-on-Linux
 
 ## VLC
@@ -272,18 +269,14 @@ sudo apt install teams
   * https://oppen.digital/software/ariane/
 * Gemlog http service for adding posts to gemini
   * https://gemlog.blue/
-* [How to Take Back the Internet by Choosing the Internet Less Traveled](https://cheapskatesguide.org/articles/take-back-the-internet.html/)
-* [Capsules](https://transjovian.org:1965/phoebe/page/Capsules)
 
 # CLI Desktop
 * https://pspodcasting.net/dan/blog/2018/console_desktop.html#linux
 * https://opensource.com/article/20/6/productivity-tools-linux-terminal
 * https://mamyn0va.github.io/2019/02/05/building-a-custom-ide-with-tmux
 * https://thevaluable.dev/mouseless-development-environment/
-* https://iturbe.info/2017/10/the-command-line-productivity-triad-vimwiki-taskwarrior-timewarrior/
 * https://pspodcasting.net/dan/blog/2018/console_desktop.html
 * [A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.](https://github.com/trimstray/the-book-of-secret-knowledge)
-* [Color Scheme for Gnome Terminal, Pantheon Terminal, Tilix, and XFCE4 Terminal](https://mayccoll.github.io/Gogh/)
 * [My Terminal-First Blogging Workflow](https://atthis.link/blog/2021/terminalwriting.html)
 * [Read The Tao of tmux - Leanpub](https://leanpub.com/the-tao-of-tmux/read)
 

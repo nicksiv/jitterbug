@@ -26,4 +26,4 @@ Later I added a small customization, adding small colored stickers to specific e
 
 Problem solved.
 
-For more information on the system: [Unclutterer post](http://(https://unclutterer.com/2014/06/03/the-noguchi-filing-system)
+

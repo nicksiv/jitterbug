@@ -35,20 +35,15 @@ tags: #list #web
 * [https://dataswamp.org/~solene/](https://dataswamp.org/~solene/) : Solene%
 * [https://hadalin.me/](https://hadalin.me/) : Primož Hadalin
 * [https://rahulchowdhury.co/](https://rahulchowdhury.co/) : Rahul Chowdhury
-* [https://jborichevskiy.com/posts/](https://jborichevskiy.com/posts/) : Jonathan Borichevskiy
 * [https://victoria.dev/verbose/](https://victoria.dev/verbose/) : Victoria Drake
 * [https://zzamboni.org/](https://zzamboni.org/) : Diego Zamboni
 * [https://www.scotthyoung.com/blog/articles/](https://www.scotthyoung.com/blog/articles/) : Scott H Young
-* [https://theknowledgeworker.substack.com/](https://theknowledgeworker.substack.com/) : The Knowledge Worker
 * [Unimaginable heights](https://unimaginable-heights.neocities.org/)
 
 ## Wikis
 * [https://communitywiki.org/wiki/FrontPage](https://communitywiki.org/wiki/FrontPage) : CommunityWiki
 * [http://meatballwiki.org/wiki/MeatballWiki](http://meatballwiki.org/wiki/MeatballWiki) : Meatball Wiki
 * [Tour Bus map of wikis](http://meatballwiki.org/wiki/TourBusMap)
-* [https://philosopher.life/](https://philosopher.life/) : ⦗ℍ𝕪𝕡𝕖𝕣-𝔱𝔢𝔵𝔱:h0p3⦘
-    My TW-Master, currently off-line
-* [https://wiki.waifu.haus/](https://wiki.waifu.haus/) : chameleon's wiki
 * [https://sphygm.us/](https://sphygm.us/) : Sphygmus Wiki
 * [https://zettelkasten.sorenbjornstad.com/](https://zettelkasten.sorenbjornstad.com/) : Zettelkasten — The public musings of Soren Bjornstad (about)
 * [https://groktiddlywiki.com/read/](https://groktiddlywiki.com/read/) : Grok TiddlyWiki — Build a deep, lasting understanding of TiddlyWiki
