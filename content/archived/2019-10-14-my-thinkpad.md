@@ -39,4 +39,3 @@ Now I'm a happy Fedora user. I needed about an hour to setup my software and dat
 
 [There is a wiki for thinkpads](https://www.thinkwiki.org/wiki/ThinkWiki)
 
-[You can even build a hackintosh with this](https://josephsiu.com/convert-windows-10-thinkpad-t420-into-dual-boot-hackintosh-running-macos-high-sierra/)

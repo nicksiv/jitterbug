@@ -32,14 +32,12 @@ lastmod: 2022-01-21
 - [The Garden and the Stream: An IndieWeb Pop-up Session](https://indieweb.org/2020/Pop-ups/GardenAndStream) also [video](https://archive.org/details/gardens-and-streams-wikis-blogs-and-ui-popup-indie-web-camp-session-2020/GardensAndStreamsWikisBlogsAndUI-GalleryView-PopupIndieWebCampSession-2020.mp4)
 - [Data Gardens Class](https://everestpipkin.github.io/datagardens/)
 		studio class in creative code and software practices, with an emphasis on data as medium
-* [Obsidian gardens](https://forum.obsidian.md/the-all-obsidian-publish-s-collection-by-leo-latest-update-20210324/7248)
 * https://doubleloop.net/
 * [TiddlyWiki: Getting Started with digital gardens, networked thinking and non-linear research — Babycastles](https://www.babycastles.com/babycastles-academy/tiddlywiki)
 
 
 ## Reading
 * [Taking note: My Zettelkasten](https://web.archive.org/web/20200131122229/http://takingnotenow.blogspot.com/2015/12/my-zettelkasten.html)
-* https://ryutaroikeda.ovh/ - [zet](https://ryutaroikeda.ovh/zet/html/index.html)
 * [Memex Dreams ‒ Szymon Kaliski](https://szymonkaliski.com/writing/2020-04-19-memex-dreams/)
 * [Sustainable Authorship in Plain Text using Pandoc and Markdown-Programming Historian](https://programminghistorian.org/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown)
 * [Everything I wish I knew when starting to use Obsidian — Nicholas Seitz](https://www.nickseitz.com/writing/obsidian-day-one-starterpack)

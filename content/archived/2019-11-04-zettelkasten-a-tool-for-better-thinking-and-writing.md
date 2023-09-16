@@ -26,7 +26,7 @@ You only need to decide the naming of the files so they can have a unique ID use
 
 Academics need more linking options with citations and references, so a reference databases application is essential for this type of use. Regardless of this, don't get discouraged if you are not an academic. Such a system is really easy to setup. It just needs a good markdown editor but some automation could also help.
 
-Almost all software solutions are made for Mac computers. For other operating systems, there is a [plug-in](https://github.com/renerocksai/sublime_zk#installation) for Sublime text which works fine and [Zettler](www.zettlr.com) which is the fullest cross platform solution. I didn't find a complete solution for Emacs, except for the [Zetteldeft](https://www.eliasstorms.net/zetteldeft/) which is a set of scripts based on deft.
+Almost all software solutions are made for Mac computers. For other operating systems, there is a [plug-in](https://github.com/renerocksai/sublime_zk#installation) for Sublime text which works fine and [Zettler](https://www.zettlr.com) which is the fullest cross platform solution. I didn't find a complete solution for Emacs, except for the [Zetteldeft](https://www.eliasstorms.net/zetteldeft/) which is a set of scripts based on deft.
 
 ### What should my notes be about?
 
