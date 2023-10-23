@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="/images/logo.png" />
+<title>Ubuntu Linux | indictus</title>
+<meta name="title" content="Ubuntu Linux" />
+<meta name="description" content="Notes for my current base system Ubuntu version 20.04.1 LTS
+Configurations Hotkeys Hotkey for home folder Meta&#43;E emacs Ctrl&#43;Alt&#43;M emote Ctrl&#43;Alt&#43;E cmus pause button on F8 cmus-remote --pause cmus next track on Ctrl&#43;F8 cmus-remote --next Use Alt&#43;Shift for keyboard layout change: gsettings set org.gnome.desktop.input-sources xkb-options &#34;[&#39;grp:alt_shift_toggle&#39;, &#39;grp_led:scroll&#39;, &#39;lv3:switch&#39;]&#34; Grub Set grub timeout to 3 seconds sudo vim /etc/default/grub sudo update-grub Or Install grub-customizer to fix grub timeout
+Battery optimization sudo apt install tlp sudo apt install acpi-call-dkms tp-smapi-dkms sudo tlp start Remove desktop icons sudo apt install gnome-shell-extension-prefs" />
+<meta name="keywords" content="" />
+
+
+<meta property="og:title" content="Ubuntu Linux" />
+<meta property="og:description" content="Notes for my current base system Ubuntu version 20.04.1 LTS
+Configurations Hotkeys Hotkey for home folder Meta&#43;E emacs Ctrl&#43;Alt&#43;M emote Ctrl&#43;Alt&#43;E cmus pause button on F8 cmus-remote --pause cmus next track on Ctrl&#43;F8 cmus-remote --next Use Alt&#43;Shift for keyboard layout change: gsettings set org.gnome.desktop.input-sources xkb-options &#34;[&#39;grp:alt_shift_toggle&#39;, &#39;grp_led:scroll&#39;, &#39;lv3:switch&#39;]&#34; Grub Set grub timeout to 3 seconds sudo vim /etc/default/grub sudo update-grub Or Install grub-customizer to fix grub timeout
+Battery optimization sudo apt install tlp sudo apt install acpi-call-dkms tp-smapi-dkms sudo tlp start Remove desktop icons sudo apt install gnome-shell-extension-prefs" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/notes/ubuntu/" /><meta property="og:image" content="/images/logo.png"/><meta property="article:section" content="notes" />
+<meta property="article:published_time" content="2021-08-29T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-08-29T00:00:00+00:00" /><meta property="og:site_name" content="Hugo ʕ•ᴥ•ʔ Bear" />
+
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="/images/logo.png"/>
+
+<meta name="twitter:title" content="Ubuntu Linux"/>
+<meta name="twitter:description" content="Notes for my current base system Ubuntu version 20.04.1 LTS
+Configurations Hotkeys Hotkey for home folder Meta&#43;E emacs Ctrl&#43;Alt&#43;M emote Ctrl&#43;Alt&#43;E cmus pause button on F8 cmus-remote --pause cmus next track on Ctrl&#43;F8 cmus-remote --next Use Alt&#43;Shift for keyboard layout change: gsettings set org.gnome.desktop.input-sources xkb-options &#34;[&#39;grp:alt_shift_toggle&#39;, &#39;grp_led:scroll&#39;, &#39;lv3:switch&#39;]&#34; Grub Set grub timeout to 3 seconds sudo vim /etc/default/grub sudo update-grub Or Install grub-customizer to fix grub timeout
+Battery optimization sudo apt install tlp sudo apt install acpi-call-dkms tp-smapi-dkms sudo tlp start Remove desktop icons sudo apt install gnome-shell-extension-prefs"/>
+
+
+
+<meta itemprop="name" content="Ubuntu Linux">
+<meta itemprop="description" content="Notes for my current base system Ubuntu version 20.04.1 LTS
+Configurations Hotkeys Hotkey for home folder Meta&#43;E emacs Ctrl&#43;Alt&#43;M emote Ctrl&#43;Alt&#43;E cmus pause button on F8 cmus-remote --pause cmus next track on Ctrl&#43;F8 cmus-remote --next Use Alt&#43;Shift for keyboard layout change: gsettings set org.gnome.desktop.input-sources xkb-options &#34;[&#39;grp:alt_shift_toggle&#39;, &#39;grp_led:scroll&#39;, &#39;lv3:switch&#39;]&#34; Grub Set grub timeout to 3 seconds sudo vim /etc/default/grub sudo update-grub Or Install grub-customizer to fix grub timeout
+Battery optimization sudo apt install tlp sudo apt install acpi-call-dkms tp-smapi-dkms sudo tlp start Remove desktop icons sudo apt install gnome-shell-extension-prefs"><meta itemprop="datePublished" content="2021-08-29T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2021-08-29T00:00:00+00:00" />
+<meta itemprop="wordCount" content="322"><meta itemprop="image" content="/images/logo.png"/>
+<meta itemprop="keywords" content="" />
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+
+  body {
+    font-family: Helvetica, sans-serif;
+    font-size: medium;
+    margin: auto;
+    padding: 20px;
+    max-width: 720px;
+    text-align: left;
+    background-color: #fff;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    background-color: #282a36;
+    color: #f8f8f2;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong,
+  b {
+      color: #f1fa8c;
+    }
+
+    a {
+      color: #ff79c6;
+      text-decoration: none;
+    }
+
+    a:visited { 
+      color: #ee79c6
+    }
+
+  .title {
+    text-decoration: none;
+    border: 0;
+  }
+
+  .title span {
+    font-weight: 400;
+  }
+
+  nav a {
+    margin-right: 10px;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  input {
+    font-size: 16px;
+  }
+
+  content {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    padding: 2px 5px;
+    background-color: #44475a;
+  }
+
+  pre code {
+    color: #ddd;
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 14px;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: #ccc;
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px;
+    text-align: center;
+  }
+
+  .helptext {
+    color: #777;
+    font-size: small;
+  }
+
+  .errorlist {
+    color: #eba613;
+    font-size: small;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+    line-height: 25px;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 90px;
+
+  }
+
+  ul.blog-posts li a:visited {
+    color: #8b6fcb;
+  }
+
+  @media (prefers-color-scheme: dark) {
+     
+    body {
+      background-color: #282a36;
+      color: #f8f8f2;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    strong,
+    b {
+      color: #f1fa8c;
+    }
+
+    a {
+      color: #ff79c6;
+      text-decoration: none;
+    }
+
+    a:visited { 
+      color: #ee79c6
+    }
+
+    code {
+      background-color: #44475a;
+    }
+
+    pre code {
+      color: #ddd;
+    }
+
+    blockquote {
+      color: #ccc;
+    }
+
+    textarea,
+    input {
+      background-color: #44475a;
+      color: #ddd;
+    }
+
+    .helptext {
+      color: #50fa7b;
+    }
+
+    circle {
+	border-radius: 50%;
+  }
+
+</style>
+<link rel="authorization_endpoint" href="https://indieauth.com/auth">
+<link rel="token_endpoint" href="https://tokens.indieauth.com/token">
+<link rel="microsub" href="https://aperture.p3k.io/microsub/897">
+<link href="https://octodon.social/@nicksiv" rel="me">
+<link href="https://github.com/nicksiv" rel="me">
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>indictus</h2>
+</a>
+<nav><a href="/">Home</a>
+
+
+
+<a href="/about">About</a>
+
+
+
+<a href="/notes">Notes</a>
+
+
+
+<a href="/blog">Journal</a>
+
+
+
+<a href="/writings">Γραπτά</a>
+
+
+</nav>
+</header>
+  <main>
+
+<h1>Ubuntu Linux</h1>
+
+<content>
+
+  <p>Notes for my current base system Ubuntu version 20.04.1 LTS</p>
+<h2 id="configurations">Configurations</h2>
+<h3 id="hotkeys">Hotkeys</h3>
+<ul>
+<li>Hotkey for home folder <code>Meta+E</code></li>
+<li>emacs <code>Ctrl+Alt+M</code></li>
+<li>emote <code>Ctrl+Alt+E</code></li>
+<li>cmus pause button on F8 <code>cmus-remote --pause</code></li>
+<li>cmus next track on Ctrl+F8 <code>cmus-remote --next</code></li>
+<li>Use Alt+Shift for keyboard layout change:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>gsettings set org.gnome.desktop.input-sources xkb-options <span style="color:#e6db74">&#34;[&#39;grp:alt_shift_toggle&#39;, &#39;grp_led:scroll&#39;, &#39;lv3:switch&#39;]&#34;</span>
+</span></span></code></pre></div><h3 id="grub">Grub</h3>
+<ul>
+<li>Set grub timeout to 3 seconds</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo vim /etc/default/grub
+</span></span><span style="display:flex;"><span>sudo update-grub
+</span></span></code></pre></div><p>Or  Install <code>grub-customizer</code> to fix grub timeout</p>
+<h3 id="battery-optimization">Battery optimization</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt install tlp 
+</span></span><span style="display:flex;"><span>sudo apt install acpi-call-dkms tp-smapi-dkms
+</span></span><span style="display:flex;"><span>sudo tlp start
+</span></span></code></pre></div><h3 id="remove-desktop-icons">Remove desktop icons</h3>
+<p><code>sudo apt install gnome-shell-extension-prefs</code></p>
+<h3 id="scale-custom-photos-on-desktop-backgrounds">Scale custom photos on desktop backgrounds</h3>
+<p><code>sudo apt install gnome-tweaks</code></p>
+<h2 id="installations">Installations</h2>
+<h3 id="python">Python</h3>
+<ul>
+<li>Setup python and python-pip:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt-get install python3-pip -y
+</span></span><span style="display:flex;"><span>sudo pip3 install --upgrade pip
+</span></span></code></pre></div><h3 id="lollypop-media-player">Lollypop media player</h3>
+<ul>
+<li>For media keys to work install this extension in gnome
+<ul>
+<li><a href="https://extensions.gnome.org/extension/1379/mpris-indicator-button/">https://extensions.gnome.org/extension/1379/mpris-indicator-button/</a></li>
+</ul>
+</li>
+<li>Before that:
+<ul>
+<li>add the gnome shell integration browser extension</li>
+<li>and run <code>sudo apt-get install chrome-gnome-shell</code></li>
+</ul>
+</li>
+</ul>
+<h3 id="m-teams">M$ Teams</h3>
+<p>Working at home made us using lots or proprietary software like this. 💩</p>
+<p>The standard downloaded file installation from their website fails on Linux, and it&rsquo;s better done like this:
+Install in UbuntuOS</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+</span></span><span style="display:flex;"><span>sudo sh -c <span style="color:#e6db74">&#39;echo &#34;deb [arch=amd64] https://packages.microsoft.com/repos/ms-teams stable main&#34; &gt; /etc/apt/sources.list.d/teams.list&#39;</span>
+</span></span><span style="display:flex;"><span>sudo apt update
+</span></span><span style="display:flex;"><span>sudo apt install teams
+</span></span></code></pre></div><h3 id="todotxt-installation">Todo.txt installation</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt-get install todo-txt
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># copy the default configuration file from /etc/todo-txt to a new created directory into your home folder (.todo-txt)</span>
+</span></span><span style="display:flex;"><span>sudo cp /etc/todo-txt/config ~/.todo-txt/ 
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># change the owner of the config file to your username:</span>
+</span></span><span style="display:flex;"><span>sudo chown myname ~/.todo-txt/config
+</span></span><span style="display:flex;"><span>sudo chmod +x /usr/share/bash-completion/completions/todo-txt
+</span></span></code></pre></div><p>Tell todo-txt where your files will reside. Edit the config file:</p>
+<p><code>nano ~/.todo-txt/config</code></p>
+<p>Make the following changes</p>
+<pre tabindex="0"><code># change this line
+export TODO\_DIR=~/todo\_files
+
+# add this line
+export TODOTXT\_SORT\_COMMAND=&#39;env LC\_COLLATE=C sort -k 2,2 -k 1,1n&#39;
+</code></pre><p>The final step is to make some changes to the ~/.bashrc file to make things easier. Add following lines</p>
+<pre tabindex="0"><code>export TODOTXT\_DEFAULT\_ACTION=ls
+alias t=&#34;todo-txt -t&#34;
+</code></pre><p>You can now use the t alias to list your tasks by priority</p>
+<p> </p>
+
+</content>
+<p>
+  
+</p>
+
+<p>
+  <i>
+    <time datetime='2021-08-29' .Params.updated>
+            Last updated: 2021-08-29
+
+    </time>
+  </i>
+</p>
+
+
+  </main>
+
+  <footer>
+
+
+
+
+
+Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
+
+<br><br>
+
+<div style="font-size:11px">
+  <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+  <br>
+  <a href="https://xn--sr8hvo.ws/previous">←</a>
+An <a href="https://xn--sr8hvo.ws">IndieWeb Webring</a> 🕸💍
+<a href="https://xn--sr8hvo.ws/next">→</a>
+
+</div>
+</footer>
+
+    
+</body>
+
+</html>

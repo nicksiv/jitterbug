@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="/images/logo.png" />
+<title>BSD systems notes | indictus</title>
+<meta name="title" content="BSD systems notes" />
+<meta name="description" content="These are notes I&rsquo;ve kept after trying to evaluate some BSD systems. I did not stick to them, but you never know!
+OpenBSD OpenBSD is a dream of me (I don&rsquo;t know why yet) but it is hard to get to dualboot. The first post solves it via UEFI boot and the second with a pre-created partition
+ackstorm.de - UEFI Dual Boot with Fedora and OpenBSD on ThinkPad X230 OpenBSD Dual Boot with Linux (Single Partition) - Terminal Root Setup OpenBSD at thinkpad x240 - Jacek Kowalczyk @ IT World OpenBSD on a Laptop James tutorial with some tips I wish I knew before # After installation commands in orderdhclient em0 # LAN connectfw_update # update firmwaresyspatchpkg_add -Uu # update packagessysmerge -dpkg_add vim tmux lynx dmenu firefox audacious cmus emacs hugo tor-browser transmission# for xfcepkg_add xfce xfce-extras xfce-power-manager upower xfce4-xkbdrcctl enable apmdrcctl set apmd flags -A # use apm to show battery statercctl start apmdrcctl enable messagebusrcctl start messagebusvi ~/." />
+<meta name="keywords" content="" />
+
+
+<meta property="og:title" content="BSD systems notes" />
+<meta property="og:description" content="These are notes I&rsquo;ve kept after trying to evaluate some BSD systems. I did not stick to them, but you never know!
+OpenBSD OpenBSD is a dream of me (I don&rsquo;t know why yet) but it is hard to get to dualboot. The first post solves it via UEFI boot and the second with a pre-created partition
+ackstorm.de - UEFI Dual Boot with Fedora and OpenBSD on ThinkPad X230 OpenBSD Dual Boot with Linux (Single Partition) - Terminal Root Setup OpenBSD at thinkpad x240 - Jacek Kowalczyk @ IT World OpenBSD on a Laptop James tutorial with some tips I wish I knew before # After installation commands in orderdhclient em0 # LAN connectfw_update # update firmwaresyspatchpkg_add -Uu # update packagessysmerge -dpkg_add vim tmux lynx dmenu firefox audacious cmus emacs hugo tor-browser transmission# for xfcepkg_add xfce xfce-extras xfce-power-manager upower xfce4-xkbdrcctl enable apmdrcctl set apmd flags -A # use apm to show battery statercctl start apmdrcctl enable messagebusrcctl start messagebusvi ~/." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/notes/openbsd/" /><meta property="og:image" content="/images/logo.png"/><meta property="article:section" content="notes" />
+<meta property="article:published_time" content="2022-01-22T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-01-22T00:00:00+00:00" /><meta property="og:site_name" content="Hugo ʕ•ᴥ•ʔ Bear" />
+
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="/images/logo.png"/>
+
+<meta name="twitter:title" content="BSD systems notes"/>
+<meta name="twitter:description" content="These are notes I&rsquo;ve kept after trying to evaluate some BSD systems. I did not stick to them, but you never know!
+OpenBSD OpenBSD is a dream of me (I don&rsquo;t know why yet) but it is hard to get to dualboot. The first post solves it via UEFI boot and the second with a pre-created partition
+ackstorm.de - UEFI Dual Boot with Fedora and OpenBSD on ThinkPad X230 OpenBSD Dual Boot with Linux (Single Partition) - Terminal Root Setup OpenBSD at thinkpad x240 - Jacek Kowalczyk @ IT World OpenBSD on a Laptop James tutorial with some tips I wish I knew before # After installation commands in orderdhclient em0 # LAN connectfw_update # update firmwaresyspatchpkg_add -Uu # update packagessysmerge -dpkg_add vim tmux lynx dmenu firefox audacious cmus emacs hugo tor-browser transmission# for xfcepkg_add xfce xfce-extras xfce-power-manager upower xfce4-xkbdrcctl enable apmdrcctl set apmd flags -A # use apm to show battery statercctl start apmdrcctl enable messagebusrcctl start messagebusvi ~/."/>
+
+
+
+<meta itemprop="name" content="BSD systems notes">
+<meta itemprop="description" content="These are notes I&rsquo;ve kept after trying to evaluate some BSD systems. I did not stick to them, but you never know!
+OpenBSD OpenBSD is a dream of me (I don&rsquo;t know why yet) but it is hard to get to dualboot. The first post solves it via UEFI boot and the second with a pre-created partition
+ackstorm.de - UEFI Dual Boot with Fedora and OpenBSD on ThinkPad X230 OpenBSD Dual Boot with Linux (Single Partition) - Terminal Root Setup OpenBSD at thinkpad x240 - Jacek Kowalczyk @ IT World OpenBSD on a Laptop James tutorial with some tips I wish I knew before # After installation commands in orderdhclient em0 # LAN connectfw_update # update firmwaresyspatchpkg_add -Uu # update packagessysmerge -dpkg_add vim tmux lynx dmenu firefox audacious cmus emacs hugo tor-browser transmission# for xfcepkg_add xfce xfce-extras xfce-power-manager upower xfce4-xkbdrcctl enable apmdrcctl set apmd flags -A # use apm to show battery statercctl start apmdrcctl enable messagebusrcctl start messagebusvi ~/."><meta itemprop="datePublished" content="2022-01-22T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2022-01-22T00:00:00+00:00" />
+<meta itemprop="wordCount" content="507"><meta itemprop="image" content="/images/logo.png"/>
+<meta itemprop="keywords" content="" />
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+
+  body {
+    font-family: Helvetica, sans-serif;
+    font-size: medium;
+    margin: auto;
+    padding: 20px;
+    max-width: 720px;
+    text-align: left;
+    background-color: #fff;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    background-color: #282a36;
+    color: #f8f8f2;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong,
+  b {
+      color: #f1fa8c;
+    }
+
+    a {
+      color: #ff79c6;
+      text-decoration: none;
+    }
+
+    a:visited { 
+      color: #ee79c6
+    }
+
+  .title {
+    text-decoration: none;
+    border: 0;
+  }
+
+  .title span {
+    font-weight: 400;
+  }
+
+  nav a {
+    margin-right: 10px;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  input {
+    font-size: 16px;
+  }
+
+  content {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    padding: 2px 5px;
+    background-color: #44475a;
+  }
+
+  pre code {
+    color: #ddd;
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 14px;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: #ccc;
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px;
+    text-align: center;
+  }
+
+  .helptext {
+    color: #777;
+    font-size: small;
+  }
+
+  .errorlist {
+    color: #eba613;
+    font-size: small;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+    line-height: 25px;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 90px;
+
+  }
+
+  ul.blog-posts li a:visited {
+    color: #8b6fcb;
+  }
+
+  @media (prefers-color-scheme: dark) {
+     
+    body {
+      background-color: #282a36;
+      color: #f8f8f2;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    strong,
+    b {
+      color: #f1fa8c;
+    }
+
+    a {
+      color: #ff79c6;
+      text-decoration: none;
+    }
+
+    a:visited { 
+      color: #ee79c6
+    }
+
+    code {
+      background-color: #44475a;
+    }
+
+    pre code {
+      color: #ddd;
+    }
+
+    blockquote {
+      color: #ccc;
+    }
+
+    textarea,
+    input {
+      background-color: #44475a;
+      color: #ddd;
+    }
+
+    .helptext {
+      color: #50fa7b;
+    }
+
+    circle {
+	border-radius: 50%;
+  }
+
+</style>
+<link rel="authorization_endpoint" href="https://indieauth.com/auth">
+<link rel="token_endpoint" href="https://tokens.indieauth.com/token">
+<link rel="microsub" href="https://aperture.p3k.io/microsub/897">
+<link href="https://octodon.social/@nicksiv" rel="me">
+<link href="https://github.com/nicksiv" rel="me">
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>indictus</h2>
+</a>
+<nav><a href="/">Home</a>
+
+
+
+<a href="/about">About</a>
+
+
+
+<a href="/notes">Notes</a>
+
+
+
+<a href="/blog">Journal</a>
+
+
+
+<a href="/writings">Γραπτά</a>
+
+
+</nav>
+</header>
+  <main>
+
+<h1>BSD systems notes</h1>
+
+<content>
+
+  <p>These are notes I&rsquo;ve kept after trying to evaluate some BSD systems. I did not stick to them, but you never know!</p>
+<h1 id="openbsd">OpenBSD</h1>
+<p>OpenBSD is a dream of me (I don&rsquo;t know why yet) but it is hard to get to dualboot. The first post solves it via UEFI boot and the second with a pre-created partition</p>
+<ul>
+<li><a href="https://ackstorm.de/posts/uefi-openbsd-fedora-dual-boot.html">ackstorm.de - UEFI Dual Boot with Fedora and OpenBSD on ThinkPad X230</a></li>
+<li><a href="https://en.terminalroot.com.br/openbsd-dual-boot-with-linux-single-partition/">OpenBSD Dual Boot with Linux (Single Partition) - Terminal Root</a></li>
+<li><a href="https://jacekkowalczyk82.github.io/update/manuals/bsd/2020/10/21/setup-openbsd-at-thinkpad-x240.html">Setup OpenBSD at thinkpad x240 - Jacek Kowalczyk @ IT World</a></li>
+<li><a href="https://www.c0ffee.net/blog/openbsd-on-a-laptop/">OpenBSD on a Laptop</a></li>
+<li><a href="https://dataswamp.org/~james/openbsd.html">James tutorial with some tips I wish I knew before</a></li>
+</ul>
+<pre tabindex="0"><code># After installation commands in order
+
+dhclient em0 # LAN connect
+fw_update # update firmware
+syspatch
+pkg_add -Uu # update packages
+sysmerge -d
+pkg_add vim tmux lynx dmenu firefox audacious cmus emacs hugo tor-browser transmission
+
+# for xfce
+pkg_add xfce xfce-extras xfce-power-manager upower xfce4-xkbd
+
+rcctl enable apmd
+rcctl set apmd flags -A # use apm to show battery state
+rcctl start apmd
+rcctl enable messagebus
+rcctl start messagebus
+
+vi ~/.xsession
+startxfce4 --with-ck-launch # or enter whichever desktop command eg. cwm
+
+# for xenodm display manager
+rcctl enable xenodm
+rcctl start xenodm
+
+usermod -G staff nick
+
+# doas config
+vi /etc/doas.conf
+permit persist nick
+permit nopass nick as root cmd mount
+permit nopass nick as root cmd umount
+permit nopass nick as root cmd ntfs-3g
+permit nopass nick as root cmd reboot
+permit nopass nick as root cmd shutdown
+
+
+# commands
+zzz #suspend
+
+# mount usb flash drive
+sysctl hw.disknames
+disklabel sd2
+mount /dev/sd2i /mnt/usb
+</code></pre><h1 id="freebsd">FreeBSD</h1>
+<ul>
+<li>Dual booting with Ubuntu, using this guide: <a href="https://distrowatch.com/weekly-mobile.php?issue=20181001#qa">https://distrowatch.com/weekly-mobile.php?issue=20181001#qa</a></li>
+<li>Resized Ubuntu partition using GParted iso image (also resized its parent partition because it was a logical partition)</li>
+<li>The goal was to have unassigned space as a primary partition (not as logical)</li>
+<li>FreeBSD cannot be installed on logical partitions, so I chose manually setup partition and created a new primary on the unassigned space</li>
+<li>Rebooted into Ubuntu to update the grub (add an entry for FreeBSD) using the distrowatch tutorial. I did it more easily using Grub Customizer GUI app</li>
+<li>Now I got FreeBSD as a second OS. I finally made it!</li>
+</ul>
+<h2 id="commands-to-setup-the-system-after-installation">Commands to setup the system after installation</h2>
+<p>Used youtube freeBSD installation videos:</p>
+<ul>
+<li>
+<p><a href="https://www.youtube.com/watch?v=K8cBa8y3RNQ&amp;list=PLugwS7L7NMXwC51yLI7br7rOLZw4UxuVj&amp;index=2&amp;app=desktop">FreeBSD Fridays: FreeBSD InstallFest Part 1 - YouTube</a></p>
+</li>
+<li>
+<p><a href="https://distrowatch.com/weekly-mobile.php?issue=20181001#qa">DistroWatch article about dual-booting installation</a></p>
+</li>
+<li>
+<p>While installing: Make sure to add normal user to the group <code>wheel</code></p>
+</li>
+<li>
+<p>First of all remove the beep sound</p>
+<blockquote>
+</blockquote>
+<p><code>sysctl kern.vt.enable_bell=0</code>
+<code>echo &quot;kern.vt.enable_bell=0&quot; &gt;&gt; /etc/sysctl.conf</code></p>
+</li>
+<li>
+<p>Shutting down: <code>shutdown -p now</code></p>
+</li>
+</ul>
+<h2 id="rest-of-commands">Rest of commands</h2>
+<pre tabindex="0"><code>freebsd-update fetch install
+pkg update
+pkg upgrade
+pkg install sudo
+visudo (uncomment line #%wheel...)
+pkg install xorg dbus
+sysrc dbus_enable=&#34;YES&#34;
+sysrc moused_enable=&#34;YES&#34;
+service dbus start
+service moused start
+dbus-uuidgen &gt; /etc/machine-id (I don&#39;t know why)
+</code></pre><h2 id="install-desktop-xfce">Install Desktop (xfce)</h2>
+<pre tabindex="0"><code>pkg install xfce
+sysrc hald_enable=&#34;YES&#34;
+vi .xinitrc (for each user you want startx to open xfce)
+    add the line &#34;exec xfce4-session&#34;
+startx
+</code></pre><h2 id="install-intel-gpu-drivers">Install Intel GPU Drivers</h2>
+<pre tabindex="0"><code>pkg install drm-kmod
+vi /etc/rc.conf
+  add the line --&gt;  kld_list=&#34;/boot/modules/i915kms.ko&#34;
+sudo pw groupmod video -m nick
+</code></pre><h2 id="other-things-to-read">Other things to read</h2>
+<ul>
+<li><a href="https://freebsdfoundation.org/freebsd-project/resources/installing-a-desktop-environment-on-freebsd/">https://freebsdfoundation.org/freebsd-project/resources/installing-a-desktop-environment-on-freebsd/</a></li>
+<li><a href="https://linoxide.com/distros/things-installing-freebsd-11/">https://linoxide.com/distros/things-installing-freebsd-11/</a></li>
+<li><a href="https://www.c0ffee.net/blog/freebsd-on-a-laptop/">FreeBSD on a Laptop</a></li>
+</ul>
+
+</content>
+<p>
+  
+</p>
+
+<p>
+  <i>
+    <time datetime='2022-01-22' .Params.updated>
+            Last updated: 2022-01-22
+
+    </time>
+  </i>
+</p>
+
+
+  </main>
+
+  <footer>
+
+
+
+
+
+Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
+
+<br><br>
+
+<div style="font-size:11px">
+  <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+  <br>
+  <a href="https://xn--sr8hvo.ws/previous">←</a>
+An <a href="https://xn--sr8hvo.ws">IndieWeb Webring</a> 🕸💍
+<a href="https://xn--sr8hvo.ws/next">→</a>
+
+</div>
+</footer>
+
+    
+</body>
+
+</html>
