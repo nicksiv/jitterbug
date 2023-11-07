@@ -1,11 +1,8 @@
-
 ## Welcome
 
+This is another dull/uninspired personal web space.
+( ͡° ͜ʖ ͡°)
 
+<em>for the time being the site is going through a minor reinvention of itself...</em>
 
-Welcome to indictvs, another dull and uninspired web space.
-
-I'm [nyko](about). You can view my [notes](/notes) and [journal](/blog).
-
-{{< figure src="/images/bitmoji.png" class="circle"  height="64">}}
 

@@ -1,14 +1,61 @@
 {{ define "main" }}
 {{ .Content }}
 
-<h3>Recent entries</h3>
-<div>
-       {{ range first 6 (where .Site.Pages "Section" "blog")}}
+<img src="/images/im-links.png">
+
+
+<div class="notesection">
+  <h3>Notes & Pages</h3>
+    <ul class="blog-posts">
+       {{ range (where .Site.Pages "Section" "other")}}
+       {{ if not .IsNode  }}
+           <li><a href="{{ .Permalink }}">{{ .Title }}</a>
+             {{ end }}
+             </li>
+	   {{ end }}
+	   </ul>
+     </div>
+
+
+<div class="notesection">
+  <h3>Technology</h3>
+      <ul class="blog-posts">
+
+       {{ range (where .Site.Pages "Section" "tech")}}
        {{ if not .IsNode  }}
            <li><a href="{{ .Permalink }}">{{ .Title }}</a>
              {{ end }}
              </li>
        {{ end }}
-     </div>
+	   </ul>
+</div>
+
+
+<div class="notesection">
+  <h3>Art</h3>
+      <ul class="blog-posts">
+
+       {{ range (where .Site.Pages "Section" "art")}}
+       {{ if not .IsNode  }}
+           <li><a href="{{ .Permalink }}">{{ .Title }}</a>
+             {{ end }}
+             </li>
+	   {{ end }}
+      </ul>
+         </div>
+
+
+<div class="notesection">
+  <h3>Γραπτά στα Ελληνικά</h3>
+      <ul class="blog-posts">
+
+       {{ range (where .Site.Pages "Section" "greek")}}
+       {{ if not .IsNode  }}
+           <li><a href="{{ .Permalink }}">{{ .Title }}</a>
+             {{ end }}
+             </li>
+	   {{ end }}
+      </ul>
+           </div>
 
 {{ end }}
