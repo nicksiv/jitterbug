@@ -16,7 +16,7 @@ Now after my workday, I'm a recreational programmer and I spend a lot of time ti
 I support online freedom, privacy rights and free software. I'm anti war, wealth, corporations and patriarchy.
 I like sustainable and analog technologies, classical, jazz and 80s music and arthouse films. 
 
-I mostly read and write about technology and computers. Here's a list of my [favorite blogs](../notes/blogroll) and [my setup](../notes/mysetup).
+I mostly read and write about technology and computers. Here's a list of my [favorite blogs](../other/blogroll) and [my setup](../other/mysetup).
 
 ### Projects & works
 * [panoplia](https://panoplia.wordpress.com), an art project of the blogs era, now archived
