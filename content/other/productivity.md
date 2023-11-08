@@ -6,7 +6,7 @@ lastmod: "2022-01-22"
 draft: false
 ---
 
-## Reading List
+## Productivity Reading List
 * [Personal compass by Nicholas Bate](https://blog.strategicedge.co.uk/2008/09/personalcompass.html)
 * [Productivity - Sam Altman](https://blog.samaltman.com/productivity)
 * [You are a Rocketship, This is how you blast off by Juvoni Beckford](https://juvoni.com/you-are-a-rocketship)

@@ -5,7 +5,7 @@ icon: "📓"
 lastmod: "2022-01-21"
 ---
 
-# ## Inspiration
+# ## Notebook Inspiration
 * [26 Years, 85 Notebooks: Design Observer](https://designobserver.com/feature/26-years-85-notebooks/6067)
 * [One notebook habit](https://shauntagrimes.medium.com/the-one-notebook-habit-699af3480e7d) 
 * [The Records Project - A Study of Paper vs. Computers](https://www.thetechnicalgeekery.com/2014/11/the-records-project-a-study-of-paper-vs-computers/)
