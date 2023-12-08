@@ -2,11 +2,19 @@
 #+date:       [2023-12-08 Fri 11:38]
 #+filetags:   :journal:public:
 #+identifier: 20231208T113847
-#+lastmod: 2023-12-08
-
+#+lastmod: 20231208
 
 After fiddling with tiddlywiki and later using markdown format solutions, I've decided to get serious and get back to emacs.
 While I was trying all those different approaches, I found out that my needs were minimizing and became far more realistic and down to earth. I now need a simple solution to take some notes. I don't have many projects to track or building a zettelkasten. I really could use anything, but why not chose the tool I love the most?
+
+So, for my new setup I use the following packages and a light theme I've never used before called [[https://github.com/fniessen/emacs-leuven-theme][leuven]] (thanks [[https://takeonrules.com/][Jeremy Friesen]])
+- [[https://protesilaos.com/emacs/denote][denote]]
+- [[https://github.com/abo-abo/swiper][ivy/counsel/swiper]]
+- [[https://github.com/Fuco1/dired-hacks][dired narrow]]
+- [[https://github.com/sabof/org-bullets][org-bullets]]
+- [[https://github.com/bastibe/org-journal][org-journal]]
+
+I loosely manage my notes using denote and [[https://github.com/namilus/denote-menu][denote-menu]] without creating many links between my notes (no more zettelkastens for me). If the need arises denote offers a solid linking mechanism so I won't worry too much about that.
 
 I use emacs a full decade now. I have now a working knowledge of the basic keychords and commands, I have my favorite packages and a basic configuration file. Org-mode commands have became a muscle memory, so I don't really need to learn anything new to start working. What makes me sad though, is the fact that I couldn't pass on my knowledge to other people. My blog was built and destroyed so many times, mainly because I was not happy with the content. I found it lame and bad written, so I kept on removing stuff until there is nothing left to be removed.
 
