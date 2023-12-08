@@ -1,0 +1,15 @@
+#+title:      Back to emacs
+#+date:       [2023-12-08 Fri 11:38]
+#+filetags:   :journal:public:
+#+identifier: 20231208T113847
+#+lastmod: 2023-12-08
+
+
+After fiddling with tiddlywiki and later using markdown format solutions, I've decided to get serious and get back to emacs.
+While I was trying all those different approaches, I found out that my needs were minimizing and became far more realistic and down to earth. I now need a simple solution to take some notes. I don't have many projects to track or building a zettelkasten. I really could use anything, but why not chose the tool I love the most?
+
+I use emacs a full decade now. I have now a working knowledge of the basic keychords and commands, I have my favorite packages and a basic configuration file. Org-mode commands have became a muscle memory, so I don't really need to learn anything new to start working. What makes me sad though, is the fact that I couldn't pass on my knowledge to other people. My blog was built and destroyed so many times, mainly because I was not happy with the content. I found it lame and bad written, so I kept on removing stuff until there is nothing left to be removed.
+
+So I'm starting again, with the hope that I see things more seriously and benefit my readers. Even if there's only one of them.
+
+/note/: Unfortunately I'm unable to count the number of times I have written a back to emacs journal entry... It's probably for the best.
