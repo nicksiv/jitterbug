@@ -1,6 +1,7 @@
 ---
-Title: Video games
+Title: video games
 Date : 2023-12-05
+tags:  #pub
 ---
 
 ## The last guardian (PS4)

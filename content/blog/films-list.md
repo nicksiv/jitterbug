@@ -1,7 +1,8 @@
 
 ---
-Title:  Favorite Films Lists
+Title:  favorite films list
 Date:   2023-01-04
+tags: #pub
 Folder: film
 ---
 
