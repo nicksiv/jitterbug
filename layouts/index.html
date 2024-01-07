@@ -16,7 +16,7 @@
        {{ range (where .Site.Pages "Section" "blog")}}
        {{ if not .IsNode  }}
        <!-- <li><a href="{{ .Permalink }}">{{ .Date.Format "2006-01-02" }}  {{ .Title }}</a> -->
-	    <li><a href="{{ .Permalink }}">- {{ .Lastmod.Format "2006-01-02" }}: {{ .Title }}</a>
+	    <li>-&nbsp;{{ .Lastmod.Format "2006-01-02" }}:&nbsp;<a href="{{ .Permalink }}">  {{ .Title }}</a>
 
              {{ end }}
              </li>

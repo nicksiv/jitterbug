@@ -9,7 +9,7 @@
 
 /* dracula https://github.com/dracula/obsidian/blob/main/theme.css */
   :root { --colback: #282a36;
-	  --colfor: #f8f8f2;
+	  --colfor: white;
 	  --colaccent:#50fa7b ;
 	  --colaccent2:#f1fa8c;
 	  --collink:#50fa7b;
@@ -22,16 +22,19 @@
   /* https://github.com/dracula/dracula-theme */
 
   body {
-      font-size: 13px;
+      /*font-size: 18px;*/
       font-family: monospace;
-      /* font-family: serif; */
-  margin: 6px 12px 12px 36px;
-  max-width: 620px;
+      /*font-family: serif; */
+      font: 1rem Inconsolata, monospace;
+      /* text-shadow: 0 0 5px #C8C8C8; */
+  margin: 26px 12px 12px 36px;
+  max-width: 900px;
   text-align: left;
   word-wrap: break-word;
   overflow-wrap: break-word;
   background-color:  var(--colback);
   color: var(--colfor);
+  
   }
 
   h1,
@@ -51,7 +54,10 @@
   }
 
  h2 {
-  color: var(--colaccent2);
+     background-color: var(--colaccent);
+     color: var(--colback);
+     padding-left: 12px;
+     font-weight: normal;
   }
 
   
@@ -59,13 +65,17 @@
   font-size:medium;
   }
 
+  a:hover { color: var(--colvisited);text-decoration:underline; }
+  /*a:before { content: '<'; }
+  a:after { content: '>'; }*/
+  
   a {
-  color: var(--collink);
+      color: var(--collink);
   text-decoration: none;
   }
 
   a:visited { 
-      color: var(--colvisited);
+
   }
 
   .title {
@@ -160,7 +170,11 @@
   }
 
   ul.blog-posts li {
-  display: flex;
+      display: flex;
+      border-left: 6px solid var(--colquote);
+      padding-left:12px;
+      margin-left:6px;
+
   }
 
   ul.blog-posts li span {
@@ -172,14 +186,17 @@
   float: left;
   height: auto;
   width: 100%;
-  padding: 0 1px 16px;
+  padding: 0px 30px 16px;
+  list-style-type: disc;
+
+
   }
 
   h3 {
 
   }
   ul.blog-posts li a:visited {
-  color: var(--colvisited);
+
   }
 
 </style>
