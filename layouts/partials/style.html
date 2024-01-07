@@ -8,15 +8,30 @@
 	  --collink:#458588;
 	  --colvisited:#B16286;
 	  --colquote:#458588;
+	  --font-stack: "Source Serif Pro", "Apple Garamond", "Baskerville", "Libre Baskerville", "Droid Serif", "Times New Roman", "Times", serif, "Noto Emoji", "Quivira";
+	  --font-size: 20px;
+	  		
 	}
-  
+
+  /*plain dark*/
+    :root { --colback: #161616;
+	  --colfor: #f1f1f1;
+	  --colaccent2:#D65D0E ;
+	  --colaccent:#D79921;
+	  --collink:#ccc;
+	  --colvisited:#999;
+	  --colquote:#458588;
+	  --font-stack: "Source Serif Pro", "Apple Garamond", "Baskerville", "Libre Baskerville", "Droid Serif", "Times New Roman", "Times", serif, "Noto Emoji", "Quivira";
+	  --font-size: 18px;
+	  		
+	}
+
   @media (prefers-color-scheme: dark) {
   /* https://github.com/dracula/dracula-theme */
 
   body {
-      /*font-size: 18px;*/
-      font-family: serif;
-      /* text-shadow: 0 0 5px #C8C8C8; */
+      font-family: var(--font-stack);
+      font-size: var(--font-size);
   margin: 26px 12px 12px 36px;
   max-width: 900px;
   text-align: left;
@@ -39,28 +54,26 @@
   }
 
   h1 {
-  font-size:x-large;
+  
   color: var(--colaccent2);
   }
 
  h2 {
      color: var(--colaccent);
-     padding-left: 12px;
+
    
   }
 
   
-  h2 {
-  font-size:medium;
-  }
 
-  a:hover { color: var(--colvisited);text-decoration:underline; }
+  a:hover { color: var(--colvisited); }
   /*a:before { content: '<'; }
   a:after { content: '>'; }*/
   
   a {
       color: var(--collink);
-  text-decoration: none;
+      border-bottom: 1px dotted var(--collink);
+      text-decoration:none;
   }
 
   a:visited { 
@@ -98,9 +111,12 @@
   }
 
   img {
-  max-width: 100%;
-  }
+      max-width: 100%;
+   }
 
+  figure {
+  margin: 2rem 0;
+}
   code {
   padding: 2px 5px;
   background-color: #44475a;
@@ -126,6 +142,10 @@
 
   }
 
+  footer a {
+      border-bottom:none;
+      color:var(--colvisited);
+  }
 
   textarea,
   input {
@@ -183,7 +203,7 @@
 
   .date {
       color: var(--colaccent);
-      font-family:monospace;
+
 	   
   }
   h3 {
