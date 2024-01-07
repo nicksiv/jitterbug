@@ -5,6 +5,23 @@ tags: #pub
 lastmod: 2024-01-07
 ---
 
+## Contents
+
+  - [minimizing my blog](#minimizing-my-blog)
+  - [back to emacs](#back-to-emacs)
+  - [keeping journals taught me nothing](#keeping-journals-taught-me-nothing)
+  - [so vast, the music](#so-vast-the-music)
+  - [cat trouble](#cat-trouble)
+  - [mimetism](#mimetism)
+  - [Classical Music](#classical-music)
+  - [Quarantine diaries](#quarantine-diaries)
+  - [Trying something new](#trying-something-new)
+  - [I'm off with the infinity loops](#im-off-with-the-infinity-loops)
+  - [What if photography dies?](#what-if-photography-dies)
+  - [Reinventing yourself](#reinventing-yourself)
+  - [Quitting Facebook made me happy](#quitting-facebook-made-me-happy)
+  - [381 days in Linux](#381-days-in-linux)
+
 ## minimizing my blog
 >2024-01-06
 
@@ -87,6 +104,100 @@ Now I'm asking myself questions like: why do I like the things I like? Why don't
 Apparently there is always some [model](https://read.lukeburgis.com/p/mimetic-desire-101) that tells us what is good to like.
 
 Oh my, how disappointing is this? 😞 We are the sum of out models.
+
+---
+
+## Classical Music
+> 2021-06-27
+
+After being obsessed with classical music for more than a year and I hardly listen to anything else, I found a great course to learn more about it.
+
+It was a 9-week course which was interesting, well laid out and useful. Most importantly, one doesn’t have to understand musical notation or have a background in music theory to follow through. And while I had a sense that the classical music world is huge, now I know that it’s massive. It feels like you are connected to a vast, God-sent, thousand-year inspiration ocean.
+
+It’s so sad I had to grow much older to appreciate it, but I choose to believe that it’s never too late for greatness!
+
+I highly recommend this Yale university free course to classical music fans: [Introduction to classical music](https://www.coursera.org/learn/introclassicalmusic/home/welcome)
+
+---
+
+## Quarantine diaries
+> 2020-11-04
+
+Okay, keeping a blog alive is hard. I never managed to do that more than some months.
+But I reboot quite often.
+
+So, it's been almost 6 months. We are now in a 2nd quarantine due to COVID-19 and my blog still exists.
+I don't like it very much, It's not what I was going for when I started it (6 times) but I'll keep it anyway.
+
+There are many things that occupied my mind all this time, and I will try to share. Like this big directory of personal blogs. I find some of the blogs inside really  inspiring.
+
+[https://personalsit.es](https://personalsit.es)
+
+Now as a big update from the previous months is that I grow fond of [Tiddlywiki](https://tiddlywiki.com) again. Yes, after many years of using it, I found out that there was a new version which is really awesome. Needless to say I started my own wiki mixing some practices of various knowledge management practices that are trending lately in the field. Then I found a guy (h0p3) with a huge [really inspiring wiki](https://h0p3.neocities.org/) and it made so much sense.
+
+---
+
+## Trying something new
+> 2020-01-30
+
+It's always nice to try something new. I don't usually get such opportunities but you never know when you will get one strange idea to try out.
+
+I had one idea regarding to my music listening habits. I always try to listen to albums. Lots of albums over the years. But there are times when I get tired of my choices. There are certain genres, publications and channels, into and outside the mainstream forming our taste in music. When I was younger I used to believe that my music was my choice. Needless to say, I was so wrong about that.
+
+So what music is next? Something unexpected.
+
+A [random album](https://www.randomlists.com/random-albums?qty=1) that I will turn my attention to.
+
+And who knows? Maybe I stumble to something good which wasn't so "hip" for me back then. This can be a refreshing exercise of modesty and humility.
+
+https://www.randomlists.com/random-albums
+
+---
+
+## I'm off with the infinity loops
+> 2019-05-21
+
+Now that I have more free time and I can totally write new posts on this blog I can elaborate on the happy torture of the **infinity loops**.
+
+By infinity loops I'm referring to the endless feeds of information we are facing everyday in our mobile devices.
+
+The time I was spending on my mobile in various apps was way more than I have imagined. And I'm not referring to Facebook (it's been 2 years since I've delete my profile). It was all the rest. Twitter, Reddit, YouTube and recently Netflix. Oh, mobile Netflix. What a way to waste huge amounts of time.
+
+That was until I realized those apps did not offer me any value and I uninstalled all of them. But this isn't so easy as you may think. It is an addiction and like all the other addictions and you are in it **for life**. I didn't make it from the first try. There were times that I was bored or slightly unhappy and cracked. I had quickly installed one of those apps to get a fix.
+
+This is how hooked we all are into this new form of global economy which makes people rich by sucking up our attention. I admit, It took constant struggle but at some point I've made it.
+
+Now the only thing I have in my mobile, is a feed reader and my firefox bookmarks. I've got always something to read but it doesn't lead to a loop. Unfortunately many sites do not offer RSS feeds anymore to make you subscribe into mailing lists and Facebook or Twitter feeds, but oh well!
+
+Who knows what an [RSS feed](https://en.wikipedia.org/wiki/Rss) is nowadays anyway?
+
+The upside from all this? From the time I did this choice, I've been reading more physical books, and I have time to get bored, which had led me to some interesting ideas at last. So, I guess this whole deal is something worth struggling for.
+
+---
+
+## What if photography dies?
+> 2018-08-22
+
+I don't remember when I shot the last photo with my phone. I'm sure it's been months.
+
+In the meantime I see everyone else shooting everything. Sunsets, buildings and food. And lots of selfies. Oh God, It seems like yesterday that it was Oxford's [word of the year (2013)](https://www.cnn.com/2013/11/19/living/selfie-word-of-the-year/index.html)! What a revolution.
+
+Now you just shoot and store to the cloud. It's so easy that nobody gets a chance to see a picture let alone print it. I agree with one of my favorite directors that this process is not photography and should get another name. For as long as it lasts.
+
+[Filmmaker Wim Wenders Explains How Mobile Phones Have Killed Photography via @openculture](http://www.openculture.com/?p=1054647)
+
+---
+
+## Reinventing yourself
+> 2018-08-21
+
+I used to love that phrase. But it's totally useless by itself. It is good for catchy post titles on every productivity blog I've read. It's a really empty phrase of the ones I've fed up reading.
+
+Because, if that phrase appeals to you, it means you are wrong at something. You were wrong all along. Otherwise why would you pursue a reinvention?
+
+And it's so hard to admit it.
+
+I was wrong all along.
 
 ---
 
