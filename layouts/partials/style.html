@@ -15,9 +15,7 @@
 
   body {
       /*font-size: 18px;*/
-      font-family: monospace;
-      /*font-family: serif; */
-      font: 1rem Inconsolata, monospace;
+      font-family: serif;
       /* text-shadow: 0 0 5px #C8C8C8; */
   margin: 26px 12px 12px 36px;
   max-width: 900px;
@@ -48,7 +46,7 @@
  h2 {
      color: var(--colaccent);
      padding-left: 12px;
-     font-weight: normal;
+   
   }
 
   
@@ -153,6 +151,10 @@
   font-size: small;
   }
 
+  ul {
+  list-style-type: square;
+
+  }
   /* blog posts */
   ul.blog-posts {
   list-style-type: none;
@@ -162,14 +164,12 @@
 
   ul.blog-posts li {
       display: flex;
-      border-left: 6px solid var(--colquote);
-      padding-left:12px;
-      margin-left:6px;
+  list-style-type: none;
 
   }
 
   ul.blog-posts li span {
-  flex: 0 0 90px;
+  flex: 0 0 0px;
 
   }
 
@@ -177,12 +177,15 @@
   float: left;
   height: auto;
   width: 100%;
-  padding: 0px 30px 16px;
-  list-style-type: disc;
-
+  padding: 0px 0px 16px;
 
   }
 
+  .date {
+      color: var(--colaccent);
+      font-family:monospace;
+	   
+  }
   h3 {
 
   }
