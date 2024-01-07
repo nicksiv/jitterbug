@@ -1,17 +1,18 @@
 
 ---
 Title:  favorite films list
-Date:   2023-01-04
+Date:   2024-01-04
 tags: #pub
 Folder: film
+lastmod: 2024-01-06
 ---
 
-# Watched in 2024
+## Watched in 2024
 
 1. Wonka (Paul King) - 2023
 
 
-# Watched in 2023
+## Watched in 2023
 
 1. La Dolce Vita (Federico Fellini) - 1960
 2. Decision to leave (Park Chan-wook) - 2022
@@ -23,14 +24,16 @@ Folder: film
 8. The Salesman (Asghar Farhadi) - 2016
 9. It must be heaven (Elias Suleiman) - 2019
 10. Full time (Eric Gravel) - 2021
-11. Babyteeth (Shannon Murphy) - 2019
-12. Druk (Thomas Vinterberg) - 2020
-13. Μήλα/Apples (Christos Nikou) - 2020
-14. Two days , one night (Jean-Pierre Dardenne, Luc Dardenne) - 2014
-15. The Square (Ruben Östlund) - 2017
+* Babyteeth (Shannon Murphy) - 2019
+* Druk (Thomas Vinterberg) - 2020
+* Μήλα/Apples (Christos Nikou) - 2020
+* Two days , one night (Jean-Pierre Dardenne, Luc Dardenne) - 2014
+* The Square (Ruben Östlund) - 2017
+* The Banshees of Inisherin (Martin McDonagh) - 2022 
+* The menu (Mark Mylod) - 2022 
 
 
-# Watched in 2022
+## Watched in 2022
 
 1. The handmaiden (Park Chan-wook) - 2016
 2. Paris, Texas - 1984
@@ -44,7 +47,7 @@ Folder: film
 10. Modern times - 1934
 
 
-# Watched in 2021
+## Watched in 2021
 
 1. Amadeus - 1984
 2. Portrait of a lady on fire (2019)
@@ -57,7 +60,7 @@ Folder: film
 9. Thunder road - 2019
 
 
-# Watched in 2020
+## Watched in 2020
 
 1. Bicycle thief - 1948
 2. Rear window - 1954
@@ -68,20 +71,20 @@ Folder: film
 7. Carol
 8. Shoplifters 
 9. Capernaum (2018)
-10. Sorry we missed you
-11. The White ribbon - 2009
-12. Call me by your name (2017)
-13. Dr.Strangelove (1964)
-14. The Irishman
-15. The Manchurian candidate
-16. The hurt locker
-17. Sorry to bother you
-18. Phantom thread - 2017
-19. Joker (2019)
-20. J'accuse
+10. The White ribbon - 2009
+* Sorry we missed you
+* Call me by your name (2017)
+* J'accuse
+* Phantom thread - 2017
+* The Irishman
+* The Manchurian candidate
+* The hurt locker
+* Sorry to bother you
+* Dr.Strangelove (1964)
+* Joker (2019)
 
 
-# Watched in 2019
+## Watched in 2019
 
 1. Parasite - 2019
 2. The favourite - 2018

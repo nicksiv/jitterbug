@@ -10,17 +10,21 @@
 
 <div class="notesection">
   <h3>c0nt3nts</h3>
+        <span style="color:grey;">{recently modified items on top}</span>
       <ul class="blog-posts">
 
        {{ range (where .Site.Pages "Section" "blog")}}
        {{ if not .IsNode  }}
        <!-- <li><a href="{{ .Permalink }}">{{ .Date.Format "2006-01-02" }}  {{ .Title }}</a> -->
-	    <li><a href="{{ .Permalink }}">- {{ .Title }}</a>
+	    <li><a href="{{ .Permalink }}">- {{ .Lastmod.Format "2006-01-02" }}: {{ .Title }}</a>
 
              {{ end }}
              </li>
        {{ end }}
-	   </ul>
+      </ul>
+
+
+      
 </div>
 
 

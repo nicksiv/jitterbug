@@ -2,6 +2,7 @@
 Title: video games
 Date : 2023-12-05
 tags:  #pub
+lastmod: 2024-01-06
 ---
 
 ## The last guardian (PS4)
