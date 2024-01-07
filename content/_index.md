@@ -1,8 +1,7 @@
-#### ~/.welcome
+## ~/.welcome
 
-This is another dull/uninspired personal web space.
-( ͡° ͜ʖ ͡°)
+This is a personal web space,
 
-<em>for the time being the site is going through a minor reinvention of itself...</em>
+<em>which for the time being it's going through a minor reinvention of itself...</em>
 
 
