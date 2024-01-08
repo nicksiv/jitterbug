@@ -1,444 +1,0 @@
-<!DOCTYPE html>
-<html lang="en-US">
-
-<head>
-  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="shortcut icon" href="/images/logo.png" />
-<title>Vim editor | indictus</title>
-<meta name="title" content="Vim editor" />
-<meta name="description" content="Markdown support https://secluded.site/vim-as-a-markdown-editor/ Plugins Managing plugins in Vim Other -Building a Note-taking System with Vanilla Vim
-My Basic config syntax oncolorscheme peachpuffset autoindentset hlsearch&#34;Move line up &amp; down&#34;nmap &lt;C-UP&gt; :m-2&lt;CR&gt; nmap &lt;C-DOWN&gt; :m&#43;1&lt;CR&gt; Cheatsheet Cursor movement (Inside command/normal mode)
-The four directions in Vim, keys h, j, k, and l.
-w - jump by start of words (punctuation considered words)W - jump by words (spaces separate words)e - jump to end of words (punctuation considered words)E - jump to end of words (no punctuation)b - jump backward by words (punctuation considered words)B - jump backward by words (no punctuation)0 - (zero) start of line^ - first non-blank character of line (same as 0w)$ - end of lineAdvanced (in order of what I find most useful)Ctrl&#43;d - move down half a pageCtrl&#43;u - move up half a page} - go forward by paragraph (the next blank line){ - go backward by paragraph (the next blank line)gg - go to the top of the pageG - go the bottom of the page: [num] [enter] - Go to that line in the documentSearchingf [char] - Move to the next char on the current line after the cursorF [char] - Move to the next char on the current line before the cursort [char] - Move to before the next char on the current line after the cursorT [char] - Move to before the next char on the current line before the cursorAll these commands can be followed by ; (semicolon) to go to the next searched item, and , (comma) to go the previous searched itemInsert/Appending/Editing Text" />
-<meta name="keywords" content="" />
-
-
-<meta property="og:title" content="Vim editor" />
-<meta property="og:description" content="Markdown support https://secluded.site/vim-as-a-markdown-editor/ Plugins Managing plugins in Vim Other -Building a Note-taking System with Vanilla Vim
-My Basic config syntax oncolorscheme peachpuffset autoindentset hlsearch&#34;Move line up &amp; down&#34;nmap &lt;C-UP&gt; :m-2&lt;CR&gt; nmap &lt;C-DOWN&gt; :m&#43;1&lt;CR&gt; Cheatsheet Cursor movement (Inside command/normal mode)
-The four directions in Vim, keys h, j, k, and l.
-w - jump by start of words (punctuation considered words)W - jump by words (spaces separate words)e - jump to end of words (punctuation considered words)E - jump to end of words (no punctuation)b - jump backward by words (punctuation considered words)B - jump backward by words (no punctuation)0 - (zero) start of line^ - first non-blank character of line (same as 0w)$ - end of lineAdvanced (in order of what I find most useful)Ctrl&#43;d - move down half a pageCtrl&#43;u - move up half a page} - go forward by paragraph (the next blank line){ - go backward by paragraph (the next blank line)gg - go to the top of the pageG - go the bottom of the page: [num] [enter] - Go to that line in the documentSearchingf [char] - Move to the next char on the current line after the cursorF [char] - Move to the next char on the current line before the cursort [char] - Move to before the next char on the current line after the cursorT [char] - Move to before the next char on the current line before the cursorAll these commands can be followed by ; (semicolon) to go to the next searched item, and , (comma) to go the previous searched itemInsert/Appending/Editing Text" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="/notes/vim/" /><meta property="og:image" content="/images/logo.png"/><meta property="article:section" content="notes" />
-<meta property="article:published_time" content="2022-01-21T00:00:00+00:00" />
-<meta property="article:modified_time" content="2022-01-21T00:00:00+00:00" /><meta property="og:site_name" content="Hugo ʕ•ᴥ•ʔ Bear" />
-
-
-
-<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="/images/logo.png"/>
-
-<meta name="twitter:title" content="Vim editor"/>
-<meta name="twitter:description" content="Markdown support https://secluded.site/vim-as-a-markdown-editor/ Plugins Managing plugins in Vim Other -Building a Note-taking System with Vanilla Vim
-My Basic config syntax oncolorscheme peachpuffset autoindentset hlsearch&#34;Move line up &amp; down&#34;nmap &lt;C-UP&gt; :m-2&lt;CR&gt; nmap &lt;C-DOWN&gt; :m&#43;1&lt;CR&gt; Cheatsheet Cursor movement (Inside command/normal mode)
-The four directions in Vim, keys h, j, k, and l.
-w - jump by start of words (punctuation considered words)W - jump by words (spaces separate words)e - jump to end of words (punctuation considered words)E - jump to end of words (no punctuation)b - jump backward by words (punctuation considered words)B - jump backward by words (no punctuation)0 - (zero) start of line^ - first non-blank character of line (same as 0w)$ - end of lineAdvanced (in order of what I find most useful)Ctrl&#43;d - move down half a pageCtrl&#43;u - move up half a page} - go forward by paragraph (the next blank line){ - go backward by paragraph (the next blank line)gg - go to the top of the pageG - go the bottom of the page: [num] [enter] - Go to that line in the documentSearchingf [char] - Move to the next char on the current line after the cursorF [char] - Move to the next char on the current line before the cursort [char] - Move to before the next char on the current line after the cursorT [char] - Move to before the next char on the current line before the cursorAll these commands can be followed by ; (semicolon) to go to the next searched item, and , (comma) to go the previous searched itemInsert/Appending/Editing Text"/>
-
-
-
-<meta itemprop="name" content="Vim editor">
-<meta itemprop="description" content="Markdown support https://secluded.site/vim-as-a-markdown-editor/ Plugins Managing plugins in Vim Other -Building a Note-taking System with Vanilla Vim
-My Basic config syntax oncolorscheme peachpuffset autoindentset hlsearch&#34;Move line up &amp; down&#34;nmap &lt;C-UP&gt; :m-2&lt;CR&gt; nmap &lt;C-DOWN&gt; :m&#43;1&lt;CR&gt; Cheatsheet Cursor movement (Inside command/normal mode)
-The four directions in Vim, keys h, j, k, and l.
-w - jump by start of words (punctuation considered words)W - jump by words (spaces separate words)e - jump to end of words (punctuation considered words)E - jump to end of words (no punctuation)b - jump backward by words (punctuation considered words)B - jump backward by words (no punctuation)0 - (zero) start of line^ - first non-blank character of line (same as 0w)$ - end of lineAdvanced (in order of what I find most useful)Ctrl&#43;d - move down half a pageCtrl&#43;u - move up half a page} - go forward by paragraph (the next blank line){ - go backward by paragraph (the next blank line)gg - go to the top of the pageG - go the bottom of the page: [num] [enter] - Go to that line in the documentSearchingf [char] - Move to the next char on the current line after the cursorF [char] - Move to the next char on the current line before the cursort [char] - Move to before the next char on the current line after the cursorT [char] - Move to before the next char on the current line before the cursorAll these commands can be followed by ; (semicolon) to go to the next searched item, and , (comma) to go the previous searched itemInsert/Appending/Editing Text"><meta itemprop="datePublished" content="2022-01-21T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2022-01-21T00:00:00+00:00" />
-<meta itemprop="wordCount" content="828"><meta itemprop="image" content="/images/logo.png"/>
-<meta itemprop="keywords" content="" />
-<meta name="referrer" content="no-referrer-when-downgrade" />
-
-  <style>
-
-  body {
-    font-family: Helvetica, sans-serif;
-    font-size: medium;
-    margin: auto;
-    padding: 20px;
-    max-width: 720px;
-    text-align: left;
-    background-color: #fff;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    line-height: 1.5;
-    background-color: #282a36;
-    color: #f8f8f2;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  strong,
-  b {
-      color: #f1fa8c;
-    }
-
-    a {
-      color: #ff79c6;
-      text-decoration: none;
-    }
-
-    a:visited { 
-      color: #ee79c6
-    }
-
-  .title {
-    text-decoration: none;
-    border: 0;
-  }
-
-  .title span {
-    font-weight: 400;
-  }
-
-  nav a {
-    margin-right: 10px;
-  }
-
-  textarea {
-    width: 100%;
-    font-size: 16px;
-  }
-
-  input {
-    font-size: 16px;
-  }
-
-  content {
-    line-height: 1.6;
-  }
-
-  table {
-    width: 100%;
-  }
-
-  img {
-    max-width: 100%;
-  }
-
-  code {
-    padding: 2px 5px;
-    background-color: #44475a;
-  }
-
-  pre code {
-    color: #ddd;
-    display: block;
-    padding: 20px;
-    white-space: pre-wrap;
-    font-size: 14px;
-  }
-
-  blockquote {
-    border-left: 1px solid #999;
-    color: #ccc;
-    padding-left: 20px;
-    font-style: italic;
-  }
-
-  footer {
-    padding: 25px;
-    text-align: center;
-  }
-
-  .helptext {
-    color: #777;
-    font-size: small;
-  }
-
-  .errorlist {
-    color: #eba613;
-    font-size: small;
-  }
-
-   
-  ul.blog-posts {
-    list-style-type: none;
-    padding: unset;
-    line-height: 25px;
-  }
-
-  ul.blog-posts li {
-    display: flex;
-  }
-
-  ul.blog-posts li span {
-    flex: 0 0 90px;
-
-  }
-
-  ul.blog-posts li a:visited {
-    color: #8b6fcb;
-  }
-
-  @media (prefers-color-scheme: dark) {
-     
-    body {
-      background-color: #282a36;
-      color: #f8f8f2;
-    }
-
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    strong,
-    b {
-      color: #f1fa8c;
-    }
-
-    a {
-      color: #ff79c6;
-      text-decoration: none;
-    }
-
-    a:visited { 
-      color: #ee79c6
-    }
-
-    code {
-      background-color: #44475a;
-    }
-
-    pre code {
-      color: #ddd;
-    }
-
-    blockquote {
-      color: #ccc;
-    }
-
-    textarea,
-    input {
-      background-color: #44475a;
-      color: #ddd;
-    }
-
-    .helptext {
-      color: #50fa7b;
-    }
-
-    circle {
-	border-radius: 50%;
-  }
-
-</style>
-<link rel="authorization_endpoint" href="https://indieauth.com/auth">
-<link rel="token_endpoint" href="https://tokens.indieauth.com/token">
-<link rel="microsub" href="https://aperture.p3k.io/microsub/897">
-<link href="https://octodon.social/@nicksiv" rel="me">
-<link href="https://github.com/nicksiv" rel="me">
-</head>
-
-<body>
-  <header><a href="/" class="title">
-  <h2>indictus</h2>
-</a>
-<nav><a href="/">Home</a>
-
-
-
-<a href="/about">About</a>
-
-
-
-<a href="/notes">Notes</a>
-
-
-
-<a href="/blog">Journal</a>
-
-
-
-<a href="/writings">Γραπτά</a>
-
-
-</nav>
-</header>
-  <main>
-
-<h1>Vim editor</h1>
-
-<content>
-
-  <h2 id="markdown-support">Markdown support</h2>
-<ul>
-<li><a href="https://secluded.site/vim-as-a-markdown-editor/">https://secluded.site/vim-as-a-markdown-editor/</a></li>
-</ul>
-<h2 id="plugins">Plugins</h2>
-<ul>
-<li><a href="https://gist.github.com/manasthakur/ab4cf8d32a28ea38271ac0d07373bb53">Managing plugins in Vim</a></li>
-</ul>
-<h2 id="other">Other</h2>
-<p>-<a href="https://www.edwinwenink.xyz/posts/42-vim_notetaking/">Building a Note-taking System with Vanilla Vim</a></p>
-<h2 id="my-basic-config">My Basic config</h2>
-<pre tabindex="0"><code>syntax on
-colorscheme peachpuff
-set autoindent
-set hlsearch
-
-&#34;Move line up &amp; down&#34;
-nmap &lt;C-UP&gt; :m-2&lt;CR&gt;  
-nmap &lt;C-DOWN&gt; :m+1&lt;CR&gt;
-</code></pre><h2 id="cheatsheet">Cheatsheet</h2>
-<p>Cursor movement (Inside command/normal mode)</p>
-<p>The four directions in Vim, keys h, j, k, and l.</p>
-<pre><code>w - jump by start of words (punctuation considered words)
-W - jump by words (spaces separate words)
-e - jump to end of words (punctuation considered words)
-E - jump to end of words (no punctuation)
-b - jump backward by words (punctuation considered words)
-B - jump backward by words (no punctuation)
-0 - (zero) start of line
-^ - first non-blank character of line (same as 0w)
-$ - end of line
-Advanced (in order of what I find most useful)
-    Ctrl+d - move down half a page
-    Ctrl+u - move up half a page
-    } - go forward by paragraph (the next blank line)
-    { - go backward by paragraph (the next blank line)
-    gg - go to the top of the page
-    G - go the bottom of the page
-    : [num] [enter] - Go to that line in the document
-    Searching
-        f [char] - Move to the next char on the current line after the cursor
-        F [char] - Move to the next char on the current line before the cursor
-        t [char] - Move to before the next char on the current line after the cursor
-        T [char] - Move to before the next char on the current line before the cursor
-        All these commands can be followed by ; (semicolon) to go to the next searched item, and , (comma) to go the previous searched item
-</code></pre>
-<p>Insert/Appending/Editing Text</p>
-<pre><code>Results in Insert mode
-    i - start insert mode at cursor
-    I - insert at the beginning of the line
-    a - append after the cursor
-    A - append at the end of the line
-    o - open (append) blank line below current line (no need to press return)
-    O - open blank line above current line
-    cc - change (replace) an entire line
-    c [movement command] - change (replace) from the cursor to the move-to point.
-    ex. ce changes from the cursor to the end of the cursor word
-Esc or Ctrl+[ - exit insert mode
-r [char] - replace a single character with the specified char (does not use Insert mode)
-d - delete
-    d - [movement command] deletes from the cursor to the move-to point.
-    ex. de deletes from the cursor to the end of the current word
-dd - delete the current line
-Advanced
-    J - join line below to the current one
-</code></pre>
-<p>Marking text (visual mode)</p>
-<pre><code>v - starts visual mode
-    From here you can move around as in normal mode (h, j, k, l etc.) and can then do a command (such as y, d, or c)
-V - starts linewise visual mode
-Ctrl+v - start visual block mode
-Esc or Ctrl+[ - exit visual mode
-Advanced
-    O - move to other corner of block
-    o - move to other end of marked area
-</code></pre>
-<p>Visual commands</p>
-<p>Type any of these while some text is selected to apply the action</p>
-<pre><code>y - yank (copy) marked text
-d - delete marked text
-c - delete the marked text and go into insert mode (like c does above)
-
-(Copy from terminal to linux clipboard: Select with mouse and then Ctrl+Shift+C)
-</code></pre>
-<p>Cut and Paste</p>
-<pre><code>yy - yank (copy) a line
-p - put (paste) the clipboard after cursor
-P - put (paste) before cursor
-dd - delete (cut) a line
-x - delete (cut) current character
-X - delete previous character (like backspace)
-</code></pre>
-<p>Exiting</p>
-<pre><code>:w - write (save) the file, but don’t exit
-:wq - write (save) and quit
-:q - quit (fails if anything has changed)
-:q! - quit and throw away changes
-</code></pre>
-<p>Search/Replace</p>
-<pre><code>/pattern - search for pattern
-?pattern - search backward for pattern
-n - repeat search in same direction
-N - repeat search in opposite direction
-:%s/old/new/g - replace all old with new throughout file (gn is better though)
-:%s/old/new/gc - replace all old with new throughout file with confirmations
-</code></pre>
-<p>Working with multiple files</p>
-<pre><code>:e filename - Edit a file
-:tabe - Make a new tab
-gt - Go to the next tab
-gT - Go to the previous tab
-Advanced
-    :vsp - vertically split windows
-    ctrl+ws - Split windows horizontally
-    ctrl+wv - Split windows vertically
-    ctrl+ww - switch between windows
-    ctrl+wq - Quit a window
-</code></pre>
-<p>Marks</p>
-<p>Marks allow you to jump to designated points in your code.</p>
-<pre><code>m{a-z} - Set mark {a-z} at cursor position
-A capital mark {A-Z} sets a global mark and will work between files
-‘{a-z} - move the cursor to the start of the line where the mark was set
-‘’ - go back to the previous jump location
-</code></pre>
-<p>General</p>
-<pre><code>u - undo
-Ctrl+r - redo
-. - repeat last command
-</code></pre>
-<h1 id="read-also">Read also</h1>
-<ul>
-<li><a href="https://texteditors.org/cgi-bin/wiki.pl">TextEditors Wiki: HomePage</a></li>
-</ul>
-
-</content>
-<p>
-  
-</p>
-
-<p>
-  <i>
-    <time datetime='2022-01-21' .Params.updated>
-            Last updated: 2022-01-21
-
-    </time>
-  </i>
-</p>
-
-
-  </main>
-
-  <footer>
-
-
-
-
-
-Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
-
-<br><br>
-
-<div style="font-size:11px">
-  <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
-  <br>
-  <a href="https://xn--sr8hvo.ws/previous">←</a>
-An <a href="https://xn--sr8hvo.ws">IndieWeb Webring</a> 🕸💍
-<a href="https://xn--sr8hvo.ws/next">→</a>
-
-</div>
-</footer>
-
-    
-</body>
-
-</html>
