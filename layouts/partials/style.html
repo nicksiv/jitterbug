@@ -23,15 +23,28 @@
 	  --colquote:#458588;
 	  --font-stack: "Source Serif Pro", "Apple Garamond", "Baskerville", "Libre Baskerville", "Droid Serif", "Times New Roman", "Times", serif, "Noto Emoji", "Quivira";
 	  --font-size: 18px;
-	  		
+	  
+	}
+
+    /*plain plain*/
+        :root { --colback: #FFFFFF;
+	  --colfor: #000000;
+	  --colaccent2: #000000;
+	  --colaccent:#000000;
+	  --collink:linkText;
+	  --colvisited:visitedText;
+	  --colquote:#000000;
+	  --font-stack: sans-serif;
+	  --font-size: 12px;
+	  
 	}
 
   @media (prefers-color-scheme: dark) {
   /* https://github.com/dracula/dracula-theme */
 
   body {
-      font-family: var(--font-stack);
-      font-size: var(--font-size);
+    /*  font-family: var(--font-stack);
+       font-size: var(--font-size); */
   margin: 26px 12px 12px 36px;
   max-width: 900px;
   text-align: left;
@@ -54,11 +67,12 @@
   }
 
   h1 {
-  
+      font-size:140%;
   color: var(--colaccent2);
   }
 
- h2 {
+  h2 {
+      font-size:110%;
      color: var(--colaccent);
 
    
@@ -72,8 +86,8 @@
   
   a {
       color: var(--collink);
-      border-bottom: 1px dotted var(--collink);
-      text-decoration:none;
+      /* border-bottom: 1px dotted var(--collink);
+      text-decoration:none; */
   }
 
   a:visited { 
@@ -213,4 +227,14 @@
 
   }
 
+/* Larger font for mobile devices*/
+@media screen and (max-device-width: 480px) {
+  body {
+      font-size: 65%;
+      margin: 2px 2px 2px 12px;
+  max-width: 100%;
+
+  }
+}
+  
 </style>
