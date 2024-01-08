@@ -4,6 +4,7 @@ Title:  favorite films list
 Date:   2024-01-04
 tags: #pub
 Folder: film
+Description: "My list of favorite films ranked"
 lastmod: 2024-01-06
 ---
 
