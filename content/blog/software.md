@@ -1,5 +1,5 @@
 ---
-title: favourite software list
+title: software list
 date: 2024-01-07
 tags: #pub
 lastmod: 2024-01-07
