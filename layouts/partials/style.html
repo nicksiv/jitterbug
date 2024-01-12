@@ -1,50 +1,10 @@
 <style>
 
-/*gruvbox*/  
-  :root { --colback: #282828;
-	  --colfor: #A89984;
-	  --colaccent2:#D65D0E ;
-	  --colaccent:#D79921;
-	  --collink:#458588;
-	  --colvisited:#B16286;
-	  --colquote:#458588;
-	  --font-stack: "Source Serif Pro", "Apple Garamond", "Baskerville", "Libre Baskerville", "Droid Serif", "Times New Roman", "Times", serif, "Noto Emoji", "Quivira";
-	  --font-size: 20px;
-	  		
-	}
-
-  /*plain dark*/
-    :root { --colback: #161616;
-	  --colfor: #f1f1f1;
-	  --colaccent2:#D65D0E ;
-	  --colaccent:#D79921;
-	  --collink:#ccc;
-	  --colvisited:#999;
-	  --colquote:#458588;
-	  --font-stack: "Source Serif Pro", "Apple Garamond", "Baskerville", "Libre Baskerville", "Droid Serif", "Times New Roman", "Times", serif, "Noto Emoji", "Quivira";
-	  --font-size: 18px;
-	  
-	}
-
-    /*plain plain*/
-        :root { --colback: #FFFFFF;
-	  --colfor: #000000;
-	  --colaccent2: #000000;
-	  --colaccent:#000000;
-	  --collink:linkText;
-	  --colvisited:visitedText;
-	  --colquote:#000000;
-	  --font-stack: sans-serif;
-	  --font-size: 12px;
-	  
-	}
-
-  @media (prefers-color-scheme: dark) {
-  /* https://github.com/dracula/dracula-theme */
+        :root { --colback: #FFFFFF; --colfor: #000000; --colaccent2: #000000; --colaccent:#000000; --collink:linkText; --colvisited:visitedText; --colquote:#000000;  --font-stack: sans-serif;  --font-size: 12px;}
 
   body {
-    /*  font-family: var(--font-stack);
-       font-size: var(--font-size); */
+/*font-family: var(--font-stack);
+  font-size: var(--font-size); */
   margin: 26px 12px 12px 36px;
   max-width: 900px;
   text-align: left;
@@ -52,181 +12,37 @@
   overflow-wrap: break-word;
   background-color:  var(--colback);
   color: var(--colfor);
-  
   }
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  strong,
-  b {
-  
-  }
-
-  h1 {
-      font-size:140%;
-  color: var(--colaccent2);
-  }
-
-  h2 {
-      font-size:110%;
-     color: var(--colaccent);
-
-   
-  }
-
-  
-
+  h1 {font-size:140%; color: var(--colaccent2); }
+  h2 {font-size:110%; color: var(--colaccent);  }
   a:hover { color: var(--colvisited); }
-  /*a:before { content: '<'; }
+/*a:before { content: '<'; }
   a:after { content: '>'; }*/
-  
-  a {
-      color: var(--collink);
-      /* border-bottom: 1px dotted var(--collink);
-      text-decoration:none; */
-  }
-
-  a:visited { 
-
-  }
-
-  .title {
-  text-decoration: none;
-  border: 0;
-  }
-
-  .title span {
-
-  }
-
-  nav a {
-  margin-right: 10px;
-  }
-
-  textarea {
-  width: 100%;
-
-  }
-
-  input {
-
-  }
-
-  content {
-  line-height: 1.6;
-  }
-
-  table {
-  width: 100%;
-  }
-
-  img {
-      max-width: 100%;
-   }
-
-  figure {
-  margin: 2rem 0;
-}
-  code {
-  padding: 2px 5px;
-  background-color: #44475a;
-  }
-
-  pre code {
-  color: #ddd;
-  display: block;
-  padding: 20px;
-  white-space: pre-wrap;
-  font-size: 14px;
-  }
-
-  blockquote {
-  border-left: 4px solid var(--colquote);
-  color: var(--colquote);
-  padding-left: 20px;
-  font-style: italic;
-  }
-
-  footer {
-  padding: 5px;
-
-  }
-
-  footer a {
-      border-bottom:none;
-      color:var(--colvisited);
-  }
-
-  textarea,
-  input {
-  background-color: #44475a;
-  color: #ddd;
-  }
-
-  .helptext {
-  color: #50fa7b;
-  }
-
-  circle {
-  border-radius: 50%;
-  }
-
-  .helptext {
-  color: #777;
-  font-size: small;
-  }
-
-  .errorlist {
-  color: #eba613;
-  font-size: small;
-  }
-
-  ul {
-  list-style-type: square;
-  line-height: 20px;
-
-  }
-  /* blog posts */
-  ul.blog-posts {
-  list-style-type: none;
-  padding: unset;
-  line-height: 25px;
-  }
-
-  ul.blog-posts li {
-      display: flex;
-  list-style-type: none;
-
-  }
-
-  ul.blog-posts li span {
-  flex: 0 0 0px;
-
-  }
-
-  .notesection {
-  float: left;
-  height: auto;
-  width: 100%;
-  padding: 0px 0px 16px;
-
-  }
-
-  .date {
-      color: var(--colaccent);
-
-	   
-  }
-  h3 {
-
-  }
-  ul.blog-posts li a:visited {
-
-  }
+  a {color: var(--collink); }
+  .title { text-decoration: none; border: 0; }
+  .title span { }
+  nav a {margin-right: 10px; }
+  textarea {width: 100%;  }
+  input { }
+  content {line-height: 1.6; }
+  img {max-width: 100%; }
+  figure {margin: 2rem 0;}
+  code {padding: 2px 5px; background-color: #44475a; }
+  pre code {color: #ddd; display: block; padding: 20px; white-space: pre-wrap; font-size: 14px; }
+  blockquote {border-left: 4px solid var(--colquote); color: var(--colquote); padding-left: 20px; font-style: italic; }
+  footer {padding: 5px; }
+  footer a {border-bottom:none;color:var(--colvisited); }
+  textarea, input { background-color: #44475a; color: #ddd; }
+  .helptext { color: #50fa7b; }
+  circle { border-radius: 50%; }
+  .errorlist { color: #eba613; font-size: small; }
+  ul { list-style-type: square; line-height: 20px; }
+  ul.blog-posts {list-style-type: none; padding: unset; line-height: 25px; }
+  ul.blog-posts li {display: flex; list-style-type: none; }
+  ul.blog-posts li span {flex: 0 0 0px; }
+  .notesection {float: left; height: auto; width: 100%; padding: 0px 0px 16px; }
+  .date {color: var(--colaccent); }
 
 /* Larger font for mobile devices*/
 @media screen and (max-device-width: 480px) {
@@ -235,13 +51,9 @@
       margin: 2px 2px 2px 12px;
       max-width: 100%;
       line-height: 16px;
-
   }
 
-  ul {
-  line-height: 20px;
-
-  }
+  ul {line-height: 20px;}
 }
   
 </style>

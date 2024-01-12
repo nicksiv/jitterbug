@@ -1,4 +1,3 @@
-
 ---
 Title:  favorite films list
 Date:   2024-01-04
@@ -10,7 +9,8 @@ lastmod: 2024-01-06
 
 ## Watched in 2024
 
-1. Wonka (Paul King) - 2023
+1. Wonka (Paul King) - 2023\
+A really well made and fun film to watch. The back-story of Wonka is surpisingly good, the same goes to the music and original songs from Hannon. Chalamet delivers a part I didn't think he was up for. Absolutely Charming. 
 
 
 ## Watched in 2023
