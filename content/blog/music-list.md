@@ -7,7 +7,7 @@ lastmod: "2024-01-13"
 
 
 # Top Albums
-My top 5 albums of each year, gathered from my (last.fm profile)[https://www.last.fm/user/nicksiv] data.
+My top 5 albums of each year, gathered from my [last.fm profile](https://www.last.fm/user/nicksiv) data.
 
 ## 2023
 1. J.S.Bach: Matthäus-Passion BWV 244 (Philippe Herreweghe)
