@@ -10,32 +10,40 @@ lastmod: "2024-01-13"
 My top 5 albums of each year, gathered from my [last.fm profile](https://www.last.fm/user/nicksiv) data.
 
 ## 2023
-1. J.S.Bach: Matthäus-Passion BWV 244 (Philippe Herreweghe)
-2. Let's Dance (David Bowie)
-3. Soul Mining (The The)
-4. Treasure (Cocteau Twins)
-5. Profound Mysteries (Royksopp)
+
+![](../../images/lp-darkside.jpg)
+
+1. **Dark Side of the Moon** (Pink Floyd) - 1973
+2. J.S.Bach: Matthäus-Passion BWV 244 (Philippe Herreweghe) - 1999
+3. Let's Dance (David Bowie) - 1983
+4. Soul Mining (The The) - 1983
+5. Treasure (Cocteau Twins) - 1984
 
 ## 2022
-1. La Traviata (Giuseppe Verdi)
-2. Don Giovanni (Wolfgang Amadeus Mozart)
-3. Messiah (Handel)
-4. J.S.Bach: Violin Concertos (Hilary Hahn)
-5. Symphonies KV111a-130-132-183 (Wolfgang Amadeus Mozart)
+
+![](../../images/lp-traviata.jpg)
+
+1. **Giuseppe Verdi: La Traviata** (Bavarian State Orchestra - Carlos Kleiber) - 1977
+2. Wolfgang Amadeus Mozart: Don Giovanni (Wiener Philarmoniker - Riccardo Muti) - 1991
+3. Handel: Messiah (The English Concert Choir - Trevor Pinnock) - 1988
+4. J.S.Bach: Violin Concertos (Los Angeles Chamber Orchestra - Hilary Hahn) - 2003
+5. Beethoven: The 9 Symphonies (Berliner Philarmoniker - Herbert von Karajan) - 1963
 
 ## 2021
-1. Great Mass in C Minor (Wolfgang Amadeus Mozart)
-2. Beethoven: 9 Symphonies (Berliner Philharmoniker & Herbert von Karajan)
-3. Symphony No. 4 in A Major "Italian" & A Midsummer Night's Dream (Felix Mendelssohn)
-4. Carmen (Georges Bizet)
-5. Brandenburg Concertos Nos.1 - 3 (Johann Sebastian Bach)
+1. Wolfgang Amadeus Mozart: Great Mass in C Minor  
+(The Academy of Ancient Music - Christopher Hogwood) -1987
+2. Beethoven: The 9 Symphonies (Berliner Philarmoniker - Herbert von Karajan) - 1963
+3. Felix Mendelssohn: Symphony No. 4 in A Major & A Midsummer Night's Dream  
+(Cologne New Philharmonic Orchestra - Volker Hartung) - 2017
+4. Georges Bizet: Carmen (London Symphony Orchestra - Claudio Abbado) - 1978
+5. J.S.Bach: Brandenburg Concertos Nos.1 - 3 (Orchestra of the Age of Enlightenment) - 1954
 
 ## 2020
-1. Carol (Original Motion Picture Soundtrack)
-2. Hotspot (Pet Shop Boys)
-3. Golden Hour (Kacey Musgraves)
-4. Portrait In Jazz (Bill Evans)
-5. Bocelli (Andrea Bocelli)
+1. Carol (Original Motion Picture Soundtrack) - 2015
+2. Hotspot (Pet Shop Boys) - 2020
+3. Golden Hour (Kacey Musgraves) - 2018
+4. Portrait In Jazz (Bill Evans Trio) - 1960 
+5. Bocelli (Andrea Bocelli) - 1995
 
 ## 2019
 1. Seventeen seconds (The Cure)
