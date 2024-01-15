@@ -2,7 +2,7 @@
 Title: artworks (unique)
 Date : 2024-01-13
 tags:
-- #pub
+- pb
 - art
 lastmod: 2024-01-13
 ---

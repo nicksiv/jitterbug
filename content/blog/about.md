@@ -1,7 +1,7 @@
 ---
 title: "about"
 Date: 2021-05-05
-tags: #pub
+tags: pb
 Description: "About page: about me, website meta and uses"
 lastmod: "2024-01-13"
 ---
