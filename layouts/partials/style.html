@@ -44,6 +44,16 @@
   .notesection {float: left; height: auto; width: 100%; padding: 0px 0px 16px; }
   .date {color: var(--colaccent); }
 
+  img {
+  display: block;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+  transition: all .20s linear;
+  z-index: 0;
+  position: relative;
+  border: 1px solid lightgrey;
+  border-radius: 15px;
+  }
+  
 /* Larger font for mobile devices*/
 @media screen and (max-device-width: 480px) {
   body {
@@ -54,6 +64,7 @@
   }
 
   ul {line-height: 20px;}
+  img {max-width:95%;}
 }
   
 </style>

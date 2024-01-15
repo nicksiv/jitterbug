@@ -1,13 +1,12 @@
 ---
 Title: music albums list
 Date: "2021-08-29"
-tags: #pub
+tags: #pub, music, annual, list
 lastmod: "2024-01-13"
 ---
 
 
-# Top Albums
-My top 5 albums of each year, gathered from my [last.fm profile](https://www.last.fm/user/nicksiv) data.
+My top 5 albums of each year, gathered from my [last.fm profile](https://www.last.fm/user/nicksiv), cmus and poweramp playing data.
 
 ## 2023
 
