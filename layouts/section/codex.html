@@ -1,0 +1,17 @@
+{{ define "main" }}
+{{ .Content }}
+
+<div class="notesection">
+      <ul class="number-posts">
+
+       {{ range (where .Site.Pages.ByTitle "Section" "blog")}}
+       {{ if not .IsNode  }}
+	    <li><a href="{{ .Permalink }}">  {{ .Title }}</a>
+
+             {{ end }}
+             </li>
+       {{ end }}
+      </ul>
+</div>
+
+{{ end }}

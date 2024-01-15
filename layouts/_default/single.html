@@ -14,8 +14,12 @@
   {{ .Content }}
 </content>
 <p>
-  {{ range (.GetTerms "tags") }}
-  <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+    {{ $var := "pb" }}
+    {{ range (.GetTerms "tags") }}
+    {{ $pt := .Page.Title }}
+           {{ if not (eq $pt $var) }} 
+    <a href="{{ .Permalink }}">#{{ .LinkTitle }}</a>
+    {{ end }}
   {{ end }}
 </p>
 <br>
