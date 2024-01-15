@@ -1,7 +1,9 @@
 ---
 title: blogroll
 date: 2024-01-07
-tags: #pub
+tags: 
+- #pub
+- lists
 lastmod: 2024-01-07
 ---
 

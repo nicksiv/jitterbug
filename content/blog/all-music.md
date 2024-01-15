@@ -1,7 +1,7 @@
 ---
 Title: top music albums list
 Date: "2024-01-15"
-tags: #pub, music, list
+tags: ['#pub', 'music', 'lists']
 lastmod: "2024-01-15"
 ---
 

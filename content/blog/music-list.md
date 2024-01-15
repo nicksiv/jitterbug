@@ -1,7 +1,10 @@
 ---
 Title: music albums list
 Date: "2021-08-29"
-tags: #pub, music, annual, list
+tags: 
+- #pub
+- music
+- lists
 lastmod: "2024-01-13"
 ---
 

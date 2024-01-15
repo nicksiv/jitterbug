@@ -1,18 +1,36 @@
 {{ define "main" }}
 {{ .Content }}
 
-
-
 <!-- <div> -->
 <!-- <img src="/images/im-links.png"> -->
 <!-- </div> -->
 
+<table width="100%">
+  <tr>
+    <td width="20%" valign="top" align="left">
+<div class="tagsection">
+  <h2>~/tags</h2>
 
+  <ul class="blog-posts">
+         
+{{ $var := "#pub" }}
+
+{{ range .Site.Taxonomies.tags }}
+{{ $pt := .Page.Title }}
+           {{ if not (eq $pt $var) }} 
+        <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>&nbsp;
+	  </li>
+	{{ end }}
+	{{ end }}
+  </ul>
+	  
+  </div>
+</td><td align="left" valign="top">
 <div class="notesection">
-  <h2>~/index</h2>
+  <h2>~/latest changes</h2>
       <ul class="blog-posts">
 
-       {{ range (where .Site.Pages "Section" "blog")}}
+       {{ range first 6 (where .Site.Pages.ByLastmod.Reverse "Section" "blog")}}
        {{ if not .IsNode  }}
        <!-- <li><a href="{{ .Permalink }}">{{ .Date.Format "2006-01-02" }}  {{ .Title }}</a> -->
 	    <!-- <li><span class=date>{{ .Lastmod.Format "20060102" }}</span>&nbsp;<a href="{{ .Permalink }}">  {{ .Title }}</a> -->
@@ -44,7 +62,8 @@
 
       
 </div>
-
+</td></tr></table>
 
 
 {{ end }}
+

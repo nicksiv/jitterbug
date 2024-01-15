@@ -1,7 +1,9 @@
 ---
 Title: blog entries
 Date: 2023-12-31
-tags: #pub
+tags: 
+- #pub
+- journal
 lastmod: 2024-01-07
 ---
 

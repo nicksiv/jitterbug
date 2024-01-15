@@ -1,7 +1,9 @@
 ---
 Title: video games
 Date : 2023-12-05
-tags:  #pub
+tags:
+- #pub
+- journal
 lastmod: 2024-01-06
 ---
 
