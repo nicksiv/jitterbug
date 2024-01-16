@@ -15,6 +15,7 @@ enableRobotsTXT = true
 
 
 
+
 [taxonomies]
   category = 'categories'
   tag = 'tags'
@@ -24,7 +25,7 @@ enableRobotsTXT = true
 
 
 [permalinks]
-  blog = "/:slug/"
+  blog = "/:filename/"
   tags = "/tag/:slug"
 
 

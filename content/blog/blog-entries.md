@@ -9,20 +9,20 @@ lastmod: 2024-01-07
 
 ## Contents
 
-  - [minimizing my blog](#minimizing-my-blog)
-  - [back to emacs](#back-to-emacs)
-  - [keeping journals taught me nothing](#keeping-journals-taught-me-nothing)
-  - [so vast, the music](#so-vast-the-music)
-  - [cat trouble](#cat-trouble)
-  - [mimetism](#mimetism)
-  - [Classical Music](#classical-music)
-  - [Quarantine diaries](#quarantine-diaries)
-  - [Trying something new](#trying-something-new)
-  - [I'm off with the infinity loops](#im-off-with-the-infinity-loops)
-  - [What if photography dies?](#what-if-photography-dies)
-  - [Reinventing yourself](#reinventing-yourself)
-  - [Quitting Facebook made me happy](#quitting-facebook-made-me-happy)
-  - [381 days in Linux](#381-days-in-linux)
+  - [minimizing my blog](/#minimizing-my-blog)
+  - [back to emacs](/#back-to-emacs)
+  - [keeping journals taught me nothing](/#keeping-journals-taught-me-nothing)
+  - [so vast, the music](/#so-vast-the-music)
+  - [cat trouble](/#cat-trouble)
+  - [mimetism](/#mimetism)
+  - [Classical Music](/#classical-music)
+  - [Quarantine diaries](/#quarantine-diaries)
+  - [Trying something new](/#trying-something-new)
+  - [I'm off with the infinity loops](/#im-off-with-the-infinity-loops)
+  - [What if photography dies?](/#what-if-photography-dies)
+  - [Reinventing yourself](/#reinventing-yourself)
+  - [Quitting Facebook made me happy](/#quitting-facebook-made-me-happy)
+  - [381 days in Linux](/#381-days-in-linux)
 
 ## minimizing my blog
 >2024-01-06

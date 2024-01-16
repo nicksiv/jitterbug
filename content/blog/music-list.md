@@ -8,12 +8,13 @@ tags:
 lastmod: "2024-01-13"
 ---
 
-
 My top 5 albums of each year, gathered from my [last.fm profile](https://www.last.fm/user/nicksiv), cmus and poweramp playing data.
+
+For an all time albums list see [here](/all-music)
 
 ## 2023
 
-![](../../images/lp-darkside.jpg)
+![](/../../images/lp-darkside.jpg)
 
 1. **Dark Side of the Moon** (Pink Floyd) - 1973
 2. J.S.Bach: Matthäus-Passion BWV 244 (Philippe Herreweghe) - 1999
@@ -23,7 +24,7 @@ My top 5 albums of each year, gathered from my [last.fm profile](https://www.las
 
 ## 2022
 
-![](../../images/lp-traviata.jpg)
+![](/../../images/lp-traviata.jpg)
 
 1. **Giuseppe Verdi: La Traviata** (Bavarian State Orchestra - Carlos Kleiber) - 1977
 2. Wolfgang Amadeus Mozart: Don Giovanni (Wiener Philarmoniker - Riccardo Muti) - 1991
@@ -33,7 +34,7 @@ My top 5 albums of each year, gathered from my [last.fm profile](https://www.las
 
 ## 2021
 
-![](../../images/lp-mass.jpg)
+![](/../../images/lp-mass.jpg)
 
 1. **Wolfgang Amadeus Mozart: Great Mass in C Minor**  
 (The Academy of Ancient Music - Christopher Hogwood) -1987
@@ -45,7 +46,7 @@ My top 5 albums of each year, gathered from my [last.fm profile](https://www.las
 
 ## 2020
 
-![](../../images/lp-carol.jpg)
+![](/../../images/lp-carol.jpg)
 
 1. **Carol** (Original Motion Picture Soundtrack) - 2015
 2. Hotspot (Pet Shop Boys) - 2020
@@ -55,7 +56,7 @@ My top 5 albums of each year, gathered from my [last.fm profile](https://www.las
 
 ## 2019
 
-![](../../images/lp-seventeen.jpg)
+![](/../../images/lp-seventeen.jpg)
 
 1. **Seventeen seconds** (The Cure) - 1980
 2. The Boy With The Arab Strap (Belle and Sebastian) - 1998
@@ -65,7 +66,7 @@ My top 5 albums of each year, gathered from my [last.fm profile](https://www.las
 
 ## 2018
 
-![](../../images/lp-giantsteps.jpg)
+![](/../../images/lp-giantsteps.jpg)
 
 1. **Giant Steps** (John Coltrane) - 1960
 2. Abbey Road (The Beatles) - 1969

@@ -16,7 +16,7 @@ Now after my workday, I'm a recreational programmer and I spend a lot of time ti
 I support online freedom, privacy rights and free software. I'm anti war, wealth, corporations and patriarchy.
 I like sustainable and analog technologies, classical, jazz and 80s music and arthouse films. 
 
-I mostly read and write about technology and computers. Here's a list of my [favorite blogs](../other/blogroll).
+I mostly read and write about technology and computers. Here's a list of my [favorite blogs](/../other/blogroll).
 
 #### Projects & works
 * [panoplia](https://panoplia.wordpress.com), an art project of the blogs era, now archived
@@ -26,7 +26,7 @@ I mostly read and write about technology and computers. Here's a list of my [fav
 #### Contact
 If you like what I write, or want to say hi drop me a line! 😉
 
-- [Email](mailto:nicksiv@disroot.org)
+- [Email](/mailto:nicksiv@disroot.org)
 - [Mastodon](https://octodon.social/@nicksiv) profile
 - [last.fm](https://www.last.fm/user/nicksiv)
 - [github](https://github.com/nicksiv/)

@@ -9,7 +9,7 @@ lastmod: 2024-01-12
 
 ## Watched in 2023
 
-![](../../images/dolcevita.jpg)
+![](/../../images/dolcevita.jpg)
 
 1. **La Dolce Vita** (Federico Fellini) - 1960
 2. Decision to leave (Park Chan-wook) - 2022
@@ -20,7 +20,7 @@ lastmod: 2024-01-12
 
 ## Watched in 2022
 
-![](../../images/handmaiden.jpg)
+![](/../../images/handmaiden.jpg)
 
 1. **The handmaiden** (Park Chan-wook) - 2016
 2. Paris, Texas (Wim Wenders) - 1984
@@ -31,7 +31,7 @@ lastmod: 2024-01-12
 
 ## Watched in 2021
 
-![](../../images/amadeus.jpg)
+![](/../../images/amadeus.jpg)
 
 1. **Amadeus** (Milos Forman) - 1984
 2. Portrait of a lady on fire (Céline Sciamma) - 2019
@@ -42,7 +42,7 @@ lastmod: 2024-01-12
 
 ## Watched in 2020
 
-![](../../images/eternity.jpg)
+![](/../../images/eternity.jpg)
 
 1. **Eternity and a day** (Theodoros Aggelopoulos) - 1998
 2. Bicycle thief (Vittorio De Sica) - 1948
@@ -54,7 +54,7 @@ lastmod: 2024-01-12
 
 ## Watched in 2019
 
-![](../../images/parasite.jpg)
+![](/../../images/parasite.jpg)
 
 1. **Parasite** (Bong Joon Ho) - 2019
 2. The Favourite (Yorgos Lanthimos) - 2018

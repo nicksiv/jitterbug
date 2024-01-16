@@ -9,7 +9,7 @@ lastmod: "2024-01-15"
 
 This is a non-definite list...
 
-![](../../images/top-albums.png)
+![](/../../images/top-albums.png)
 
 * 1. Radiohead - In Rainbows
 * 2. Pink Floyd - The Dark Side Of The Moon
