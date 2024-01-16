@@ -1,7 +1,7 @@
 ---
 Title:  favorite films list
 Date:   2024-01-04
-tags: ['pb', 'Film']
+tags: ['pb', 'VisualArts']
 Folder: film
 Description: "My list of favorite films ranked"
 lastmod: 2024-01-12

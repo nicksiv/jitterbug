@@ -1,6 +1,8 @@
 {{ define "main" }}
 {{ .Content }}
 
+<img src="/images/banner.jpg" style="border:0px;box-shadow:none;">
+
 <!-- <div> -->
 <!-- <img src="/images/im-links.png"> -->
 <!-- </div> -->
@@ -13,11 +15,12 @@
 
   <ul class="blog-posts">
          
-{{ $var := "pb" }}
-
-{{ range .Site.Taxonomies.tags }}
-{{ $pt := .Page.Title }}
-           {{ if not (eq $pt $var) }} 
+	   {{ $var := "pb" }}
+	   {{ range .Site.Taxonomies.tags }}
+	   {{ $pt := .Page.Title }}
+	   {{ $.Scratch.Set "tagCounter" 0 }}
+           {{ if not (eq $pt $var) }}
+	   
         <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>&nbsp;
 	  </li>
 	{{ end }}
@@ -41,7 +44,7 @@
        {{ end }}
       </ul>
 
-          <a href="codex">Show All</a>      
+          <small><a href="codex">show all</a></small>
       <!-- <table width="80%"> -->
       <!-- 	  <tr><th>Page</th> -->
       <!-- 	    </tr> -->
