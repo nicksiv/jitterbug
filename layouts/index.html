@@ -16,13 +16,16 @@
   <ul class="blog-posts">
          
 	   {{ $var := "pb" }}
-	   {{ range .Site.Taxonomies.tags }}
+	   {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
 	   {{ $pt := .Page.Title }}
 	   {{ $.Scratch.Set "tagCounter" 0 }}
            {{ if not (eq $pt $var) }}
 	   
-        <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>&nbsp;
-	  </li>
+           <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>&nbsp;
+	     <small>
+	     {{ $taxonomy.Count }}
+	     </small>
+	   </li>
 	{{ end }}
 	{{ end }}
   </ul>
