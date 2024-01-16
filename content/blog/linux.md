@@ -11,9 +11,19 @@ lastmod: "2024-01-16"
   - [Cheatsheet](https://devhints.io/bash)
 
 ## Misc
-  - Arithmetic expressions `echo "I am $[2020-1973] years old"`
-  - Find files `find / -name xxx (-iname: not case sensitive)`
-  - Find files with size `find /etc -size +10M`
+
+```bash
+  # Arithmetic expressions `echo "I am $[2020-1973] years old"`
+  # Find files `find / -name xxx` (-iname: not case sensitive)
+  # Find files with size `find /etc -size +10M`
+```
+
+## More find examples
+- find files or directories: `find /usr -name gcc`
+- find files : `find /usr -type f -name test1`
+- find directories : `find /usr -type d -name gcc`
+- find by modified date (3 days) : `find / -ctime 3`
+
 
 ## File permissions
   - read-r=4 | write-w=2 | execute-x=1
@@ -78,29 +88,24 @@ sudo dd bs=4M if=~/Downloads/archlinux-2016.09.03-dual.iso of=/dev/sdb && sync
 ```bash
 zip -r ~/Desktop/myzipfile.zip ~/Desktop/MyFolder/
 ```
-## More find examples
-- find files or directories: `find /usr -name gcc`
-- find files : `find /usr -type f -name test1`
-- find directories : `find /usr -type d -name gcc`
-- find by modified date (3 days) : `find / -ctime 3`
 
 
 ## Duplicity
 
 ### Create an encrypted backup
-`duplicity --progress ~/Documents file:///media/nick/backup-dir/`
+- `duplicity --progress ~/Documents file:///media/nick/backup-dir/`
                                                              
 ### Restore backup
 
-`duplicity --progress file:///media/nick/backup-dir/ /home/nick/Documents/restore/`
+- `duplicity --progress file:///media/nick/backup-dir/ /home/nick/Documents/restore/`
 
 ## Find and remove found files using -exec.
 ```bash
-$ find -name "*.swp" -exec rm {} ’;’
-```
-The same, but ask first :
-```bash
-$ find -name "*.swp" -ok rm {} ’;’
+find -name "*.swp" -exec rm {} ’;’
+
+# The same, but ask first :
+
+find -name "*.swp" -ok rm {} ’;’
 ```
 
 ## Find duplicate files
@@ -121,28 +126,9 @@ Listen to a radio station
 ```bash
 sudo apt-get install mpg123 
 mpg123 http://radiostreaming.ert.gr/ert-deftero
-```
 
-Play randomly your mp3 collection (at ~/Music)
-
-```bash
+# Play randomly your mp3 collection (at ~/Music)
 mpg123 -z ~/Music/\*/\*/\*
-```
-
-## Cmus
-[Cmus project page](https://cmus.github.io/)
-
-1. **Load up your library**: Pressing '5' will go to the Directory browser. Locate your music directory and press 'a'. 
-2. **Go to library view** pressing '1'. You can navigate by artist/album on the left-hand side and see the tracks on the right. Press the TAB key to switch between them and ENTER to start playing the selected track. You can also use the Sorted library view by pressing '2'.
-3. **Toggle Shuffle and continuous play**: While listening to your first track, press 'C' (uppercase) once to toggle continuous play. I think this should be on by default. If you don't toggle this on, the music will stop after the end of the current track. If you want to shuffle tracks press 's' (lowercase).
-4. **Searching**: If you want to find a specific artist, album or track just type '/', the name you're looking for and ENTER (eg. /Hey joe). The cursor will be on the first result. Press 'n' to look for the next result and 'N' for the previous.
-
-
-## Copy m3u playlist files in a folder
-Run this script where the m3u playlist is stored
-
-```bash
-sed "s/#.*//g" < starFM.m3u | sed "/^$/d" | while read line; do (( COUNTER++ )); filename="{line##*/}"; cp "${line}" "/home/nick/export/starFM/$COUNTER - $filename"; done
 ```
 
 ## Deactivate and activate the build in camera
@@ -150,7 +136,7 @@ sed "s/#.*//g" < starFM.m3u | sed "/^$/d" | while read line; do (( COUNTER++ ));
     - activate: `sudo modprobe uvcvideo`
 
 ## Split flac, cue files
-`shnsplit` is the program used to split tracks, while `cuebreakpoints` reads the break-points from file.cue and pipe them to `shnsplit`
+- `shnsplit` is the program used to split tracks, while `cuebreakpoints` reads the break-points from file.cue and pipe them to `shnsplit`
 
 ```bash
 # Install tools
@@ -159,44 +145,23 @@ sudo apt-get install cuetools shntool flac
 cuebreakpoints file.cue | shnsplit -o flac file.flac
 
 # Real example
-
 # Step 1
-
 cuebreakpoints Album.cue | shnsplit -o flac Album.flac  -f Album.cue -t "%n. %t" Album.flac < Album.cue 
 
-# Step 2
-# fill the tags (make sure the original flac is in another dir)
+# Step 2: fill the tags (make sure the original flac is in another dir)
 cuetag Album.cue *.flac
 ```
 
-## Block internet access for a user
-
-```bash
-# Temporary block access
-# for user test5
-sudo iptables -A OUTPUT -p all -m owner --uid-owner test5 -j DROP
-
-# for group test5group
-sudo iptables -A OUTPUT -p all -m owner --gid-owner test5group -j DROP
-```
-
-### Make it persistent
-
-The iptables firewall is the built-in firewall for protecting a Linux machine from online threats. But the settings are not save upon a re-boot. This is easily alleviated by installing the iptables-persistent package for Ubuntu. Once this is installed, you will be greeted with a screen that will ask you if you wish to save your iptables rules. Answer yes to both questions and the application will save your rules safely in case of a re-boot of the desktop or server the firewall is on.
-
-Type this command to install this application.
-
-`sudo apt-get install iptables-persistent`
 
 ## Lightdm set default user
 
 Edit this file
 
-`/usr/share/lightdm/lightdm.conf.d/01\_debian.conf`
+- `/usr/share/lightdm/lightdm.conf.d/01\_debian.conf`
 
 Then change the command greeter-hide-users from false to true and save
 
-`greeter-hide-users=true`
+- `greeter-hide-users=true`
 
 ## Wake linux from a usb keyboard
 
@@ -210,73 +175,20 @@ Also map this command to a key to suspend  `systemctl suspend`
 ## Spell check for Greek
 ### Libre Office
 
-`sudo apt-get install myspell-el-gr`
+- `sudo apt-get install myspell-el-gr`
 
 ### Spelling greek dict for emacs
 
-`sudo apt-get install aspell-el` then change dictionary with `ispell-change-dictionary`
+- `sudo apt-get install aspell-el` then change dictionary with `ispell-change-dictionary`
 
 
 ## Install Quake 3 on Linux
 https://www.videogames.ai/How-to-Install-Quake3-on-Linux
 
-## VLC
-
-- [VLSub plugin](https://addons.videolan.org/p/1154045/)
-- LVSub unable to save subtitles on Linux
-  - It appears the cache subfolder is missing. For Ubuntu Linux just open terminal and run `mkdir ~/.cache/vlc`
-
-## Servers and Hosting
-
-- [Self Hosting: YunoHost](https://yunohost.org/en/install/hardware:regular)
-    > Specific distro based on Debian for creating a server out of small or old computers
-- [homebrewserver.club](https://homebrewserver.club/choosing-a-homebrew-server.html?utm_source=pocket_mylist)
-- [Followed this tutorial to learn the basics of running a server](/
-https://github.com/snori74/linuxupskillchallenge)
 
 ## Coolest Wallpapers
 - [Nordic wallpapers repo](https://github.com/linuxdotexe/nordic-wallpapers)
 
-## Microsoft Teams
-
-Working at home made us using lots or proprietary software like this. 💩
-The standard downloaded file installation from their website fails on Linux, and it's better done like this:
-
-### Install in Ubuntu
-
-```
-curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
-
-sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/ms-teams stable main" > /etc/apt/sources.list.d/teams.list'
-
-sudo apt update
-
-sudo apt install teams
-```
-
-### Install in Fedora
-- https://www.osradar.com/how-to-install-microsoft-teams-on-fedora-ubuntu-debian-linux/
-
-# Gemini network protocol
-
-* Gemini browser appimage (Lagrange)
-  * https://git.skyjake.fi/skyjake/lagrange/releases/tag/v1.3.0
-* Gemini project website
-  * https://gemini.circumlunar.space/x/gus.guru/
-* Ariane Android app
-  * https://oppen.digital/software/ariane/
-* Gemlog http service for adding posts to gemini
-  * https://gemlog.blue/
-
-# CLI Desktop
-* https://pspodcasting.net/dan/blog/2018/console_desktop.html#linux
-* https://opensource.com/article/20/6/productivity-tools-linux-terminal
-* https://mamyn0va.github.io/2019/02/05/building-a-custom-ide-with-tmux
-* https://thevaluable.dev/mouseless-development-environment/
-* https://pspodcasting.net/dan/blog/2018/console_desktop.html
-* [A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.](https://github.com/trimstray/the-book-of-secret-knowledge)
-* [My Terminal-First Blogging Workflow](https://atthis.link/blog/2021/terminalwriting.html)
-* [Read The Tao of tmux - Leanpub](https://leanpub.com/the-tao-of-tmux/read)
 
 
 ## Read also:
