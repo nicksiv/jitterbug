@@ -19,7 +19,6 @@ This is the list of the blogs I follow and frequently visit.
 	
 ## Wikis
 - [h0p3](https://h0p3.neocities.org/)
-- [Jack Baty's Wiki](https://rudimentarylathe.wiki/)
 - [Grok TiddlyWiki](https://groktiddlywiki.com/read/)
 - [WebSeitz/wiki](http://webseitz.fluxent.com/wiki/MeaningfulLifeRoadmap)
 - [Notes to Self – Phil](https://youneedastereo.com/)

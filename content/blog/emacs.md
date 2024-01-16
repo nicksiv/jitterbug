@@ -90,7 +90,7 @@ Add this alias into .bashrc to open emacs in terminal mode without loading the c
 
 ## Errors and solutions
 ### Cannot install package
-🐛I got an error installing doom-modeline (file-error "https://melpa.org/packages/doom-modeline-20200513.1103.tar" "Not found")
+🐛I got an error installing doom-modeline (file-error "melpa.org/packages/doom-modeline-20200513.1103.tar" "Not found")
 
 Apparently you have to run: `package-refresh-contents`
 
@@ -159,7 +159,6 @@ Read the getting started guide: https://github.com/hlissner/doom-emacs/blob/deve
 - [https://alexschroeder.ch/wiki/2020-07-16_Emacs_everything](https://alexschroeder.ch/wiki/2020-07-16_Emacs_everything)
 - [https://alexschroeder.ch/wiki/Emacs](https://alexschroeder.ch/wiki/Emacs)
 - Theme: [https://git.madhouse-project.org/algernon/brutalist-theme.el](https://git.madhouse-project.org/algernon/brutalist-theme.el)
-- Publishing to HTML info: [https://qorg11.net/tech_posts/org_mode_as_ssg.xhtml](https://qorg11.net/tech_posts/org_mode_as_ssg.xhtml)
 - [Ramin Honary: Emacs as a shell](http://tilde.town/~ramin_hal9001/emacs-for-professionals/emacs-as-your-shell.html)
 - [Book logging in Emacs](https://getpocket.com/read/3608010494)
     - A technique to build a kind of books database using tables. Original article gone. Available only on pocket
