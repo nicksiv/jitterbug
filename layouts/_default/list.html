@@ -11,7 +11,7 @@
 {{ $.Scratch.Set "acount" 0 }}
 
 
-    {{ range .Pages }}
+    {{ range .Pages.ByTitle }}
     {{ $.Scratch.Add "acount" 1 }}
     <li>
       <a href="{{ .Permalink }}">{{ .Title }}</a>

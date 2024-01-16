@@ -11,16 +11,15 @@ lastmod: "2024-01-16"
   - [Cheatsheet](https://devhints.io/bash)
 
 ## Misc
-  - Command substitution  `vi $(find /home ](/ grep bash)`
   - Arithmetic expressions `echo "I am $[2020-1973] years old"`
   - Find files `find / -name xxx (-iname: not case sensitive)`
   - Find files with size `find /etc -size +10M`
 
 ## File permissions
-  - read-r=4 ](/ write-w=2 ](/ execute-x=1
+  - read-r=4 | write-w=2 | execute-x=1
   - ex: 600 is rw for user and nothing for group or others
   - ex: 700 is rwx for use only
-  - 9+1 bits x (type) ](/ xxx (owner) ](/ xxx (group) ](/ xxx(others)
+  - 9+1 bits x (type) | xxx (owner) | xxx (group) | xxx(others)
   - example -rw-rw----
   - First bit is type: - (file), d(directory), 1(symlink), d(device), p(pipe)
   - Set permissions : chmod (-R recursive) u+x (user add write permission)
@@ -58,7 +57,7 @@ lastmod: "2024-01-16"
 
 
 ## Networking
-  - Find your ip address : `ip addr ](/ grep inet` 
+  - Find your ip address : `ip addr | grep inet` 
   - Find devices connected : `sudo nmap -sP 192.168.1.0/24`
   - Get OS info and service execution : `sudo nmap -A -T4 192.168.1.3`
  
@@ -80,9 +79,9 @@ sudo dd bs=4M if=~/Downloads/archlinux-2016.09.03-dual.iso of=/dev/sdb && sync
 zip -r ~/Desktop/myzipfile.zip ~/Desktop/MyFolder/
 ```
 ## More find examples
-- find files or directories: $ `find /usr -name gcc`
-- find files : $ `find /usr -type f -name test1`
-- find directories : $ `find /usr -type d -name gcc`
+- find files or directories: `find /usr -name gcc`
+- find files : `find /usr -type f -name test1`
+- find directories : `find /usr -type d -name gcc`
 - find by modified date (3 days) : `find / -ctime 3`
 
 
@@ -143,7 +142,7 @@ mpg123 -z ~/Music/\*/\*/\*
 Run this script where the m3u playlist is stored
 
 ```bash
-sed "s/#.*//g" < starFM.m3u ](/ sed "/^$/d" ](/ while read line; do (( COUNTER++ )); filename="{line##*/}"; cp "${line}" "/home/nick/export/starFM/$COUNTER - $filename"; done
+sed "s/#.*//g" < starFM.m3u | sed "/^$/d" | while read line; do (( COUNTER++ )); filename="{line##*/}"; cp "${line}" "/home/nick/export/starFM/$COUNTER - $filename"; done
 ```
 
 ## Deactivate and activate the build in camera
@@ -157,14 +156,13 @@ sed "s/#.*//g" < starFM.m3u ](/ sed "/^$/d" ](/ while read line; do (( COUNTER++
 # Install tools
 sudo apt-get install cuetools shntool flac
 # Make the split
-cuebreakpoints file.cue ](/ shnsplit -o flac file.flac
-```
-Real example
+cuebreakpoints file.cue | shnsplit -o flac file.flac
 
-```bash
+# Real example
+
 # Step 1
 
-cuebreakpoints Album.cue ](/ shnsplit -o flac Album.flac  -f Album.cue -t "%n. %t" Album.flac < Album.cue 
+cuebreakpoints Album.cue | shnsplit -o flac Album.flac  -f Album.cue -t "%n. %t" Album.flac < Album.cue 
 
 # Step 2
 # fill the tags (make sure the original flac is in another dir)
@@ -247,7 +245,7 @@ The standard downloaded file installation from their website fails on Linux, and
 ### Install in Ubuntu
 
 ```
-curl https://packages.microsoft.com/keys/microsoft.asc ](/ sudo apt-key add -
+curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
 
 sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/ms-teams stable main" > /etc/apt/sources.list.d/teams.list'
 
