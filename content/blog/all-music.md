@@ -1,7 +1,7 @@
 ---
 Title: top music albums list
 Date: "2024-01-15"
-tags: ['pb', 'music', 'lists']
+tags: ['pb', 'Music', 'lists']
 lastmod: "2024-01-15"
 ---
 

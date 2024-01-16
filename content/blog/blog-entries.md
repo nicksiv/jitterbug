@@ -3,7 +3,7 @@ Title: blog entries
 Date: 2023-12-31
 tags: 
 - pb
-- journal
+- Journal
 lastmod: 2024-01-07
 ---
 
